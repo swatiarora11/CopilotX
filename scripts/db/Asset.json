@@ -1,0 +1,21 @@
+{
+    "rows": [
+        {
+            "id": "1",
+            "name": "Asset 1",
+            "description": "Asset 1 Description",
+            "acquisitionDate": "2024-10-20T13:48:51.5369197Z",
+            "status": "under maintenance",
+            "photoUrl": ""
+        },
+        {
+            "id": "2",
+            "name": "Asset 2",
+            "description": "Asset 2 Description",
+            "acquisitionDate": "2024-10-25T13:48:51.5369197Z",
+            "status": "active",
+            "photoUrl": ""
+        }
+        
+    ]
+}

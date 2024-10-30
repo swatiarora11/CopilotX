@@ -1,0 +1,975 @@
+{
+    "openapi": "3.0.1",
+    "info": {
+        "version": "1.0.0",
+        "title": "CopilotX API",
+        "description": "API to streamline unit assets, incident tickets and user assignment."
+    },
+    "servers": [
+        {
+            "url": "${{OPENAPI_SERVER_URL}}/api/",
+            "description": "Production server"
+        }
+    ],
+    "paths": {
+        "/units/": {
+            "get": {
+                "operationId": "getUnits",
+                "summary": "Get units based on unit name and asset name",
+                "description": "Returns detailed information about units identified from filters like name of the unit, name of asset, Multiple filters can be used in combination to refine the list of units returned",
+                "parameters": [
+                    {
+                        "name": "unitName",
+                        "in": "query",
+                        "description": "Name of the unit to retrieve",
+                        "required": false,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": "assetName",
+                        "in": "query",
+                        "description": "Name of the associated asset name with this unit",
+                        "required": false,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful response",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "results": {
+                                            "type": "array",
+                                            "items": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "id": {
+                                                        "type": "string",
+                                                        "description": "Unique identifier for the unit"
+                                                    },
+                                                    "name": {
+                                                        "type": "string",
+                                                        "description": "Name of the unit"
+                                                    },
+                                                    "location": {
+                                                        "type": "object",
+                                                        "properties": {
+                                                            "street": {
+                                                                "type": "string",
+                                                                "description": "Street address of the unit location"
+                                                            },
+                                                            "city": {
+                                                                "type": "string",
+                                                                "description": "City of the unit location"
+                                                            },
+                                                            "state": {
+                                                                "type": "string",
+                                                                "description": "State of the unit location"
+                                                            },
+                                                            "country": {
+                                                                "type": "string",
+                                                                "description": "Country of the unit location"
+                                                            },
+                                                            "postalCode": {
+                                                                "type": "string",
+                                                                "description": "Postal code of the unit location"
+                                                            },
+                                                            "latitude": {
+                                                                "type": "number",
+                                                                "format": "float",
+                                                                "description": "Latitude of the unit location"
+                                                            },
+                                                            "longitude": {
+                                                                "type": "number",
+                                                                "format": "float",
+                                                                "description": "Longitude of the unit location"
+                                                            }
+                                                        }
+                                                    },
+                                                    "unitContact": {
+                                                        "type": "string",
+                                                        "description": "Contact name for the unit"
+                                                    },
+                                                    "unitContactEmail": {
+                                                        "type": "string",
+                                                        "format": "email",
+                                                        "description": "Email of the unit contact"
+                                                    },
+                                                    "assets": {
+                                                        "type": "array",
+                                                        "items": {
+                                                            "type": "object",
+                                                            "properties": {
+                                                                "id": {
+                                                                    "type": "string",
+                                                                    "description": "Unique identifier for the asset"
+                                                                },
+                                                                "name": {
+                                                                    "type": "string",
+                                                                    "description": "Name of the asset"
+                                                                },
+                                                                "description": {
+                                                                    "type": "string",
+                                                                    "description": "Description of the asset"
+                                                                },
+                                                                "acquisitionDate": {
+                                                                    "type": "string",
+                                                                    "format": "date-time",
+                                                                    "description": "Date when the asset was acquired"
+                                                                },
+                                                                "status": {
+                                                                    "type": "string",
+                                                                    "description": "Current status of the asset"
+                                                                },
+                                                                "photoUrl": {
+                                                                    "type": "string",
+                                                                    "format": "uri",
+                                                                    "description": "URL to the asset's photo"
+                                                                },
+                                                                "tickets": {
+                                                                    "type": "array",
+                                                                    "items": {
+                                                                        "type": "string",
+                                                                        "description": "List of ticket IDs associated with the asset"
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "404": {
+                        "description": "Unit not found"
+                    }
+                }
+            }
+        },
+        "/units/addAsset": {
+            "post": {
+                "operationId": "addAsset",
+                "summary": "Allocate or add asset to a unit",
+                "description": "Allocate or add asset specified by name to a specific unit whose name is given by user",
+                "requestBody": {
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "type": "object",
+                                "properties": {
+                                    "unitName": {
+                                        "type": "string"
+                                    },
+                                    "assetName": {
+                                        "type": "string"
+                                    }
+                                },
+                                "required": [
+                                    "unitName",
+                                    "assetName"
+                                ]
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Successful addition or allocation",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "results": {
+                                            "type": "object",
+                                            "properties": {
+                                                "status": {
+                                                    "type": "integer"
+                                                },
+                                                "unitName": {
+                                                    "type": "string"
+                                                },
+                                                "assetName": {
+                                                    "type": "string"
+                                                },
+                                                "message": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "403": {
+                        "description": "Unit Asset allocation already exists"
+                    },
+                    "404": {
+                        "description": "Unit or Asset not found"
+                    }
+                }
+            }
+        },
+        "/assets/": {
+            "get": {
+                "operationId": "getAssets",
+                "summary": "Get assets based on asset name and asset id",
+                "description": "Returns detailed information about assets identified from filters like name of the asset",
+                "parameters": [
+                    {
+                        "name": "assetName",
+                        "in": "query",
+                        "description": "Name of the asset to retrieve",
+                        "required": false,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful response",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "results": {
+                                            "type": "array",
+                                            "items": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "id": {
+                                                        "type": "string",
+                                                        "description": "Unique identifier for the asset"
+                                                    },
+                                                    "name": {
+                                                        "type": "string",
+                                                        "description": "Name of the asset"
+                                                    },
+                                                    "description": {
+                                                        "type": "string",
+                                                        "description": "Description of the asset"
+                                                    },
+                                                    "acquisitionDate": {
+                                                        "type": "date-time", 
+                                                        "description": "Acquisition date of the asset"
+                                                    },
+                                                    "status": {
+                                                        "type": "string",
+                                                        "description": "Status of the asset"
+                                                    },
+                                                    "photoUrl": {
+                                                        "type": "string",
+                                                        "format": "uri",
+                                                        "description": "URL to the asset's photo"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "404": {
+                        "description": "Asset not found"
+                    }
+                }
+            }
+        },
+        "/users/": {
+            "get": {
+                "operationId": "getUsers",
+                "summary": "Get users based on user name, ticket name, certifications, skills, roles and hours available",
+                "description": "Returns detailed information about users identified from filters like name of the user, name of ticket, certifications, skills, roles and hours available. Multiple filters can be used in combination to refine the list of users returned",
+                "parameters": [
+                    {
+                        "name": "userName",
+                        "in": "query",
+                        "description": "Name of the user to retrieve",
+                        "required": false,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": "ticketName",
+                        "in": "query",
+                        "description": "The name of the ticket",
+                        "required": false,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": "skill",
+                        "in": "query",
+                        "description": "Skills for a user. Retrieve users with this skill",
+                        "required": false,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": "certification",
+                        "in": "query",
+                        "description": "Certification for a user. Retrieve users with this certification",
+                        "required": false,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": "role",
+                        "in": "query",
+                        "description": "Role of a user. Retrieve users with this role",
+                        "required": false,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": "hoursAvailable",
+                        "in": "query",
+                        "description": "Hours a user is available for new work over this and next month. Please provide an integer value; for example 0 if no hours are available, 1 if any hours are available, or 20 if 20 or more hours are available.",
+                        "required": false,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful response",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "results": {
+                                            "type": "array",
+                                            "items": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "id": {
+                                                        "type": "string"
+                                                    },
+                                                    "name": {
+                                                        "type": "string"
+                                                    },
+                                                    "email": {
+                                                        "type": "string",
+                                                        "format": "email"
+                                                    },
+                                                    "phone": {
+                                                        "type": "string"
+                                                    },
+                                                    "photoUrl": {
+                                                        "type": "string",
+                                                        "format": "uri"
+                                                    },                                                    
+                                                    "location": {
+                                                        "type": "object",
+                                                        "properties": {
+                                                            "street": {
+                                                                "type": "string"
+                                                            },
+                                                            "city": {
+                                                                "type": "string"
+                                                            },
+                                                            "state": {
+                                                                "type": "string"
+                                                            },
+                                                            "country": {
+                                                                "type": "string"
+                                                            },
+                                                            "postalCode": {
+                                                                "type": "string"
+                                                            },
+                                                            "latitude": {
+                                                                "type": "number"
+                                                            },
+                                                            "longitude": {
+                                                                "type": "number"
+                                                            }
+                                                        }
+                                                    },
+                                                    "relationType": {
+                                                        "type": "string"
+                                                    },
+                                                    "skills": {
+                                                        "type": "array",
+                                                        "items": {
+                                                            "type": "string"
+                                                        }
+                                                    },
+                                                    "certifications": {
+                                                        "type": "array",
+                                                        "items": {
+                                                            "type": "string"
+                                                        }
+                                                    },
+                                                    "roles": {
+                                                        "type": "array",
+                                                        "items": {
+                                                            "type": "string"
+                                                        }
+                                                    },
+                                                    "tickets": {
+                                                        "type": "array",
+                                                        "items": {
+                                                            "type": "object",
+                                                            "properties": {
+                                                                "ticketName": {
+                                                                    "type": "string"
+                                                                },
+                                                                "ticketDescription": {
+                                                                    "type": "string"
+                                                                },
+                                                                "ticketStatus": {
+                                                                    "type": "string"
+                                                                },
+                                                                "ticketPriority": {
+                                                                    "type": "string"
+                                                                },
+                                                                "ticketOwnerId": {
+                                                                    "type": "string"
+                                                                },
+                                                                "assetName": {
+                                                                    "type": "string"
+                                                                },
+                                                                "role": {
+                                                                    "type": "string"
+                                                                },
+                                                                "forecastThisMonth": {
+                                                                    "type": "integer"
+                                                                },
+                                                                "forecastNextMonth": {
+                                                                    "type": "integer"
+                                                                },
+                                                                "actualLastMonth": {
+                                                                    "type": "integer"
+                                                                },
+                                                                "actualThisMonth": {
+                                                                    "type": "integer"
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "forecastThisMonth": {
+                                                        "type": "integer"
+                                                    },
+                                                    "forecastNextMonth": {
+                                                        "type": "integer"
+                                                    },
+                                                    "actualLastMonth": {
+                                                        "type": "integer"
+                                                    },
+                                                    "actualThisMonth": {
+                                                        "type": "integer"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "status": {
+                                            "type": "integer"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "404": {
+                        "description": "User not found"
+                    }
+                }
+            }
+        },
+        "/tickets/": {
+            "get": {
+                "operationId": "getTickets",
+                "summary": "Get tickets matching a specified ticket name and/or user name and/or owner name",
+                "description": "Returns detailed information about tickets matching the specified ticket name and/or user name and/or owner name",
+                "parameters": [
+                    {
+                        "name": "ticketName",
+                        "in": "query",
+                        "description": "The name of the ticket",
+                        "required": false,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": "userName",
+                        "in": "query",
+                        "description": "The name of the user assigned to the ticket",
+                        "required": false,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": "ownerName",
+                        "in": "query",
+                        "description": "The name of the owner of the ticket",
+                        "required": false,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful response",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "results": {
+                                            "type": "array",
+                                            "items": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "id": {
+                                                        "type": "string"
+                                                    },
+                                                    "name": {
+                                                        "type": "string"
+                                                    },
+                                                    "description": {
+                                                        "type": "string"
+                                                    },
+                                                    "status": {
+                                                        "type": "string"
+                                                    },
+                                                    "priority": {
+                                                        "type": "string"
+                                                    },
+                                                    "ownerId": {
+                                                        "type": "string"
+                                                    },
+                                                    "assetId": {
+                                                        "type": "string"
+                                                    },
+                                                    "users": {
+                                                        "type": "array",
+                                                        "items": {
+                                                            "type": "object",
+                                                            "properties": {
+                                                                "userName": {
+                                                                    "type": "string"
+                                                                },
+                                                                "userLocation": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "street": {
+                                                                            "type": "string"
+                                                                        },
+                                                                        "city": {
+                                                                            "type": "string"
+                                                                        },
+                                                                        "state": {
+                                                                            "type": "string"
+                                                                        },
+                                                                        "country": {
+                                                                            "type": "string"
+                                                                        },
+                                                                        "postalCode": {
+                                                                            "type": "string"
+                                                                        },
+                                                                        "latitude": {
+                                                                            "type": "number"
+                                                                        },
+                                                                        "longitude": {
+                                                                            "type": "number"
+                                                                        }
+                                                                    }
+                                                                },
+                                                                "role": {
+                                                                    "type": "string"
+                                                                },
+                                                                "forecastThisMonth": {
+                                                                    "type": "string"
+                                                                },
+                                                                "forecastNextMonth": {
+                                                                    "type": "string"
+                                                                },
+                                                                "actualLastMonth": {
+                                                                    "type": "string"
+                                                                },
+                                                                "actualThisMonth": {
+                                                                    "type": "string"
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "forecastThisMonth": {
+                                                        "type": "integer"
+                                                    },
+                                                    "forecastNextMonth": {
+                                                        "type": "integer"
+                                                    },
+                                                    "actualLastMonth": {
+                                                        "type": "integer"
+                                                    },
+                                                    "actualThisMonth": {
+                                                        "type": "integer"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "status": {
+                                            "type": "integer"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "404": {
+                        "description": "Ticket not found"
+                    }
+                }
+            }
+        },
+        "/tickets/create": {
+            "post": {
+                "operationId": "createTicket",
+                "summary": "Create ticket with ticket name, owner name, asset name, description and priority",
+                "description": "create ticket by specifying ticket name, owner name, asset name, description and priority",
+                "requestBody": {
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "type": "object",
+                                "properties": {
+                                    "ticketName": {
+                                        "type": "string"
+                                    },
+                                    "description": {
+                                        "type": "string"
+                                    },
+                                    "ownerName": {
+                                        "type": "string"
+                                    },
+                                    "assetName": {
+                                        "type": "string"
+                                    },
+                                    "priority": {
+                                        "type": "string"
+                                    }
+                                },
+                                "required": [
+                                    "ticketName",
+                                    "description",
+                                    "ownerName",
+                                    "assetName"
+                                ]
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Successful creation of ticket",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "results": {
+                                            "type": "object",
+                                            "properties": {
+                                                "status": {
+                                                    "type": "integer"
+                                                },
+                                                "assetName": {
+                                                    "type": "string"
+                                                },
+                                                "ticketName": {
+                                                    "type": "string"
+                                                },
+                                                "ownerName": {
+                                                    "type": "string"
+                                                },
+                                                "ticketStatus": {
+                                                    "type": "string"
+                                                },
+                                                "priority": {
+                                                    "type": "string"
+                                                },
+                                                "message": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "500": {
+                        "description": "Missing ticket name"
+                    },
+                    "400": {
+                        "description": "Missing ticket description"
+                    },
+                    "406": {
+                        "description": "Ticket with specified name already exists"
+                    },
+                    "404": {
+                        "description": "Owner or Asset not found"
+                    }
+                }
+            }
+        },
+        "/tickets/update": {
+            "post": {
+                "operationId": "updateTicket",
+                "summary": "Update description, status, priority, owner name and asset name of ticket given by ticket name",
+                "description": "update description, status, priority, owner name and asset name of ticket given by ticket name. Any one or multiple values can be updated on the given ticket",
+                "requestBody": {
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "type": "object",
+                                "properties": {
+                                    "ticketName": {
+                                        "type": "string"
+                                    },
+                                    "description": {
+                                        "type": "string"
+                                    },
+                                    "status": {
+                                        "type": "string"
+                                    },
+                                    "priority": {
+                                        "type": "string"
+                                    },                                    
+                                    "ownerName": {
+                                        "type": "string"
+                                    },
+                                    "assetName": {
+                                        "type": "string"
+                                    }
+                                },
+                                "required": [
+                                    "ticketName"
+                                ]
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Successful updation of ticket",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "results": {
+                                            "type": "object",
+                                            "properties": {
+                                                "status": {
+                                                    "type": "integer"
+                                                },
+                                                "assetName": {
+                                                    "type": "string"
+                                                },
+                                                "ticketName": {
+                                                    "type": "string"
+                                                },
+                                                "ticketStatus": {
+                                                    "type": "string"
+                                                },
+                                                "priority": {
+                                                    "type": "string"
+                                                },
+                                                "message": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "500": {
+                        "description": "Missing ticket name"
+                    }
+                }
+            }
+        },
+        "/tickets/assignUser": {
+            "post": {
+                "operationId": "postAssignUser",
+                "summary": "Assign user to a ticket when name, role owner flag and ticket name is specified.",
+                "description": "Assign (add) user to a ticket when name, role, owner flag and ticket name is specified.",
+                "requestBody": {
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "type": "object",
+                                "properties": {
+                                    "ticketName": {
+                                        "type": "string"
+                                    },
+                                    "userName": {
+                                        "type": "string"
+                                    },
+                                    "isOwner": {
+                                        "type": "boolean"
+                                    },
+                                    "role": {
+                                        "type": "string"
+                                    },
+                                    "forecast": {
+                                        "type": "integer"
+                                    }
+                                },
+                                "required": [
+                                    "ticketName",
+                                    "userName",
+                                    "isOwner",
+                                    "role",
+                                    "forecast"
+                                ]
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Successful assignment",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "results": {
+                                            "type": "object",
+                                            "properties": {
+                                                "status": {
+                                                    "type": "integer"
+                                                },
+                                                "assetName": {
+                                                    "type": "string"
+                                                },
+                                                "ticketName": {
+                                                    "type": "string"
+                                                },
+                                                "userName": {
+                                                    "type": "string"
+                                                },
+                                                "remainingForecast": {
+                                                    "type": "integer"
+                                                },
+                                                "message": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        },
+                                        "status": {
+                                            "type": "integer"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/tickets/comment": {
+            "post": {
+                "operationId": "commentTicket",
+                "summary": "comment on a ticket when ticket name, user name and comment text is specified.",
+                "description": "comment on a ticket when ticket name, user name and comment text is specified.",
+                "requestBody": {
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "type": "object",
+                                "properties": {
+                                    "ticketName": {
+                                        "type": "string"
+                                    },
+                                    "userName": {
+                                        "type": "string"
+                                    },
+                                    "commentText": {
+                                        "type": "string"
+                                    }
+                                },
+                                "required": [
+                                    "ticketName",
+                                    "userName",
+                                    "commentText"
+                                ]
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Successful comment",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "results": {
+                                            "type": "object",
+                                            "properties": {
+                                                "status": {
+                                                    "type": "integer"
+                                                },
+                                                "assetName": {
+                                                    "type": "string"
+                                                },
+                                                "ticketName": {
+                                                    "type": "string"
+                                                },
+                                                "userName": {
+                                                    "type": "string"
+                                                },
+                                                "message": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        },
+                                        "status": {
+                                            "type": "integer"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }     
+    }
+}

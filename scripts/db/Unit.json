@@ -1,0 +1,34 @@
+{
+    "rows": [
+        {
+            "id": "1",
+            "name": "Unit 1",
+            "location": {
+                "street": "700 Bellevue Way NE - 22nd Floor",
+                "city": "Bellevue",
+                "state": "WA",
+                "country": "USA",
+                "postalCode": "98004",
+                "latitude": 47.617068,
+                "longitude": -122.200898
+            },
+            "unitContact": "Adam Hilltop",
+            "unitContactEmail": "adamhilltop@sbu1.com"
+        },
+        {
+            "id": "2",
+            "name": "Unit 2",
+            "location": {
+                "street": "100 Bellevue Way NE - 12th Floor",
+                "city": "Bellevue",
+                "state": "WA",
+                "country": "USA",
+                "postalCode": "98004",
+                "latitude": 47.517068,
+                "longitude": -121.200898
+            },
+            "unitContact": "Adam Hilltop",
+            "unitContactEmail": "adamhilltop@sbu1.com"
+        }
+    ]
+}

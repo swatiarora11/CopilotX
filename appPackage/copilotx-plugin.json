@@ -1,0 +1,197 @@
+{
+  "schema_version": "v2.1",
+  "name_for_human": "CopilotX",
+  "description_for_human": "API to streamline user assignment, unit, asset and ticket management.",
+  "namespace": "copilotx",
+  "functions": [
+    {
+      "name": "getUnits",
+      "description": "Returns detailed information about units identified from filters like name of the unit, name of asset, Multiple filters can be used in combination to refine the list of units returned",
+      "capabilities": {
+        "response_semantics": {
+          "data_path": "$.results",
+          "properties": {
+            "title": "$.name",
+            "subtitle": "$.id"
+          }
+        }
+      }
+    },
+    {
+      "name": "addAsset",
+      "description": "Allocate or add asset specified by name to a specific unit whose name is given by user",
+      "capabilities": {
+        "response_semantics": {
+          "data_path": "$",
+          "properties": {
+            "title": "$.results.unitName",
+            "subtitle": "$.results.status"
+          }
+        },
+        "confirmation": {
+          "type": "AdaptiveCard",
+          "title": "Allocate or add specified asset to a unit",
+          "body": "* **UnitName**: {{function.parameters.unitName}}\n* **AssetName**: {{function.parameters.assetName}}"
+        }
+      }
+    },
+    {
+      "name": "getAssets",
+      "description": "Returns detailed information about assets identified from filters like name of the asset",
+      "capabilities": {
+        "response_semantics": {
+          "data_path": "$.results",
+          "properties": {
+            "title": "$.name",
+            "subtitle": "$.id"
+          }
+        }
+      }
+    },
+    {
+      "name": "getUsers",
+      "description": "Returns detailed information about users identified from filters like name of the user, name of ticket, certifications, skills, roles and hours available. Multiple filters can be used in combination to refine the list of users returned",
+      "capabilities": {
+        "response_semantics": {
+          "data_path": "$.results",
+          "properties": {
+            "title": "$.name",
+            "subtitle": "$.id",
+            "url": "$.photoUrl"
+          }
+        }
+      }
+    },
+    {
+      "name": "getTickets",
+      "description": "Returns detailed information about tickets matching the specified ticket name and/or user name and/or owner name",
+      "capabilities": {
+        "response_semantics": {
+          "data_path": "$.results",
+          "properties": {
+            "title": "$.name",
+            "subtitle": "$.description"
+          }
+        }
+      }
+    },
+    {
+      "name": "createTicket",
+      "description": "create ticket by specifying ticket name, description, owner name, asset name and priority",
+      "capabilities": {
+        "response_semantics": {
+          "data_path": "$",
+          "properties": {
+            "title": "$.results.ticketName"
+          }
+        },
+        "confirmation": {
+          "type": "AdaptiveCard",
+          "title": "Create ticket for specified asset with its owner, description and priority",
+          "body": "* **OwnerName**: {{function.parameters.ownerName}}\n* **AssetName**: {{function.parameters.assetName}}\n* **Description**: {{function.parameters.description}}"
+        }
+      }
+    },
+    {
+      "name": "updateTicket",
+      "description": "update description, status, priority, owner name and asset name of ticket given by ticket name. Any one or multiple values can be updated on the given ticket",
+      "capabilities": {
+        "response_semantics": {
+          "data_path": "$",
+          "properties": {
+            "title": "$.results.ticketName"
+          }
+        },
+        "confirmation": {
+          "type": "AdaptiveCard",
+          "title": "Update ticket owner, description, priority or asset for ticket given by ticket name",
+          "body": "* **TicketStatus**: {{function.parameters.ticketStatus}}\n* **Priority**: {{function.parameters.priority}}"
+        }
+      }
+    },
+    {
+      "name": "postAssignUser",
+      "description": "Assign (add) user to a ticket when name, role, owner flag and ticket name is specified.",
+      "capabilities": {
+        "response_semantics": {
+          "data_path": "$",
+          "properties": {
+            "title": "$.results.ticketName",
+            "subtitle": "$.results.userName"
+          }
+        },
+        "confirmation": {
+          "type": "AdaptiveCard",
+          "title": "Assign user to a ticket when name, role, owner flag and ticket name is specified.",
+          "body": "* **TicketName**: {{function.parameters.ticketName}}\n* **UserName**: {{function.parameters.userName}}\n* **OwnerFlag**: {{function.parameters.isOwner}}\n* **Forecast**: {{function.parameters.forecast}}"
+        }
+      }
+    },
+    {
+      "name": "commentTicket",
+      "description": "comment on a ticket when ticket name, user name and comment text is specified.",
+      "capabilities": {
+        "response_semantics": {
+          "data_path": "$",
+          "properties": {
+            "title": "$.results.ticketName",
+            "subtitle": "$.results.userName"
+          }
+        },
+        "confirmation": {
+          "type": "AdaptiveCard",
+          "title": "comment on a ticket when ticket name, user name and comment text is specified.",
+          "body": "* **TicketName**: {{function.parameters.ticketName}}\n* **UserName**: {{function.parameters.userName}}\n* **CommentText**: {{function.parameters.commentText}}"
+        }
+      }
+    }
+  ],
+  "runtimes": [
+    {
+      "type": "OpenApi",
+      "auth": {
+        "type": "None"
+      },
+      "spec": {
+        "url": "copilotx-definition.json"
+      },
+      "run_for_functions": [
+        "getUnits",
+        "addAsset",
+        "getAssets",
+        "getUsers",
+        "getTickets",
+        "createTicket",
+        "updateTicket",
+        "postAssignUser",
+        "commentTicket"
+      ]
+    }
+  ],
+  "capabilities": {
+    "localization": {},
+    "conversation_starters": [
+      {
+        "text": "Can you retrieve details of unit 1?"
+      },
+      {
+        "text": "Can you retrieve details of asset 1?"
+      },
+      {
+        "text": "What tickets am i assigned to?"
+      },
+      {
+        "text": "Work 5 hours on Ticket 3"
+      },
+      {
+        "text": "Which users are Azure certified?"
+      },
+      {
+        "text": "Find a user who is available now and has Python skills"
+      },
+      {
+        "text": "Add Avery as a developer on the Ticket 3 ticket"
+      }
+    ]
+  }
+}

@@ -1,0 +1,141 @@
+@base_url = http://localhost:7071/api
+
+########## /api/units - working with units ##########
+### Get all units
+{{base_url}}/units
+
+### Get unit by id
+{{base_url}}/units/3
+
+### Get unit by unit or asset name
+{{base_url}}/units/?unitName=Unit 1
+
+### Get unit by asset name
+{{base_url}}/units/?assetName=asset 1
+
+### Add asset to unit
+POST {{base_url}}/units/addAsset
+Content-Type: application/json
+
+{
+    "unitName": "Unit 5",
+    "assetName": "Asset 3"
+}
+
+########## /api/assets - working with assets ##########
+### Get all assets
+{{base_url}}/assets
+
+### Get unit by id
+{{base_url}}/assets/5
+
+### Get asset by asset name
+{{base_url}}/assets/?assetName=Asset 1
+
+########## /api/me - working with the Copilot user ########## TODO
+
+### Get my user and ticket information
+{{base_url}}/me
+
+### Work on ticket
+POST {{base_url}}/me/workonticket
+Content-Type: application/json
+
+{
+    "ticketName": "My Ticket ID 1",
+    "hours": 20
+}
+
+
+########## /api/users - working with users ##########
+
+### Get all users
+{{base_url}}/users
+
+### Get user by id
+{{base_url}}/users/1
+
+### Get user by name
+{{base_url}}/users/?userName=Avery
+
+### Get users by ticket
+{{base_url}}/users/?ticketName=My Ticket
+
+### Get users by skill
+{{base_url}}/users/?skill=python
+
+### Get users by certification
+{{base_url}}/users/?certification=cloud
+
+### Get users by role
+{{base_url}}/users/?role=developer
+
+### Get users by hours available this month
+{{base_url}}/users/?hoursAvailable=10
+
+########## /api/tickets - working with tickets ##########
+
+### Get all tickets
+{{base_url}}/tickets
+
+### Get ticket by id
+{{base_url}}/tickets/2
+
+### Get ticket by ticket or user name
+{{base_url}}/tickets/?ticketName=Ticket 3
+
+### Get ticket by user name
+{{base_url}}/tickets/?userName=avery
+
+### Get ticket by owner name
+{{base_url}}/tickets/?ownerName=avery
+
+### create ticket
+POST {{base_url}}/tickets/create
+Content-Type: application/json
+
+{
+    "ticketName": "Ticket 7",
+    "description": "My Ticket Description",
+    "ownerName": "Peter",
+    "assetName": "Asset 2",
+    "priority": "high"
+}
+
+### update ticket
+POST {{base_url}}/tickets/update
+Content-Type: application/json
+
+{
+    "ticketName": "Ticket 2",
+    "description": "Ticket 2 Updated Description multiple times"
+}
+
+    # "ticketName": "Ticket 2",
+    # "description": "Ticket 2 Updated Description"
+    # "status": "new",
+    # "priority": "high",
+    # "ownerName": "Peter",
+    # "assetName": "Asset 2"
+
+### Add user to ticket
+POST {{base_url}}/tickets/assignUser
+Content-Type: application/json
+
+{
+    "ticketName": "Ticket 7",
+    "userName": "Avery",
+    "isOwner": false,
+    "role": "architect",
+    "forecast": 30
+}
+
+### Add comment to ticket
+POST {{base_url}}/tickets/comment
+Content-Type: application/json
+
+{
+    "ticketName": "My Ticket ID 3",
+    "userName": "Avery",
+    "commentText": "Sample comment text"
+}

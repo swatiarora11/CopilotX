@@ -1,0 +1,38 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/teams/vDevPreview/MicrosoftTeams.schema.json",
+  "manifestVersion": "devPreview",
+  "id": "${{TEAMS_APP_ID}}",
+  "packageName": "com.microsoft.teams.extension",
+  "version": "1.0.0",
+  "developer": {
+    "name": "Teams App, Inc.",
+    "websiteUrl": "https://www.example.com",
+    "privacyUrl": "https://www.example.com/privacy",
+    "termsOfUseUrl": "https://www.example.com/termsofuse"
+  },
+  "icons": {
+    "color": "CopilotX-blue-192.png",
+    "outline": "CopilotX-blue-32.png"
+  },
+  "name": {
+    "short": "CopilotX ${{APP_NAME_SUFFIX}}",
+    "full": "CopilotX assets and incident ticket management"
+  },
+  "description": {
+    "short": "Everyday management of unit assets, incident tickets and users",
+    "full": "This application allows you to find unit assets, incident tickets, assign users to work on tickets and allow users to log thier work hours on a ticket."
+  },
+  "accentColor": "#FFFFFF",
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],  
+  "copilotExtensions": {
+    "declarativeCopilots": [
+      {
+        "id": "copilotxgenie",
+        "file": "copilotx-declarative-copilot.json"
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+    "name": "getUserInformation",
+    "description": "Retrieve the user profile for the logged-in user including skills, roles, certifications, location, availability, and ticket assignments.",
+    "capabilities": {
+      "response_semantics": {
+        "data_path": "$.results",
+        "properties": {
+          "title": "$.name",
+          "subtitle": "$.id",
+          "url": "$.photoUrl"
+        }
+      }
+    }
+  },
+  {
+    "name": "workOnTicket",
+    "description": "log work time to a specific ticket on behalf of the logged in user, and return the number of hours remaining in their forecast.",
+    "capabilities": {
+      "response_semantics": {
+        "data_path": "$",
+        "properties": {
+          "title": "$.results.userName",
+          "subtitle": "$.results.status"
+        }
+      },
+      "confirmation": {
+        "type": "AdaptiveCard",
+        "title": "Log work time to a ticket on behalf of the logged in user.",
+        "body": "* **TicketName**: {{function.parameters.ticketName}}\n* **Hours**: {{function.parameters.hours}}"
+      }
+    }
+  }
+
+
+
+
+
+  ,
+        "getUserInformation",
+        "workOnTicket"

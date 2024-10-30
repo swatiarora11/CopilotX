@@ -1,0 +1,213 @@
+,
+        "/me": {
+            "get": {
+                "operationId": "getUserInformation",
+                "summary": "Get user profile of the logged in user.",
+                "description": "Retrieve the user profile for the logged-in user including skills, roles, certifications, location, availability, and ticket assignments.",
+                "responses": {
+                    "200": {
+                        "description": "Successful response",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "results": {
+                                            "type": "array",
+                                            "items": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "id": {
+                                                        "type": "string"
+                                                    },
+                                                    "name": {
+                                                        "type": "string"
+                                                    },
+                                                    "email": {
+                                                        "type": "string",
+                                                        "format": "email"
+                                                    },
+                                                    "phone": {
+                                                        "type": "string"
+                                                    },
+                                                    "photoUrl": {
+                                                        "type": "string",
+                                                        "format": "uri"
+                                                    },
+                                                    "location": {
+                                                        "type": "object",
+                                                        "properties": {
+                                                            "street": {
+                                                                "type": "string"
+                                                            },
+                                                            "city": {
+                                                                "type": "string"
+                                                            },
+                                                            "state": {
+                                                                "type": "string"
+                                                            },
+                                                            "country": {
+                                                                "type": "string"
+                                                            },
+                                                            "postalCode": {
+                                                                "type": "string"
+                                                            },
+                                                            "latitude": {
+                                                                "type": "number"
+                                                            },
+                                                            "longitude": {
+                                                                "type": "number"
+                                                            }
+                                                        }
+                                                    },
+                                                    "relationType": {
+                                                        "type": "string"
+                                                    },
+                                                    "skills": {
+                                                        "type": "array",
+                                                        "items": {
+                                                            "type": "string"
+                                                        }
+                                                    },
+                                                    "certifications": {
+                                                        "type": "array",
+                                                        "items": {
+                                                            "type": "string"
+                                                        }
+                                                    },
+                                                    "roles": {
+                                                        "type": "array",
+                                                        "items": {
+                                                            "type": "string"
+                                                        }
+                                                    },
+                                                    "tickets": {
+                                                        "type": "array",
+                                                        "items": {
+                                                            "type": "object",
+                                                            "properties": {
+                                                                "ticketName": {
+                                                                    "type": "string"
+                                                                },
+                                                                "ticketDescription": {
+                                                                    "type": "string"
+                                                                },
+                                                                "ticketStatus": {
+                                                                    "type": "string"
+                                                                },
+                                                                "ticketPriority": {
+                                                                    "type": "string"
+                                                                },  
+                                                                "ticketOwnerId": {
+                                                                    "type": "string"
+                                                                }, 
+                                                                "assetName": {
+                                                                    "type": "string"
+                                                                },                                                                                                                                                                                               
+                                                                "role": {
+                                                                    "type": "string"
+                                                                },
+                                                                "forecastThisMonth": {
+                                                                    "type": "integer"
+                                                                },
+                                                                "forecastNextMonth": {
+                                                                    "type": "integer"
+                                                                },
+                                                                "actualLastMonth": {
+                                                                    "type": "integer"
+                                                                },
+                                                                "actualThisMonth": {
+                                                                    "type": "integer"
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "forecastThisMonth": {
+                                                        "type": "integer"
+                                                    },
+                                                    "forecastNextMonth": {
+                                                        "type": "integer"
+                                                    },
+                                                    "actualLastMonth": {
+                                                        "type": "integer"
+                                                    },
+                                                    "actualThisMonth": {
+                                                        "type": "integer"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/me/workonticket": {
+            "post": {
+                "operationId": "workOnTicket",
+                "summary": "log time to a ticket on behalf of the logged in user.",
+                "description": "log work hours to a specific ticket on behalf of the logged in user, and return the number of hours remaining in their forecast.",
+                "requestBody": {
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "type": "object",
+                                "properties": {
+                                    "ticketName": {
+                                        "type": "string"
+                                    },
+                                    "hours": {
+                                        "type": "integer"
+                                    }
+                                },
+                                "required": [
+                                    "ticketName",
+                                    "hours"
+                                ]
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Successful logging of hours",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "results": {
+                                            "type": "object",
+                                            "properties": {
+                                                "status": {
+                                                    "type": "integer"
+                                                },
+                                                "ticketName": {
+                                                    "type": "string"
+                                                },
+                                                "remainingForecast": {
+                                                    "type": "integer"
+                                                },
+                                                "message": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "404": {
+                        "description": "TicketAssignment not found"
+                    },
+                    "406": {
+                        "description": "Multiple tickets found with the nameMultiple tickets found with the given name"
+                    }
+                }
+            }
+        }
