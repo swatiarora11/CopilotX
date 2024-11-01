@@ -76,3 +76,63 @@ SECRET_STORAGE_ACCOUNT_CONNECTION_STRING=UseDevelopmentStorage=true
 ![Running in Copilot](./assets/images/startsample.png)
 
 3. Access the declarative agent by opening the flyout 4️⃣, then select the CopilotX Local solution 5️⃣.
+   
+### API Summary
+## Understanding design consderations of the API's of CopilotX
+The copilotXAPI.http file contains various HTTP request examples that can be used to interact with the CopilotX API. This file is useful for testing and understanding the different endpoints available in the API. Below are some sample requests included in the file:
+GET Requests
+> Get Users by Name: GET {{base_url}}/users/?userName=Avery
+> Get Users by Ticket: GET {{base_url}}/users/?ticketName=My Ticket
+> Get Users by Skill: GET {{base_url}}/users/?skill=python
+> Get Users by Certification: GET {{base_url}}/users/?certification=cloud
+> Get Users by Role: GET {{base_url}}/users/?role=developer
+> Get Users by Hours Available This Month: GET {{base_url}}/users/?hoursAvailable=10
+These requests return an array of user objects, which are defined in the ApiUser interface in /model/apiModel.ts.
+
+## Working with Tickets
+
+> Get All Tickets: GET {{base_url}}/tickets/?ticketName=My Ticket
+> Get Ticket by Name: GET {{base_url}}/tickets/?ticketName=My Ticket
+
+> Get Tickets by Status: GET {{base_url}}/tickets/?status=open
+
+> Get Tickets by Priority: GET {{base_url}}/tickets/?priority=high
+
+These requests return an array of ticket objects, which are defined in the ApiTicket interface in /model/apiModel.ts.
+
+POST Requests
+> Create a New Ticket: POST {{base_url}}/tickets
+
+### Request body:
+```{
+  "ticketName": "New Ticket",
+  "description": "Description of the new ticket",
+  "priority": "high",
+  "status": "open",
+  "ownerName": "John Doe",
+  "assetName": "Asset 1"
+}
+### Response body:
+{
+  "status": 200,
+  "message": "Ticket 'New Ticket' created successfully."
+}
+
+> Update a Ticket: POST {{base_url}}/tickets/update
+
+Request body:
+{
+  "ticketName": "Existing Ticket",
+  "description": "Updated description",
+  "priority": "medium",
+  "status": "in progress",
+  "ownerName": "Jane Doe",
+  "assetName": "Asset 2"
+}
+Response body:
+{
+  "status": 200,
+  "message": "Ticket 'Existing Ticket' updated successfully."
+}
+
+> Note: These examples demonstrate how to interact with the CopilotX API to retrieve and manipulate data related to users and tickets. The copilotXAPI.http file is a resource to test API endpoints and understand the available operations.
