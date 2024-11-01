@@ -9,7 +9,7 @@ languages:
   - typescript
 ---
 
-# CopilotX sample for Manufacturing declarative agent
+# CopilotX Declerative agent sample for Manufacturing
 
 CopilotX is a specialized, declarative agent designed for manufacturing environments, supporting an efficient incident reporting workflow in factory settings. With CopilotX, factory workers or agents can report incidents via email, attaching text, audio, or image files. For factories utilizing SAP, relevant repository details are provided.
 
@@ -26,7 +26,7 @@ A declarative agent is provided to converse with users and to call the API plugi
 
 Version|Manifest version|Date|Author|Comments
 -------|--|--|----|--------
-1.0|1.xx |November , 2024 |Swati Arora |Initial release for Internal Repatable IP for TSP
+1.0|1.xx |November , 2024 |Swati Arora |Initial release for Internal Repatable IP 
 1.1|1.xx|December, 2024 | Swati Arora| SAP Connector, Custom Vision to be added in next version
 
 
