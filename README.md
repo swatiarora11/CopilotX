@@ -82,11 +82,17 @@ SECRET_STORAGE_ACCOUNT_CONNECTION_STRING=UseDevelopmentStorage=true
 The copilotXAPI.http file contains various HTTP request examples that can be used to interact with the CopilotX API. This file is useful for testing and understanding the different endpoints available in the API. Below are some sample requests included in the file:
 GET Requests
 > Get Users by Name: GET {{base_url}}/users/?userName=Avery
+
 > Get Users by Ticket: GET {{base_url}}/users/?ticketName=My Ticket
+
 > Get Users by Skill: GET {{base_url}}/users/?skill=python
+
 > Get Users by Certification: GET {{base_url}}/users/?certification=cloud
+
 > Get Users by Role: GET {{base_url}}/users/?role=developer
+
 > Get Users by Hours Available This Month: GET {{base_url}}/users/?hoursAvailable=10
+
 These requests return an array of user objects, which are defined in the ApiUser interface in /model/apiModel.ts.
 
 ## Working with Tickets
