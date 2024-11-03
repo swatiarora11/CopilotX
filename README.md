@@ -9,6 +9,8 @@ languages:
   - typescript
 ---
 
+
+[CopilotX = Manufacturing](https://github.com/swatiarora11/CopilotX/blob/main/README.md ) | [CopilotX = IT Service Management](https://github.com/swatiarora11/CopilotX/commit/19faebb7279da3d964b8d2cce727c5cb91c1899e)
 # CopilotX Declerative agent sample for Manufacturing
 
 CopilotX is a specialized, declarative agent designed for manufacturing environments, supporting an efficient incident reporting workflow in factory settings. With CopilotX, factory workers or agents can report incidents via email, attaching text, audio, or image files. For factories utilizing SAP, relevant repository details are provided.
