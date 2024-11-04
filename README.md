@@ -1,51 +1,140 @@
 ---
 page_type: sample
-description: CopilotX is a versatile, declarative agent designed to support various industry verticals, including ITES, Manufacturing, Retail, and Healthcare. It tailors its functionality based on the selected data from the repository below, adapting to the specific needs and workflows of each sector.
+description: CopilotX is a versatile declarative agent designed to support ticket management, user support and work tracking by providing efficient responses and practical assistance for various industry verticals including ITES, Manufacturing, Retail, and Healthcare. It can be adapted to the specific needs and workflows of each sector by changing data about units and assets in azure storage and changing knowledge base documents to provide customized response for the sector.
 products: 
 - MS Teams
 - Copilot
-- Azure 
+- Azure
+- Sharepoint 
 languages:
   - typescript
 ---
 
+# CopilotX Agent (ITES | Manufacturing | Retail | Healthcare)
 
-[CopilotX = Manufacturing](https://github.com/swatiarora11/CopilotX/blob/main/README.md ) | [CopilotX = IT Service Management](https://github.com/swatiarora11/CopilotX/commit/19faebb7279da3d964b8d2cce727c5cb91c1899e)
-# CopilotX Declerative agent sample for Manufacturing
+[CopilotX (Manufacturing)](https://github.com/swatiarora11/CopilotX/blob/main/README.md ) | [CopilotX (IT Services)](https://github.com/swatiarora11/CopilotX/commit/19faebb7279da3d964b8d2cce727c5cb91c1899e)
 
-CopilotX is a specialized, declarative agent designed for manufacturing environments, supporting an efficient incident reporting workflow in factory settings. With CopilotX, factory workers or agents can report incidents via email, attaching text, audio, or image files. For factories utilizing SAP, relevant repository details are provided.
+## Overview
 
-Upon receiving an incident report via Outlook, the data is stored in Azure Blob Storage, and a Logic Apps flow initiates the creation of an incident ticket in Microsoft Teams. Supervisors or factory managers can use CopilotX to request daily incident reports, which appear as adaptive cards with incident details. Each card includes anomaly detection insights and resolution suggestions powered by Azure ML and Custom Vision, alongside relevant documentation sourced by Copilot from the web and SharePoint.
+The CopilotX is a versatile declarative agent designed to be a user-friendly assistant for professionals in Manufacturing industry specializing in asset incidence management and resolution. It aims to streamline ticket management, user support and work tracking by providing efficient responses and practical assistance. Company specific knowledge base can also be uploaded to a sharepoint site so that copilot remains grounded in company data and assist the professionals with customized resolutions for incidents or any other company specific documentation including policies/ procedures to be complied by the professionals.
 
-This sample implements the Declerative Copilot agent that will help you achieve tailor made AI assitance using Microsoft 365 Copilot. 
+## Features
+**User Management:** Find users based on their names, ticket assignments, skills, roles, and certifications. This feature helps in quickly locating team members, identifying their competencies, and assigning roles effectively.
 
-![Screenshot of the sample extension working in Copilot in Microsoft Teams]
+**Ticket Management:** Access detailed information about tickets and assets, log work hours and manage ticket assignments. Users can add others to tickets and keep track of billed hours to ensure transparency and accountability.
 
-> NOTE: The solution consists of an API plugin that calls a set of Azure functions, which store the consulting data in a Azure Table storage (it uses the Azurite storage emulator when running locally).
-A declarative agent is provided to converse with users and to call the API plugin, as well as to reference the correct SharePoint document library.
+**Professional Interactions:** Greet users professionally and provide support tailored to their queries. CopilotX provides relevant suggestions for ticket resolution while encouraging consultation with managers if needed for complex queries.
 
-## Version history
+**OneDrive and SharePoint Integration:** Easily access documents from SharePoint, enabling a seamless flow of information for effective resolution of tickets.
 
-Version|Manifest version|Date|Author|Comments
--------|--|--|----|--------
-1.0|1.xx |November , 2024 |Swati Arora |Initial release for Internal Repatable IP 
-1.1|1.xx|December, 2024 | Swati Arora| SAP Connector, Custom Vision to be added in next version
+**Predefined Conversation Starters:** To enhance user experience, CopilotX includes popular conversation starters such as:
+
+- Retrieve Unit Details
+- Access Asset Information
+- List My Assigned Tickets
+- Log Work Hours
+- Locate Azure-Certified Users
+- Add Users to Tickets
+- Seek Incident Resolution Guidance
+
+## Suggested Integration Workflow
+
+This workflow demonstrates how CopilotX can be leveraged for efficient incident reporting, tracking and resolution assistance. For factories utilizing SAP, the relevant repository information can be easily integrated for data accessibility. Suggested workflow steps are as follows - 
+
+### 1. **Incident Reporting:** 
+- Factory workers or agents report incidents by sending an email through Outlook, attaching necessary files (text, audio, images)
+- Upon email reception, Logic Apps flow is triggered and incident data is securely stored in Azure Storage and an incident ticket is created. Factory supervisors, safety managers and relevant personnel are notified in Teams to review and address the incident promptly.
+- Azure Machine Learning and Custom Vision can be leveraged to automatically detect type of incident based on incident data uploaded by the factory worker or agent. This might help in classifying the incidents and automate logging of incident tickets.
+
+### 2. **Insights and Assistance with CopilotX:** 
+- Supervisors or factory managers can request daily incident reports through CopilotX. On receiving the prompt, CopilotX can show detailed incident information as adaptive cards within Teams.
+- Supervisors or factory managers can ask for resolution guidance on a ticket. CopilotX can dynamically fetch relevant information from sharepoint site or web to assist the professional by providing incident resolution guidance in natural language.
+
+### 3. **Extended Integrations:**  
+
+- This workflow is adaptable to integrate with SAP and other enterprise systems. 
+- For SAP-connected factories, incident metadata and status updates can be synced with SAP enriching the reporting framework and aligning with existing ERP systems.
+
+This implementation offers a robust and adaptable AI assistant within the Microsoft 365 Copilot environment.
 
 
+## REST APIs
 
-## Plugin Features
+Copilot can leverage REST APIs to extend its functionality by integrating data and actions from external systems, services and applications directly into its interface, creating a seamless workflow for end-users. Below documentation summarizes the CopilotX API endpoints for managing units, assets, users, and tickets.
 
-The sample showcases the following features:
+### 1. Units API
+This API handles operations related to units within CopilotX.
 
-  1. Declarative agent with branding and instructions, access to relevant SharePoint documents and the API plugin
-  1. API based plugin works with any platform that supports REST requests
-  1. Copilot will construct queries for specific data using GET requests
-  1. Copilot updates and adds data using POST requests
-  1. Multi-parameter queries to filter results
-  1. Show a confirmation card before POSTing data; capture missing parameters
-  1. Display rich adaptive cards
+- **Retrieve All Units**: Use `GET /units` to fetch a list of all available units.
+  
+- **Get Unit by ID**: Use `GET /units/{id}` with the unit's ID to obtain specific unit details.
 
-## Setup
+- **Find Unit by Name or Associated Asset**:
+  - Use `GET /units/?unitName={unitName}` to find a unit by name.
+  - Use `GET /units/?assetName={assetName}` to find a unit based on an asset’s name.
+
+- **Add an Asset to a Unit**: Use `POST /units/addAsset` to assign an asset to a unit. Provide the unit and asset names in the JSON body.
+
+---
+
+### 2. Assets API
+The Assets API allows you to manage assets in CopilotX.
+
+- **Retrieve All Assets**: Use `GET /assets` to obtain a list of all assets.
+
+- **Get Asset by ID**: Use `GET /assets/{id}` to fetch details about a specific asset by its ID.
+
+- **Find Asset by Name**: Use `GET /assets/?assetName={assetName}` to locate an asset by its name.
+
+---
+
+### 3. User API
+This API is for retrieving information about CopilotX users and managing their work on tickets.
+
+- **Get Current User Information**: Use `GET /me` to obtain information about the current user and their assigned tickets.
+
+- **Log Work Hours on a Ticket**: Use `POST /me/workonticket` to record hours worked on a specific ticket. Provide the ticket name and the number of hours in the JSON body.
+
+- **Retrieve All Users**: Use `GET /users` to get a list of all registered users.
+
+- **Get User by ID**: Use `GET /users/{id}` to get details of a user by their ID.
+
+- **Filter Users by Attributes**:
+  - By name: `GET /users/?userName={userName}`
+  - By ticket assignment: `GET /users/?ticketName={ticketName}`
+  - By skill: `GET /users/?skill={skill}`
+  - By certification: `GET /users/?certification={certification}`
+  - By role: `GET /users/?role={role}`
+  - By available hours this month: `GET /users/?hoursAvailable={hoursAvailable}`
+
+---
+
+### 4. Tickets API
+The Tickets API supports operations for managing and updating tickets.
+
+- **Retrieve All Tickets**: Use `GET /tickets` to list all available tickets.
+
+- **Get Ticket by ID**: Use `GET /tickets/{id}` to retrieve a specific ticket by its ID.
+
+- **Find Tickets by Ticket Name or User**:
+  - By ticket name: `GET /tickets/?ticketName={ticketName}`
+  - By user name: `GET /tickets/?userName={userName}`
+  - By ticket owner’s name: `GET /tickets/?ownerName={ownerName}`
+
+- **Create a New Ticket**: Use `POST /tickets/create` to create a ticket. The ticket name, description, owner’s name, asset, and priority should be specified in the JSON body.
+
+- **Update an Existing Ticket**: Use `POST /tickets/update` to update a ticket's information, such as its description or priority.
+
+- **Assign a User to a Ticket**: Use `POST /tickets/assignUser` to add a user to a ticket. The user’s role and forecasted hours can also be specified.
+
+- **Add a Comment to a Ticket**: Use `POST /tickets/comment` to leave a comment on a specific ticket. Include the ticket name, username, and comment text.
+
+---
+
+This guide provides a high-level overview of each endpoint. For implementation, ensure requests align with the endpoint’s method (`GET` or `POST`) and that the required JSON body or parameters are provided as specified.
+
+
+## Pre-requisites & Setup Instructions
 
 ### Prerequisites
 
@@ -58,7 +147,7 @@ The sample showcases the following features:
 * (optional) [Postman](https://www.postman.com/downloads/)
 - [Azure Subscription] 
 
-### Setup instructions (one-time setup)
+### Setup instructions
 
 1. Log into Teams Toolkit using the tenant where you will run the sample.
 
@@ -69,78 +158,14 @@ SECRET_STORAGE_ACCOUNT_CONNECTION_STRING=UseDevelopmentStorage=true
 ~~~
 
 1. OPTIONAL: Copy the files from the **/sampleDocs** folder to OneDrive or SharePoint. Add the location of these files in the `OneDriveAndSharePoint` capability in the declarative copilot (**/appPackage/**).
-
-### Running the solution (after each build)
-
-1. Press F5 to start the application. It will take a while on first run to download the dependencies. Eventually a browser window will open up and your package is installed.
-
-2. Navigate to Copilot as shown below 1️⃣
-![Running in Copilot](./assets/images/startsample.png)
-
-3. Access the declarative agent by opening the flyout 4️⃣, then select the CopilotX Local solution 5️⃣.
    
-### API Summary
-## Understanding design consderations of the API's of CopilotX
-The copilotXAPI.http file contains various HTTP request examples that can be used to interact with the CopilotX API. This file is useful for testing and understanding the different endpoints available in the API. Below are some sample requests included in the file:
-GET Requests
-> Get Users by Name: GET {{base_url}}/users/?userName=Avery
+## Adaptive Cards
 
-> Get Users by Ticket: GET {{base_url}}/users/?ticketName=My Ticket
+                                  <<Attach adaptive card snapshots>>
 
-> Get Users by Skill: GET {{base_url}}/users/?skill=python
+## Version History
 
-> Get Users by Certification: GET {{base_url}}/users/?certification=cloud
-
-> Get Users by Role: GET {{base_url}}/users/?role=developer
-
-> Get Users by Hours Available This Month: GET {{base_url}}/users/?hoursAvailable=10
-
-These requests return an array of user objects, which are defined in the ApiUser interface in /model/apiModel.ts.
-
-## Working with Tickets
-
-> Get All Tickets: GET {{base_url}}/tickets/?ticketName=My Ticket
-> Get Ticket by Name: GET {{base_url}}/tickets/?ticketName=My Ticket
-
-> Get Tickets by Status: GET {{base_url}}/tickets/?status=open
-
-> Get Tickets by Priority: GET {{base_url}}/tickets/?priority=high
-
-These requests return an array of ticket objects, which are defined in the ApiTicket interface in /model/apiModel.ts.
-
-POST Requests
-> Create a New Ticket: POST {{base_url}}/tickets
-
-### Request body:
-```{
-  "ticketName": "New Ticket",
-  "description": "Description of the new ticket",
-  "priority": "high",
-  "status": "open",
-  "ownerName": "John Doe",
-  "assetName": "Asset 1"
-}
-### Response body:
-{
-  "status": 200,
-  "message": "Ticket 'New Ticket' created successfully."
-}
-
-> Update a Ticket: POST {{base_url}}/tickets/update
-
-Request body:
-{
-  "ticketName": "Existing Ticket",
-  "description": "Updated description",
-  "priority": "medium",
-  "status": "in progress",
-  "ownerName": "Jane Doe",
-  "assetName": "Asset 2"
-}
-Response body:
-{
-  "status": 200,
-  "message": "Ticket 'Existing Ticket' updated successfully."
-}
-
-> Note: These examples demonstrate how to interact with the CopilotX API to retrieve and manipulate data related to users and tickets. The copilotXAPI.http file is a resource to test API endpoints and understand the available operations.
+Version|Manifest version|Date|Author|Comments
+-------|--|--|----|--------
+1.0|1.xx |November, 2024 |Swati Arora |Initial release for Internal Repeatable IP 
+1.1|1.xx|December, 2024 | Swati Arora| SAP Connector, Custom Vision to be added in next version
