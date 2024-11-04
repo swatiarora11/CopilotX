@@ -19,6 +19,48 @@ languages:
 The CopilotX is a versatile declarative agent designed to be a user-friendly assistant for professionals in Manufacturing industry specializing in asset incidence management and resolution. It aims to streamline ticket management, user support and work tracking by providing efficient responses and practical assistance. Company specific knowledge base can also be uploaded to a sharepoint site so that copilot remains grounded in company data and assist the professionals with customized resolutions for incidents or any other company specific documentation including policies/ procedures to be complied by the professionals.
 
 ## Features
+
+
+### 1. Incident Reporting and Tracking
+   - Submit Incident Reports: Workers can report incidents directly via email, attaching text, audio, or image files.
+   - Automated Ticket Creation: Upon receiving an incident, CopilotX stores data in Azure Blob Storage, then triggers a Logic App to create a ticket in Microsoft Teams.
+   - Daily Incident Reports: Supervisors can request daily reports, with CopilotX generating adaptive cards in Teams that summarize incidents, priorities, and action status.
+   - Anomaly Detection Insights: Integrates with Azure ML and Custom Vision to analyze incident data and provide anomaly detection insights, highlighting unusual patterns or recurrent issues.
+
+### 2. Asset and Unit Management
+   - Asset Tracking: Easily view, add, and assign assets to units, allowing factory managers to track equipment across locations.
+   - Unit Oversight: Retrieve details about specific units, including all associated assets, and update unit information as necessary.
+   - Asset Maintenance: Set up alerts or schedules for asset maintenance, and attach asset data to relevant tickets to ensure timely servicing.
+
+### 3. User and Team Management
+   - User Role Assignment: Assign roles to users based on skills, certifications, or department, such as operator, technician, or quality inspector.
+   - Work Hours Logging: Log and track work hours for individual users against specific tickets, giving managers an overview of resource allocation.
+   - Skill-Based Task Assignment: Filter users by skill or certification (e.g., electrical, HVAC) to assign them the most relevant tickets and tasks.
+   - Shift and Availability Monitoring: Identify available hours and upcoming shifts, helping optimize scheduling and resource distribution.
+
+### 4. Task and Ticket Management
+   - Automated Ticket Management: Create, update, and assign tickets to users for different tasks, such as machine maintenance, inventory checks, or safety audits.
+   - Real-Time Updates: Track ticket status and receive live updates on task progression, allowing team leads to prioritize critical tasks.
+   - Comments and Collaboration: Add comments or additional context to tickets, facilitating collaboration across teams and shifts.
+
+### 5. SAP and SharePoint Integration
+   - SAP Data Access: For factories using SAP, CopilotX can pull SAP data related to inventory, asset history, or maintenance records, providing critical information at the time of ticket creation or incident reporting.
+   - Document Management: Access relevant documentation from SharePoint or other repositories, delivering guidelines, safety protocols, or maintenance manuals in real time.
+
+### 6. Supervisor and Manager Insights
+   - Automated Reporting: Generate reports summarizing incident frequency, response times, and asset downtime, giving managers insights into operational efficiency.
+   - Root Cause Analysis Assistance: Leverage past incidents and anomaly detection to assist in root cause analysis, helping teams to implement preventive measures.
+   - Performance Metrics: Provide metrics on response times, hours worked on tickets, and task completion rates, supporting performance reviews and improvement initiatives.
+
+### 7. Customizable Knowledge Base and Documentation
+   - Customized Responses: Modify responses and advice based on the specific factory’s workflows and sector requirements by updating knowledge base documents.
+   - Safety and Compliance Checks: Offer on-demand access to safety protocols and compliance requirements, helping factory workers to follow best practices.
+
+### 8. Real-Time Notifications and Alerts
+   - Critical Alerts: Notify managers of high-priority incidents or unusual activity (e.g., equipment malfunctions, safety risks).
+   - Shift Updates: Send reminders or updates at shift changes to ensure seamless handovers and awareness of ongoing tasks.
+
+     
 **User Management:** Find users based on their names, ticket assignments, skills, roles, and certifications. This feature helps in quickly locating team members, identifying their competencies, and assigning roles effectively.
 
 **Ticket Management:** Access detailed information about tickets and assets, log work hours and manage ticket assignments. Users can add others to tickets and keep track of billed hours to ensure transparency and accountability.
