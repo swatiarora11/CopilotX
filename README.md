@@ -1,6 +1,6 @@
 ---
 page_type: sample
-description: |
+description:
 CopilotX is a versatile declarative agent designed to support ticket management, user support and work tracking by providing efficient responses and practical assistance for various industry verticals including ITES, Manufacturing, Retail, and Healthcare. It can be adapted to the specific needs and workflows of each sector by changing data about units and assets in azure storage and changing knowledge base documents to provide customized response for the sector.
 products: 
 - MS Teams
