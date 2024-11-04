@@ -56,6 +56,7 @@ export interface Ticket {
     description: string;    //ticket description
     status: string;         //current status of the ticket; open, in progress, closed
     priority: string;       //whether resolution is required on priority; low, medium, high
+    photoUrl: string;       //photo url of the ticket
     ownerId: string;        //ticket owner user ID
     assetId: string;        //ID of the related asset
 }

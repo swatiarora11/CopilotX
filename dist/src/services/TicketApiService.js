@@ -113,7 +113,7 @@ class TicketApiService {
         };
         return result;
     }
-    createTicket(ticketName, description, ownerName, assetName, priority, status) {
+    createTicket(ticketName, description, ownerName, assetName, priority, status, photoUrl) {
         return __awaiter(this, void 0, void 0, function* () {
             let tickets = yield this.getApiTickets(ticketName, "", "");
             let users = yield UserApiService_1.default.getApiUsers(ownerName, "", "", "", "", "");
@@ -135,7 +135,7 @@ class TicketApiService {
             }
             const user = users[0];
             const asset = assets[0];
-            const ticket = yield TicketDbService_1.default.createTicket(ticketName, description, user.id, asset.id, priority, status);
+            const ticket = yield TicketDbService_1.default.createTicket(ticketName, description, user.id, asset.id, priority, status, photoUrl);
             // Always charge to the current month
             // const remainingForecast = await TicketAssignmentDbService.addUserToTicket(ticket.id, user.id, true, "watcher", 0);
             const message = `Created ticket ${ticket.name} for ${asset.name} with owner ${user.name}`;

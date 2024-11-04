@@ -32,7 +32,7 @@ class TicketDbService {
             return tickets.map((p) => this.convertDbTicket(p));
         });
     }
-    createTicket(ticketName, description, ownerId, assetId, priority, status) {
+    createTicket(ticketName, description, ownerId, assetId, priority, status, photoUrl) {
         return __awaiter(this, void 0, void 0, function* () {
             try {
                 // Retrieve all tickets to find the highest ticket ID
@@ -55,6 +55,7 @@ class TicketDbService {
                     description: description,
                     status: status,
                     priority: priority,
+                    photoUrl: photoUrl,
                     ownerId: ownerId,
                     assetId: assetId
                 };
@@ -94,6 +95,7 @@ class TicketDbService {
             description: dbTicket.description,
             status: dbTicket.status,
             priority: dbTicket.priority,
+            photoUrl: dbTicket.photoUrl,
             ownerId: dbTicket.ownerId,
             assetId: dbTicket.assetId
         };

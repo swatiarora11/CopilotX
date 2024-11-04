@@ -16,38 +16,42 @@
                             "items": [
                                 {
                                     "type": "TextBlock",
-                                    "text": "${name}",
+                                    "text": "Ticket ID: ${id}",
                                     "weight": "Bolder",
-                                    "size": "ExtraLarge",
+                                    "size": "Large",
                                     "spacing": "None",
                                     "wrap": true,
                                     "style": "heading"
                                 },
                                 {
                                     "type": "TextBlock",
+                                    "text": "${name}",
+                                    "wrap": true,
+                                    "spacing": "medium",
+                                    "maxLines": 3                                    
+                                },
+                                {
+                                    "type": "TextBlock",
+                                    "text": "${status}, ${priority}",
+                                    "wrap": true
+                                },
+                                {
+                                    "type": "TextBlock",
+                                    "text": "Owner ID: ${ownerId}",
+
+                                    "wrap": true
+                                },
+                                {
+                                    "type": "TextBlock",
+                                    "text": "Tagged Asset ID: ${assetId}",
+                                    "wrap": true
+                                },
+                                {
+                                    "type": "TextBlock",
                                     "text": "${description}",
                                     "wrap": true,
-                                    "spacing": "None"
-                                },
-                                {
-                                    "type": "TextBlock",
-                                    "text": "${priority}",
-                                    "wrap": true
-                                },
-                                {
-                                    "type": "TextBlock",
-                                    "text": "${ownerName}",
-                                    "weight": "Bolder",
-                                    "size": "Large",
-                                    "spacing": "Medium",
-                                    "wrap": true,
-                                    "maxLines": 3
-                                },
-                                {
-                                    "type": "TextBlock",
-                                    "text": "Tagged To: ${assetName}",
-                                    "size": "Small",
-                                    "wrap": true
+                                    "spacing": "medium",
+                                    "maxLines": 3                                    
                                 }
                             ],
                             "width": "stretch"
@@ -57,8 +61,8 @@
                             "items": [
                                 {
                                     "type": "Image",
-                                    "url": "${status}",
-                                    "altText": "${status}"
+                                    "url": "${photoUrl}",
+                                    "altText": "${photoUrl}"
                                 }
                             ],
                             "width": "stretch"

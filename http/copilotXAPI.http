@@ -5,7 +5,7 @@
 {{base_url}}/units
 
 ### Get unit by id
-{{base_url}}/units/1
+{{base_url}}/units/16
 
 ### Get unit by unit or asset name
 {{base_url}}/units/?unitName=Unit 1

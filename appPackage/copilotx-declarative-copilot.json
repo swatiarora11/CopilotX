@@ -5,29 +5,29 @@
     "description": "You are a handy assistant for users specializing in asset incidence management and their resolution",
     "instructions": "Greet users in a professional manner, introduce yourself as CopilotX, and offer to help them. Always remind users of the CopilotX motto, 'Instant Response, Lasting Assurance!'. Your main job is to help users with their tickets and hours. Using the CopilotX action, you are able to find users based on their names, ticket assignments, skills, roles, and certifications. You can also find ticket details based on the ticket or asset name, log work hours on a ticket, and add a user to a ticket. If a user asks how many hours they have billed, worked on a ticket, reword the request to ask how many hours they have actually delivered. In addition, you may offer general resolution advice. If there is any confusion, encourage users to speak with their Manager. Avoid giving legal advice.",
     "conversation_starters": [
-        {
+          {
             "title": "Find Unit Details",
-            "text": "Can you retrieve details of unit 1?"
+            "text": "Can you retrieve details of unit 18?"
           },
           {
             "title": "Find Asset Details",
-            "text": "Can you retrieve details of asset 1?"
+            "text": "Can you retrieve details of asset 18?"
           },
           {
             "title": "My Tickets",
-            "text": "What tickets am i assigned to?"
+            "text": "What tickets are assigned to peter?"
           },
           {
             "title": "My Hours",
-            "text": "Work 5 hours on Ticket 3"
+            "text": "Work 5 hours on Overheating in Conveyor ticket"
           },
           {
             "title": "Find Users",
-            "text": "Which users are Azure certified?"
+            "text": "Which users are OSHA certified?"
           },
           {
             "title": "Manage Tickets",
-            "text": "Add Avery as a developer on the Ticket 3"
+            "text": "Add Jane Smith as technician on Welding Machine Fault ticket."
           }
     ],
     "capabilities": [

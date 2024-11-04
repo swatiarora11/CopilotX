@@ -21,7 +21,7 @@ class TicketDbService {
     }
 
     async createTicket(ticketName: string, description: string, ownerId: string
-        , assetId: string, priority: string, status: string): Promise<Ticket> {
+        , assetId: string, priority: string, status: string, photoUrl: string): Promise<Ticket> {
     
         try {
             // Retrieve all tickets to find the highest ticket ID
@@ -47,6 +47,7 @@ class TicketDbService {
                 description: description,
                 status: status,
                 priority: priority,
+                photoUrl: photoUrl,
                 ownerId: ownerId,
                 assetId: assetId
             };
@@ -100,6 +101,7 @@ class TicketDbService {
             description: dbTicket.description,
             status: dbTicket.status,
             priority: dbTicket.priority,
+            photoUrl: dbTicket.photoUrl,            
             ownerId: dbTicket.ownerId,
             assetId: dbTicket.assetId
         };

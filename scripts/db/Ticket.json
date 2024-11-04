@@ -6,6 +6,7 @@
             "description": "Conveyor system overheating, causing interruptions in operations.",
             "status": "open",
             "priority": "high",
+            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/tickets/OverheatingRegulators.png",
             "ownerId": "3",
             "assetId": "1"
         },
@@ -15,6 +16,7 @@
             "description": "Routine inspection required for robot arm calibration.",
             "status": "open",
             "priority": "medium",
+            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/tickets/Maintenenace.png",
             "ownerId": "4",
             "assetId": "3"
         },
@@ -24,6 +26,7 @@
             "description": "Fault detected in welding machine motor; requires diagnostics.",
             "status": "closed",
             "priority": "high",
+            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/tickets/Rusty.png",
             "ownerId": "2",
             "assetId": "4"
         },
@@ -33,6 +36,7 @@
             "description": "Calibration required for automated packing line equipment.",
             "status": "in progress",
             "priority": "medium",
+            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/tickets/OverheatingRegulators.png",
             "ownerId": "5",
             "assetId": "5"
         },
@@ -42,6 +46,7 @@
             "description": "Hydraulic press pressure readings are below the threshold.",
             "status": "open",
             "priority": "high",
+            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/tickets/Maintenenace.png",
             "ownerId": "6",
             "assetId": "6"
         },
@@ -51,6 +56,7 @@
             "description": "Heat exchanger requires maintenance to improve efficiency.",
             "status": "in progress",
             "priority": "medium",
+            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/tickets/Rusty.png",
             "ownerId": "3",
             "assetId": "7"
         },
@@ -60,6 +66,7 @@
             "description": "Oil leakage detected in the air compressor.",
             "status": "open",
             "priority": "high",
+            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/tickets/OverheatingRegulators.png",
             "ownerId": "8",
             "assetId": "8"
         },
@@ -69,6 +76,7 @@
             "description": "Pump in the cooling tower is malfunctioning.",
             "status": "closed",
             "priority": "low",
+            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/tickets/Maintenenace.png",
             "ownerId": "9",
             "assetId": "9"
         },
@@ -78,6 +86,7 @@
             "description": "Scheduled cleaning required for storage tank.",
             "status": "in progress",
             "priority": "low",
+            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/tickets/Rusty.png",
             "ownerId": "10",
             "assetId": "10"
         },
@@ -87,6 +96,7 @@
             "description": "Temperature sensor on mixing machine is malfunctioning.",
             "status": "open",
             "priority": "medium",
+            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/tickets/OverheatingRegulators.png",
             "ownerId": "11",
             "assetId": "11"
         },
@@ -96,6 +106,7 @@
             "description": "Processor pressure reading is fluctuating unexpectedly.",
             "status": "open",
             "priority": "high",
+            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/tickets/Maintenenace.png",
             "ownerId": "7",
             "assetId": "12"
         },
@@ -105,6 +116,7 @@
             "description": "Conveyor belt requires routine maintenance.",
             "status": "closed",
             "priority": "low",
+            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/tickets/Rusty.png",
             "ownerId": "6",
             "assetId": "13"
         },
@@ -114,6 +126,7 @@
             "description": "Automated labeling machine needs calibration.",
             "status": "in progress",
             "priority": "medium",
+            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/tickets/OverheatingRegulators.png",
             "ownerId": "14",
             "assetId": "14"
         },
@@ -123,6 +136,7 @@
             "description": "Leak detected in the filling machine hydraulic system.",
             "status": "open",
             "priority": "high",
+            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/tickets/Maintenenace.png",
             "ownerId": "11",
             "assetId": "15"
         },
@@ -132,6 +146,7 @@
             "description": "Packing robot arm needs adjustment and calibration.",
             "status": "open",
             "priority": "medium",
+            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/tickets/Rusty.png",
             "ownerId": "8",
             "assetId": "16"
         },
@@ -141,6 +156,7 @@
             "description": "Camera on the product inspector is not functioning correctly.",
             "status": "closed",
             "priority": "high",
+            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/tickets/OverheatingRegulators.png",
             "ownerId": "13",
             "assetId": "17"
         },
@@ -150,6 +166,7 @@
             "description": "Electric motor temperature is exceeding safe levels.",
             "status": "in progress",
             "priority": "high",
+            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/tickets/Rusty.png",
             "ownerId": "12",
             "assetId": "18"
         },
@@ -159,6 +176,7 @@
             "description": "Annual inspection required for boiler.",
             "status": "open",
             "priority": "low",
+            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/tickets/Maintenenace.png",
             "ownerId": "10",
             "assetId": "19"
         },
@@ -168,6 +186,7 @@
             "description": "Filters in water treatment system need replacement.",
             "status": "in progress",
             "priority": "medium",
+            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/tickets/OverheatingRegulators.png",
             "ownerId": "11",
             "assetId": "20"
         },
@@ -177,6 +196,7 @@
             "description": "Assembly line load is exceeding standard levels.",
             "status": "open",
             "priority": "high",
+            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/tickets/Maintenenace.png",
             "ownerId": "8",
             "assetId": "2"
         }

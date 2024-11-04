@@ -89,8 +89,9 @@ function tickets(req, context) {
                                 }
                                 let priority = (0, Utilities_1.cleanUpParameter)("priority", ((_g = body["priority"]) === null || _g === void 0 ? void 0 : _g.toString()) || "low");
                                 let status = "new";
+                                let photoUrl = "";
                                 console.log(`➡️ POST /api/tickets: create request, ticketName=${ticketName}, ownerName=${ownerName}, assetName=${assetName}, priority=${priority}`);
-                                const result = yield TicketApiService_1.default.createTicket(ticketName, description, ownerName, assetName, priority, status);
+                                const result = yield TicketApiService_1.default.createTicket(ticketName, description, ownerName, assetName, priority, status, photoUrl);
                                 res.jsonBody.results = {
                                     status: 200,
                                     assetName: result.assetName,

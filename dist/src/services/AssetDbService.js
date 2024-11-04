@@ -39,7 +39,7 @@ class AssetDbService {
             acquisitionDate: dbAsset.acquisitionDate,
             status: dbAsset.status,
             unitId: dbAsset.unitId,
-            photoUrl: this.getPhotoUrl(dbAsset)
+            photoUrl: dbAsset.photoUrl
         };
         return result;
     }

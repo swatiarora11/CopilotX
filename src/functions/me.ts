@@ -84,7 +84,7 @@ export async function me(
               remainingForecast: result.remainingForecast,
               message: result.message
             };
-            console.log(`   ✅ POST /api/me/chargetime response status ${res.status}; ${result.message}`);
+            console.log(`   ✅ POST /api/me/workonticket response status ${res.status}; ${result.message}`);
             } else {
               throw new HttpError(400, `Missing request body`);
             }

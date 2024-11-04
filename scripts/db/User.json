@@ -3,9 +3,9 @@
         {
             "id": "1",
             "name": "Avery Howard",
-            "email": "avery@treyresearch.com",
+            "email": "avery@sbu3.com",
             "phone": "1-555-456-7890",
-            "photoUrl": "https://bobgerman.github.io/fictitiousAiGenerated/Avery.jpg",
+            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/users/Client.png",
             "location": {
                 "street": "5 Wayside Rd.",
                 "city": "Burlington",
@@ -39,9 +39,9 @@
         {
             "id": "2",
             "name": "Peter Jones",
-            "email": "peterjones@treyresearch.com",
+            "email": "peterjones@sbuindia.com",
             "phone": "1-555-456-7892",
-            "photoUrl": "https://www.24hplumbingpros.com/wp-content/uploads/2020/02/24-hour-plumber-expert.png",
+            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/users/Client.png",
             "location": {
                 "street": "2 Wayside Rd.",
                 "city": "Burlington",
@@ -72,7 +72,7 @@
             "name": "John Doe",
             "email": "johndoe@example.com",
             "phone": "+1-555-1234",
-            "photoUrl": "https://brilliantlink.co.za/wp-content/uploads/2020/10/manufacturing-manager-wearing-hard-hat-looking-at-BOM.png",
+            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/users/Contract.png",
             "location": {
                 "street": "123 Main St",
                 "city": "Boston",
@@ -100,7 +100,7 @@
             "name": "Jane Smith",
             "email": "janesmith@example.com",
             "phone": "+1-555-2345",
-            "photoUrl": "https://wrightroofing.com/wp-content/uploads/2017/04/contact.png",
+            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/users/Manager.png",
             "location": {
                 "street": "456 Elm St",
                 "city": "Cambridge",
@@ -127,7 +127,7 @@
             "name": "Alex Johnson",
             "email": "alexjohnson@example.com",
             "phone": "+1-555-3456",
-            "photoUrl": "https://www.sme.in/suryagroup/images/client.png",
+            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/users/Plumber.png",
             "location": {
                 "street": "789 Maple Ave",
                 "city": "Boston",

@@ -103,10 +103,11 @@ export async function tickets(
                             }
                             let priority = cleanUpParameter("priority", body["priority"]?.toString() || "low");
                             let status = "new";
+                            let photoUrl = "";
 
                             console.log(`➡️ POST /api/tickets: create request, ticketName=${ticketName}, ownerName=${ownerName}, assetName=${assetName}, priority=${priority}`);
                             const result = await TicketApiService.createTicket
-                                (ticketName, description, ownerName, assetName, priority, status);
+                                (ticketName, description, ownerName, assetName, priority, status, photoUrl);
 
                             res.jsonBody.results = {
                                 status: 200,

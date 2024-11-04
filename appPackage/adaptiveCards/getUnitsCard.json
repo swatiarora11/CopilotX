@@ -21,7 +21,8 @@
                     "weight": "Bolder",
                     "text": "**Unit Details**",
                     "style": "heading",
-                    "wrap": true
+                    "wrap": true,
+                    "color": "accent"
                   }
                 ],
                 "width": "stretch"
@@ -34,7 +35,8 @@
                     "size": "Large",
                     "text": "${id}",
                     "wrap": true,
-                    "style": "heading"
+                    "style": "heading",
+                    "color": "accent"
                   }
                 ],
                 "width": "auto"
@@ -58,7 +60,8 @@
                     "size": "Large",
                     "text": "${name}",
                     "wrap": true,
-                    "style": "heading"
+                    "style": "heading",
+                    "color": "accent"
                   }
                 ],
                 "width": "stretch"
@@ -149,7 +152,8 @@
                           {
                             "type": "TextBlock",
                             "text": "${status}",
-                            "wrap": true
+                            "wrap": true,
+                            "color": "attention"
                           }
                         ]
                       },
@@ -159,7 +163,7 @@
                         "items": [
                           {
                             "type": "TextBlock",
-                            "text": "${acquisitionDate}",
+                            "text": "Acquired {{DATE(${string(results[0].acquisitionDate)}, SHORT)}}",
                             "wrap": true
                           }
                         ]
@@ -175,7 +179,8 @@
                     "type": "TextBlock",
                     "text": "${description}",
                     "size": "Small",
-                    "wrap": true
+                    "wrap": true,
+                    "color": "dark"
                   }
                 ],
                 "verticalContentAlignment": "Center"

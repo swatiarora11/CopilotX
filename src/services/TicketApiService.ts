@@ -130,7 +130,7 @@ class TicketApiService {
     }
 
     async createTicket(ticketName: string, description: string, ownerName: string
-        , assetName: string, priority: string, status: string): Promise<ApiCreateTicketResponse> {
+        , assetName: string, priority: string, status: string, photoUrl: string): Promise<ApiCreateTicketResponse> {
             
         let tickets = await this.getApiTickets(ticketName, "", "");
         let users = await UserApiService.getApiUsers(ownerName, "", "", "", "", "");
@@ -149,7 +149,7 @@ class TicketApiService {
         }
         const user = users[0];
         const asset = assets[0];
-        const ticket = await TicketDbService.createTicket(ticketName, description, user.id, asset.id, priority, status);
+        const ticket = await TicketDbService.createTicket(ticketName, description, user.id, asset.id, priority, status, photoUrl);
 
         // Always charge to the current month
         // const remainingForecast = await TicketAssignmentDbService.addUserToTicket(ticket.id, user.id, true, "watcher", 0);

@@ -37,7 +37,8 @@
                             "weight": "Bolder",
                             "text": "**Unit Details**",
                             "style": "heading",
-                            "wrap": true
+                            "wrap": true,
+                            "color": "accent"
                           }
                         ],
                         "width": "stretch"
@@ -50,7 +51,8 @@
                             "size": "Large",
                             "text": "${id}",
                             "wrap": true,
-                            "style": "heading"
+                            "style": "heading",
+                            "color": "accent"
                           }
                         ],
                         "width": "auto"
@@ -74,7 +76,8 @@
                             "size": "Large",
                             "text": "${name}",
                             "wrap": true,
-                            "style": "heading"
+                            "style": "heading",
+                            "color": "accent"
                           }
                         ],
                         "width": "stretch"
@@ -165,7 +168,8 @@
                                   {
                                     "type": "TextBlock",
                                     "text": "${status}",
-                                    "wrap": true
+                                    "wrap": true,
+                                    "color": "attention"
                                   }
                                 ]
                               },
@@ -175,7 +179,7 @@
                                 "items": [
                                   {
                                     "type": "TextBlock",
-                                    "text": "${acquisitionDate}",
+                                    "text": "Acquired {{DATE(${string(acquisitionDate)}, SHORT)}}",
                                     "wrap": true
                                   }
                                 ]
@@ -191,7 +195,8 @@
                             "type": "TextBlock",
                             "text": "${description}",
                             "size": "Small",
-                            "wrap": true
+                            "wrap": true,
+                            "color": "dark"
                           }
                         ],
                         "verticalContentAlignment": "Center"
@@ -276,7 +281,17 @@
                           },
                           {
                             "type": "TextBlock",
-                            "text": "${acquisitionDate}",
+                            "text": "Acquired {{DATE(${string(acquisitionDate)}, SHORT)}}",
+                            "wrap": true,
+                            "spacing": "none"
+                          },
+                          {
+                            "type": "Container"
+                          },
+                          {
+                            "type": "TextBlock",
+                            "text": "Asset Description:",
+                            "weight": "bolder",
                             "wrap": true,
                             "spacing": "none"
                           },
@@ -287,9 +302,13 @@
                             "spacing": "none"
                           },
                           {
+                            "type": "Container"
+                          },
+                          {
                             "type": "TextBlock",
-                            "text": "${status}",
-                            "wrap": true
+                            "text": "Status: ${status}",
+                            "wrap": true,
+                            "color": "attention"
                           }
                         ]
                       },
@@ -349,16 +368,25 @@
                             "style": "heading"
                           },
                           {
+                            "type": "Container"
+                          },
+                          {
                             "type": "TextBlock",
                             "text": "${email}",
                             "wrap": true,
                             "spacing": "none"
                           },
                           {
+                            "type": "Container"
+                          },
+                          {
                             "type": "TextBlock",
                             "text": "${phone}",
                             "wrap": true,
                             "spacing": "none"
+                          },
+                          {
+                            "type": "Container"
                           },
                           {
                             "type": "TextBlock",
@@ -414,38 +442,41 @@
                         "items": [
                           {
                             "type": "TextBlock",
-                            "text": "${name}",
+                            "text": "Ticket ID: ${id}",
                             "weight": "Bolder",
-                            "size": "ExtraLarge",
+                            "size": "Large",
                             "spacing": "None",
                             "wrap": true,
                             "style": "heading"
                           },
                           {
                             "type": "TextBlock",
-                            "text": "${description}",
+                            "text": "${name}",
                             "wrap": true,
-                            "spacing": "None"
-                          },
-                          {
-                            "type": "TextBlock",
-                            "text": "${priority}",
-                            "wrap": true
-                          },
-                          {
-                            "type": "TextBlock",
-                            "text": "${ownerName}",
-                            "weight": "Bolder",
-                            "size": "Large",
-                            "spacing": "Medium",
-                            "wrap": true,
+                            "spacing": "medium",
                             "maxLines": 3
                           },
                           {
                             "type": "TextBlock",
-                            "text": "Tagged To: ${assetName}",
-                            "size": "Small",
+                            "text": "${status}, ${priority}",
                             "wrap": true
+                          },
+                          {
+                            "type": "TextBlock",
+                            "text": "Owner ID: ${ownerId}",
+                            "wrap": true
+                          },
+                          {
+                            "type": "TextBlock",
+                            "text": "Tagged Asset ID: ${assetId}",
+                            "wrap": true
+                          },
+                          {
+                            "type": "TextBlock",
+                            "text": "${description}",
+                            "wrap": true,
+                            "spacing": "medium",
+                            "maxLines": 3
                           }
                         ],
                         "width": "stretch"
@@ -455,8 +486,8 @@
                         "items": [
                           {
                             "type": "Image",
-                            "url": "${status}",
-                            "altText": "${status}"
+                            "url": "${photoUrl}",
+                            "altText": "${photoUrl}"
                           }
                         ],
                         "width": "stretch"
@@ -918,25 +949,22 @@
     "localization": {},
     "conversation_starters": [
       {
-        "text": "Can you retrieve details of unit 1?"
+        "text": "Can you retrieve details of unit 18?"
       },
       {
-        "text": "Can you retrieve details of asset 1?"
+        "text": "Can you retrieve details of asset 18?"
       },
       {
-        "text": "What tickets am i assigned to?"
+        "text": "What tickets are assigned to peter?"
       },
       {
-        "text": "Work 5 hours on Ticket 3"
+        "text": "Work 5 hours on Overheating in Conveyor ticket"
       },
       {
-        "text": "Which users are Azure certified?"
+        "text": "Which users are OSHA certified?"
       },
       {
-        "text": "Find a user who is available now and has Python skills"
-      },
-      {
-        "text": "Add Avery as a developer on the Ticket 3"
+        "text": "Add Jane Smith as technician on Welding Machine Fault ticket."
       }
     ]
   }

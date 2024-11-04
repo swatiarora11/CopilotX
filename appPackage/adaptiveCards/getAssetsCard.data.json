@@ -4,7 +4,7 @@
       "id": "1",
       "name": "Asset 1",
       "description": "Automated Sorting Machine",
-      "acquisitionDate": "2024-10-20T13:48:51.5369197Z",
+      "acquisitionDate": "2024-10-20T13:48:51Z",
       "status": "under maintenance",
       "photoUrl": "https://microsoft.github.io/copilot-camp/demo-assets/images/maps/asset-1.jpg"
     },
@@ -12,7 +12,7 @@
       "id": "10",
       "name": "Asset 10",
       "description": "Air Compressor",
-      "acquisitionDate": "2024-01-25T10:22:45.546789Z",
+      "acquisitionDate": "2024-01-25T10:22:45Z",
       "status": "active",
       "photoUrl": "https://microsoft.github.io/copilot-camp/demo-assets/images/maps/asset-10.jpg"
     },
@@ -20,7 +20,7 @@
       "id": "11",
       "name": "Asset 11",
       "description": "Cooling Tower",
-      "acquisitionDate": "2023-11-03T05:33:19.981345Z",
+      "acquisitionDate": "2023-11-03T05:33:19Z",
       "status": "under maintenance",
       "photoUrl": "https://microsoft.github.io/copilot-camp/demo-assets/images/maps/asset-11.jpg"
     },
@@ -28,7 +28,7 @@
       "id": "12",
       "name": "Asset 12",
       "description": "Material Storage Tank",
-      "acquisitionDate": "2021-06-15T08:47:30.125692Z",
+      "acquisitionDate": "2021-06-15T08:47:30Z",
       "status": "inactive",
       "photoUrl": "https://microsoft.github.io/copilot-camp/demo-assets/images/maps/asset-12.jpg"
     },
@@ -36,7 +36,7 @@
       "id": "13",
       "name": "Asset 13",
       "description": "Mixing Machine",
-      "acquisitionDate": "2023-08-29T14:51:12.658953Z",
+      "acquisitionDate": "2023-08-29T14:51:12Z",
       "status": "active",
       "photoUrl": "https://microsoft.github.io/copilot-camp/demo-assets/images/maps/asset-13.jpg"
     },
@@ -44,7 +44,7 @@
       "id": "14",
       "name": "Asset 14",
       "description": "Chemical Processor",
-      "acquisitionDate": "2023-04-17T12:29:34.125468Z",
+      "acquisitionDate": "2023-04-17T12:29:34Z",
       "status": "inactive",
       "photoUrl": "https://microsoft.github.io/copilot-camp/demo-assets/images/maps/asset-14.jpg"
     },
@@ -52,7 +52,7 @@
       "id": "15",
       "name": "Asset 15",
       "description": "Storage Conveyor",
-      "acquisitionDate": "2024-07-21T13:44:23.789231Z",
+      "acquisitionDate": "2024-07-21T13:44:23Z",
       "status": "active",
       "photoUrl": "https://microsoft.github.io/copilot-camp/demo-assets/images/maps/asset-15.jpg"
     },
@@ -60,7 +60,7 @@
       "id": "16",
       "name": "Asset 16",
       "description": "Automated Labeling Machine",
-      "acquisitionDate": "2022-03-09T09:12:11.115483Z",
+      "acquisitionDate": "2022-03-09T09:12:11Z",
       "status": "under maintenance",
       "photoUrl": "https://microsoft.github.io/copilot-camp/demo-assets/images/maps/asset-16.jpg"
     },
@@ -68,7 +68,7 @@
       "id": "17",
       "name": "Asset 15",
       "description": "Filling Machine",
-      "acquisitionDate": "2023-10-19T06:22:48.554674Z",
+      "acquisitionDate": "2023-10-19T06:22:48Z",
       "status": "active",
       "photoUrl": "https://microsoft.github.io/copilot-camp/demo-assets/images/maps/asset-15.jpg"
     },
@@ -76,7 +76,7 @@
       "id": "18",
       "name": "Asset 18",
       "description": "Packing Robot",
-      "acquisitionDate": "2024-05-01T15:13:19.124881Z",
+      "acquisitionDate": "2024-05-01T15:13:19Z",
       "status": "inactive",
       "photoUrl": "https://microsoft.github.io/copilot-camp/demo-assets/images/maps/asset-18.jpg"
     },
@@ -84,7 +84,7 @@
       "id": "19",
       "name": "Asset 19",
       "description": "Product Inspector",
-      "acquisitionDate": "2022-11-07T04:28:31.368541Z",
+      "acquisitionDate": "2022-11-07T04:28:31Z",
       "status": "active",
       "photoUrl": "https://microsoft.github.io/copilot-camp/demo-assets/images/maps/asset-19.jpg"
     },
@@ -92,7 +92,7 @@
       "id": "2",
       "name": "Asset 2",
       "description": "Lathe Machine",
-      "acquisitionDate": "2024-10-25T13:48:51.5369197Z",
+      "acquisitionDate": "2024-10-25T13:48:51Z",
       "status": "active",
       "photoUrl": "https://microsoft.github.io/copilot-camp/demo-assets/images/maps/asset-2.jpg"
     },
@@ -100,7 +100,7 @@
       "id": "20",
       "name": "Asset 20",
       "description": "Electric Motor",
-      "acquisitionDate": "2023-01-12T03:20:17.659357Z",
+      "acquisitionDate": "2023-01-12T03:20:17Z",
       "status": "under maintenance",
       "photoUrl": "https://microsoft.github.io/copilot-camp/demo-assets/images/maps/asset-20.jpg"
     },
@@ -108,7 +108,7 @@
       "id": "21",
       "name": "Asset 21",
       "description": "Boiler",
-      "acquisitionDate": "2024-09-29T13:10:55.554231Z",
+      "acquisitionDate": "2024-09-29T13:10:55Z",
       "status": "active",
       "photoUrl": "https://microsoft.github.io/copilot-camp/demo-assets/images/maps/asset-21.jpg"
     },
@@ -116,7 +116,7 @@
       "id": "22",
       "name": "Asset 22",
       "description": "Water Treatment System",
-      "acquisitionDate": "2022-08-19T02:45:22.334781Z",
+      "acquisitionDate": "2022-08-19T02:45:22Z",
       "status": "inactive",
       "photoUrl": "https://microsoft.github.io/copilot-camp/demo-assets/images/maps/asset-22.jpg"
     },
@@ -124,7 +124,7 @@
       "id": "3",
       "name": "Asset 3",
       "description": "High-speed Conveyor",
-      "acquisitionDate": "2024-10-20T13:48:51.5369197Z",
+      "acquisitionDate": "2024-10-20T13:48:51Z",
       "status": "under maintenance",
       "photoUrl": "https://microsoft.github.io/copilot-camp/demo-assets/images/maps/asset-3.jpg"
     },
@@ -132,7 +132,7 @@
       "id": "4",
       "name": "Asset 4",
       "description": "Automated Assembly Line",
-      "acquisitionDate": "2024-10-25T13:48:51.5369197Z",
+      "acquisitionDate": "2024-10-25T13:48:51Z",
       "status": "active",
       "photoUrl": "https://microsoft.github.io/copilot-camp/demo-assets/images/maps/asset-4.jpg"
     },
@@ -140,7 +140,7 @@
       "id": "5",
       "name": "Asset 5",
       "description": "Industrial Robot Arm",
-      "acquisitionDate": "2023-05-18T09:15:23.563792Z",
+      "acquisitionDate": "2023-05-18T09:15:23Z",
       "status": "inactive",
       "photoUrl": "https://microsoft.github.io/copilot-camp/demo-assets/images/maps/asset-5.jpg"
     },
@@ -156,7 +156,7 @@
       "id": "7",
       "name": "Asset 7",
       "description": "Packing Line Equipment",
-      "acquisitionDate": "2022-12-29T16:45:18.423529Z",
+      "acquisitionDate": "2022-12-29T16:45:18Z",
       "status": "active",
       "photoUrl": "https://microsoft.github.io/copilot-camp/demo-assets/images/maps/asset-7.jpg"
     },
@@ -164,7 +164,7 @@
       "id": "8",
       "name": "Asset 8",
       "description": "Hydraulic Press",
-      "acquisitionDate": "2023-02-12T11:30:55.224135Z",
+      "acquisitionDate": "2023-02-12T11:30:55Z",
       "status": "active",
       "photoUrl": "https://microsoft.github.io/copilot-camp/demo-assets/images/maps/asset-8.jpg"
     },
@@ -172,7 +172,7 @@
       "id": "9",
       "name": "Asset 9",
       "description": "Heat Exchanger",
-      "acquisitionDate": "2022-07-05T14:14:23.989124Z",
+      "acquisitionDate": "2022-07-05T14:14:23Z",
       "status": "inactive",
       "photoUrl": "https://microsoft.github.io/copilot-camp/demo-assets/images/maps/asset-9.jpg"
     }
