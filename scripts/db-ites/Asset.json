@@ -1,0 +1,124 @@
+{
+    "rows": [
+        {
+            "id": "1",
+            "name": "Lenovo ThinkPad",
+            "description": "High-performance laptop for Dev team",
+            "acquisitionDate": "2023-05-12T10:15:30.000Z",
+            "status": "Active",
+            "photoUrl": "/images/thinkpad1.jpg"
+        },
+        {
+            "id": "2",
+            "name": "HP EliteBook",
+            "description": "Laptop with 16GB RAM, i7 processor",
+            "acquisitionDate": "2022-08-15T09:45:10.000Z",
+            "status": "Active",
+            "photoUrl": "/images/elitebook2.jpg"
+        },
+        {
+            "id": "3",
+            "name": "Dell Latitude",
+            "description": "Laptop for QA team, 512GB SSD",
+            "acquisitionDate": "2021-11-05T08:30:20.000Z",
+            "status": "In Repair",
+            "photoUrl": "/images/latitude3.jpg"
+        },
+        {
+            "id": "4",
+            "name": "Samsung Galaxy S21",
+            "description": "Mobile device for customer support",
+            "acquisitionDate": "2023-01-20T14:20:00.000Z",
+            "status": "Active",
+            "photoUrl": "/images/galaxyS21.jpg"
+        },
+        {
+            "id": "5",
+            "name": "Apple iPad Air",
+            "description": "Tablet for senior management",
+            "acquisitionDate": "2022-03-17T11:10:15.000Z",
+            "status": "Active",
+            "photoUrl": "/images/ipadAir.jpg"
+        },
+        {
+            "id": "6",
+            "name": "Canon EOS 1500D",
+            "description": "Camera for media and PR team",
+            "acquisitionDate": "2021-06-30T09:25:00.000Z",
+            "status": "Inactive",
+            "photoUrl": "/images/canonEOS.jpg"
+        },
+        {
+            "id": "7",
+            "name": "Epson EcoTank",
+            "description": "Office printer with wireless capability",
+            "acquisitionDate": "2023-04-10T16:00:00.000Z",
+            "status": "Active",
+            "photoUrl": "/images/epsonPrinter.jpg"
+        },
+        {
+            "id": "8",
+            "name": "Cisco Router XR",
+            "description": "Network router for high-speed access",
+            "acquisitionDate": "2020-09-01T13:00:00.000Z",
+            "status": "Active",
+            "photoUrl": "/images/ciscoRouter.jpg"
+        },
+        {
+            "id": "9",
+            "name": "Sony WH-1000XM4",
+            "description": "Noise-canceling headphones for managers",
+            "acquisitionDate": "2021-12-22T10:50:00.000Z",
+            "status": "Active",
+            "photoUrl": "/images/sonyHeadphones.jpg"
+        },
+        {
+            "id": "10",
+            "name": "Microsoft Surface Pro",
+            "description": "Tablet for design team",
+            "acquisitionDate": "2023-07-25T11:35:00.000Z",
+            "status": "Active",
+            "photoUrl": "/images/surfacePro.jpg"
+        },
+        {
+            "id": "11",
+            "name": "Acer Aspire Desktop",
+            "description": "Desktop for call center operations",
+            "acquisitionDate": "2021-04-15T12:00:00.000Z",
+            "status": "Inactive",
+            "photoUrl": "/images/acerAspire.jpg"
+        },
+        {
+            "id": "12",
+            "name": "Brother HL Printer",
+            "description": "High-speed printer for HR",
+            "acquisitionDate": "2022-10-10T15:30:00.000Z",
+            "status": "Active",
+            "photoUrl": "/images/brotherPrinter.jpg"
+        },
+        {
+            "id": "13",
+            "name": "Apple MacBook Pro",
+            "description": "Laptop for management",
+            "acquisitionDate": "2022-05-18T09:45:00.000Z",
+            "status": "Active",
+            "photoUrl": "/images/macbookPro.jpg"
+        },
+        {
+            "id": "14",
+            "name": "LG Monitor UltraWide",
+            "description": "Wide monitor for development team",
+            "acquisitionDate": "2023-09-14T13:20:00.000Z",
+            "status": "Active",
+            "photoUrl": "/images/lgUltraWide.jpg"
+        },
+        {
+            "id": "15",
+            "name": "Seagate External HDD",
+            "description": "Portable storage for backup",
+            "acquisitionDate": "2022-11-03T14:30:00.000Z",
+            "status": "Active",
+            "photoUrl": "/images/seagateHDD.jpg"
+        }
+    ]
+}

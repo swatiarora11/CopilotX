@@ -1,0 +1,229 @@
+{
+    "rows": [
+        {
+            "id": "1",
+            "name": "Unit 1",
+            "location": {
+                "street": "28, Parliament Road",
+                "city": "Bangalore",
+                "state": "Karnataka",
+                "country": "India",
+                "postalCode": "560001",
+                "latitude": 12.9716,
+                "longitude": 77.5946
+            },
+            "unitContact": "Rajesh Kumar",
+            "unitContactEmail": "rajesh.kumar@example.com"
+        },
+        {
+            "id": "2",
+            "name": "Unit 2",
+            "location": {
+                "street": "15, MG Road",
+                "city": "Delhi",
+                "state": "Delhi",
+                "country": "India",
+                "postalCode": "110001",
+                "latitude": 28.6139,
+                "longitude": 77.2090
+            },
+            "unitContact": "Anita Singh",
+            "unitContactEmail": "anita.singh@example.com"
+        },
+        {
+            "id": "3",
+            "name": "Unit 3",
+            "location": {
+                "street": "50, Brigade Road",
+                "city": "Bangalore",
+                "state": "Karnataka",
+                "country": "India",
+                "postalCode": "560025",
+                "latitude": 12.9746,
+                "longitude": 77.6066
+            },
+            "unitContact": "Suresh Patel",
+            "unitContactEmail": "suresh.patel@example.com"
+        },
+        {
+            "id": "4",
+            "name": "Unit 4",
+            "location": {
+                "street": "77, Marine Drive",
+                "city": "Mumbai",
+                "state": "Maharashtra",
+                "country": "India",
+                "postalCode": "400002",
+                "latitude": 18.9220,
+                "longitude": 72.8347
+            },
+            "unitContact": "Priya Desai",
+            "unitContactEmail": "priya.desai@example.com"
+        },
+        {
+            "id": "5",
+            "name": "Unit 5",
+            "location": {
+                "street": "10, Connaught Place",
+                "city": "Delhi",
+                "state": "Delhi",
+                "country": "India",
+                "postalCode": "110001",
+                "latitude": 28.6264,
+                "longitude": 77.2194
+            },
+            "unitContact": "Vikram Sharma",
+            "unitContactEmail": "vikram.sharma@example.com"
+        },
+        {
+            "id": "6",
+            "name": "Unit 6",
+            "location": {
+                "street": "34, Sector 17",
+                "city": "Chandigarh",
+                "state": "Chandigarh",
+                "country": "India",
+                "postalCode": "160017",
+                "latitude": 30.7333,
+                "longitude": 76.7794
+            },
+            "unitContact": "Meena Reddy",
+            "unitContactEmail": "meena.reddy@example.com"
+        },
+        {
+            "id": "7",
+            "name": "Unit 7",
+            "location": {
+                "street": "88, IT Park",
+                "city": "Noida",
+                "state": "Uttar Pradesh",
+                "country": "India",
+                "postalCode": "201301",
+                "latitude": 28.5355,
+                "longitude": 77.3910
+            },
+            "unitContact": "Rahul Gupta",
+            "unitContactEmail": "rahul.gupta@example.com"
+        },
+        {
+            "id": "8",
+            "name": "Unit 8",
+            "location": {
+                "street": "12, MG Road",
+                "city": "Pune",
+                "state": "Maharashtra",
+                "country": "India",
+                "postalCode": "411001",
+                "latitude": 18.5214,
+                "longitude": 73.8567
+            },
+            "unitContact": "Nisha Joshi",
+            "unitContactEmail": "nisha.joshi@example.com"
+        },
+        {
+            "id": "9",
+            "name": "Unit 9",
+            "location": {
+                "street": "5, Gandhi Nagar",
+                "city": "Ahmedabad",
+                "state": "Gujarat",
+                "country": "India",
+                "postalCode": "380001",
+                "latitude": 23.0225,
+                "longitude": 72.5714
+            },
+            "unitContact": "Amit Patel",
+            "unitContactEmail": "amit.patel@example.com"
+        },
+        {
+            "id": "10",
+            "name": "Unit 10",
+            "location": {
+                "street": "100, Golf Course Road",
+                "city": "Gurgaon",
+                "state": "Haryana",
+                "country": "India",
+                "postalCode": "122001",
+                "latitude": 28.4595,
+                "longitude": 77.0266
+            },
+            "unitContact": "Sunita Mehra",
+            "unitContactEmail": "sunita.mehra@example.com"
+        },
+        {
+            "id": "11",
+            "name": "Unit 11",
+            "location": {
+                "street": "42, Nariman Point",
+                "city": "Mumbai",
+                "state": "Maharashtra",
+                "country": "India",
+                "postalCode": "400021",
+                "latitude": 18.9222,
+                "longitude": 72.8350
+            },
+            "unitContact": "Karan Sethi",
+            "unitContactEmail": "karan.sethi@example.com"
+        },
+        {
+            "id": "12",
+            "name": "Unit 12",
+            "location": {
+                "street": "26, Residency Road",
+                "city": "Bangalore",
+                "state": "Karnataka",
+                "country": "India",
+                "postalCode": "560025",
+                "latitude": 12.9739,
+                "longitude": 77.5924
+            },
+            "unitContact": "Deepak Rathi",
+            "unitContactEmail": "deepak.rathi@example.com"
+        },
+        {
+            "id": "13",
+            "name": "Unit 13",
+            "location": {
+                "street": "89, S V Road",
+                "city": "Mumbai",
+                "state": "Maharashtra",
+                "country": "India",
+                "postalCode": "400054",
+                "latitude": 19.0853,
+                "longitude": 72.8342
+            },
+            "unitContact": "Rekha Menon",
+            "unitContactEmail": "rekha.menon@example.com"
+        },
+        {
+            "id": "14",
+            "name": "Unit 14",
+            "location": {
+                "street": "33, Park Avenue",
+                "city": "Chennai",
+                "state": "Tamil Nadu",
+                "country": "India",
+                "postalCode": "600018",
+                "latitude": 13.0827,
+                "longitude": 80.2700
+            },
+            "unitContact": "Vasanth Kumar",
+            "unitContactEmail": "vasanth.kumar@example.com"
+        },
+        {
+            "id": "15",
+            "name": "Unit 15",
+            "location": {
+                "street": "14, Nehru Place",
+                "city": "Delhi",
+                "state": "Delhi",
+                "country": "India",
+                "postalCode": "110019",
+                "latitude": 28.5526,
+                "longitude": 77.2440
+            },
+            "unitContact": "Sanjay Thakur",
+            "unitContactEmail": "sanjay.thakur@example.com"
+        }
+    ]
+}

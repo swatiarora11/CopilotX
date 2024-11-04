@@ -1,0 +1,261 @@
+{
+    "rows": [
+        {
+            "id": "1",
+            "name": "Rajesh Kumar",
+            "email": "rajesh.kumar@example.com",
+            "phone": "1-555-456-7890",
+            "photoUrl": "https://bobgerman.github.io/fictitiousAiGenerated/Avery.jpg",
+            "location": {
+                "street": "123 MG Road",
+                "city": "Mumbai",
+                "state": "Maharashtra",
+                "country": "India",
+                "postalCode": "400001",
+                "latitude": 19.0760,
+                "longitude": 72.8777
+            },
+            "relationType": "Full-Time",
+            "skills": [
+                "C#",
+                "JavaScript",
+                "TypeScript",
+                "React",
+                "Node.js"
+            ],
+            "certifications": [
+                "MCSADA",
+                "Azure Developer Associate",
+                "MCAAF",
+                "Azure AI Fundamentals"
+            ],
+            "roles": [
+                "Project Lead",
+                "Developer",
+                "Architect",
+                "DevOps"
+            ]
+        },
+        {
+            "id": "2",
+            "name": "Ananya Sharma",
+            "email": "ananya.sharma@example.com",
+            "phone": "1-555-789-0123",
+            "photoUrl": "https://bobgerman.github.io/fictitiousAiGenerated/Avery.jpg",
+            "location": {
+                "street": "456 Lajpat Nagar",
+                "city": "New Delhi",
+                "state": "Delhi",
+                "country": "India",
+                "postalCode": "110024",
+                "latitude": 28.6139,
+                "longitude": 77.2090
+            },
+            "relationType": "Contract",
+            "skills": [
+                "Python",
+                "SQL",
+                "Django",
+                "Data Analysis",
+                "Machine Learning"
+            ],
+            "certifications": [
+                "AWS Certified Developer",
+                "Google Data Engineer",
+                "PMP"
+            ],
+            "roles": [
+                "Data Analyst",
+                "Developer"
+            ]
+        },
+        {
+            "id": "3",
+            "name": "Vikram Choudhary",
+            "email": "vikram.choudhary@example.com",
+            "phone": "1-555-654-9870",
+            "photoUrl": "https://bobgerman.github.io/fictitiousAiGenerated/Avery.jpg",
+            "location": {
+                "street": "789 Brigade Road",
+                "city": "Bengaluru",
+                "state": "Karnataka",
+                "country": "India",
+                "postalCode": "560001",
+                "latitude": 12.9716,
+                "longitude": 77.5946
+            },
+            "relationType": "Full-Time",
+            "skills": [
+                "Java",
+                "Spring Boot",
+                "Microservices",
+                "Docker",
+                "Kubernetes"
+            ],
+            "certifications": [
+                "Oracle Certified Java Programmer",
+                "AWS Solutions Architect"
+            ],
+            "roles": [
+                "Backend Developer",
+                "DevOps Engineer"
+            ]
+        },
+        {
+            "id": "4",
+            "name": "Priya Reddy",
+            "email": "priya.reddy@example.com",
+            "phone": "1-555-321-6789",
+            "photoUrl": "https://bobgerman.github.io/fictitiousAiGenerated/Avery.jpg",
+            "location": {
+                "street": "15 MG Road",
+                "city": "Hyderabad",
+                "state": "Telangana",
+                "country": "India",
+                "postalCode": "500001",
+                "latitude": 17.3850,
+                "longitude": 78.4867
+            },
+            "relationType": "Intern",
+            "skills": [
+                "JavaScript",
+                "React",
+                "Node.js",
+                "HTML",
+                "CSS"
+            ],
+            "certifications": [
+                "MTA: HTML and CSS",
+                "AWS Cloud Practitioner"
+            ],
+            "roles": [
+                "Frontend Developer",
+                "UI Designer"
+            ]
+        },
+        {
+            "id": "5",
+            "name": "Sandeep Patel",
+            "email": "sandeep.patel@example.com",
+            "phone": "1-555-987-6543",
+            "photoUrl": "https://bobgerman.github.io/fictitiousAiGenerated/Avery.jpg",
+            "location": {
+                "street": "A-45 Sector 62",
+                "city": "Noida",
+                "state": "Uttar Pradesh",
+                "country": "India",
+                "postalCode": "201301",
+                "latitude": 28.5355,
+                "longitude": 77.3910
+            },
+            "relationType": "Full-Time",
+            "skills": [
+                "SQL",
+                "PL/SQL",
+                "Oracle Database",
+                "Data Modeling"
+            ],
+            "certifications": [
+                "Oracle DBA",
+                "Microsoft SQL Server Certification"
+            ],
+            "roles": [
+                "Database Administrator",
+                "Data Architect"
+            ]
+        },
+        {
+            "id": "6",
+            "name": "Divya Mehta",
+            "email": "divya.mehta@example.com",
+            "phone": "1-555-564-1234",
+            "photoUrl": "https://bobgerman.github.io/fictitiousAiGenerated/Avery.jpg",
+            "location": {
+                "street": "Sector 17",
+                "city": "Chandigarh",
+                "state": "Chandigarh",
+                "country": "India",
+                "postalCode": "160017",
+                "latitude": 30.7333,
+                "longitude": 76.7794
+            },
+            "relationType": "Part-Time",
+            "skills": [
+                "Graphic Design",
+                "Photoshop",
+                "Illustrator",
+                "UI/UX"
+            ],
+            "certifications": [
+                "Adobe Certified Associate",
+                "Google UX Design"
+            ],
+            "roles": [
+                "UI Designer",
+                "Graphic Artist"
+            ]
+        },
+        {
+            "id": "7",
+            "name": "Amitabh Joshi",
+            "email": "amitabh.joshi@example.com",
+            "phone": "1-555-444-6789",
+            "photoUrl": "https://bobgerman.github.io/fictitiousAiGenerated/Avery.jpg",
+            "location": {
+                "street": "Race Course Road",
+                "city": "Dehradun",
+                "state": "Uttarakhand",
+                "country": "India",
+                "postalCode": "248001",
+                "latitude": 30.3165,
+                "longitude": 78.0322
+            },
+            "relationType": "Contract",
+            "skills": [
+                "Python",
+                "Machine Learning",
+                "Data Science",
+                "NLP"
+            ],
+            "certifications": [
+                "Google Data Engineer",
+                "IBM AI Professional"
+            ],
+            "roles": [
+                "Data Scientist",
+                "ML Engineer"
+            ]
+        },
+        {
+            "id": "8",
+            "name": "Meera Singh",
+            "email": "meera.singh@example.com",
+            "phone": "1-555-123-4567",
+            "photoUrl": "https://bobgerman.github.io/fictitiousAiGenerated/Avery.jpg",
+            "location": {
+                "street": "JLN Marg",
+                "city": "Jaipur",
+                "state": "Rajasthan",
+                "country": "India",
+                "postalCode": "302004",
+                "latitude": 26.9124,
+                "longitude": 75.7873
+            },
+            "relationType": "Full-Time",
+            "skills": [
+                "Project Management",
+                "Agile",
+                "Scrum",
+                "Risk Management"
+            ],
+            "certifications": [
+                "PMP",
+                "Scrum Master Certified"
+            ],
+            "roles": [
+                "Project Manager",
+                "Scrum Master"
+            ]
+        }
+    ]
+}

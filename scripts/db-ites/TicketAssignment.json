@@ -1,0 +1,884 @@
+{
+    "rows": [
+        {
+            "id": "1,7",
+            "ticketId": "1",
+            "userId": "7",
+            "isOwner": true,
+            "role": "Network Specialist",
+            "billable": true,
+            "rate": 100,
+            "forecast": [
+                {
+                    "month": 3,
+                    "year": 2024,
+                    "hours": 23
+                },
+                {
+                    "month": 4,
+                    "year": 2024,
+                    "hours": 80
+                },
+                {
+                    "month": 5,
+                    "year": 2024,
+                    "hours": 100
+                },
+                {
+                    "month": 6,
+                    "year": 2024,
+                    "hours": 1
+                },
+                {
+                    "month": 7,
+                    "year": 2024,
+                    "hours": 120
+                },
+                {
+                    "month": 8,
+                    "year": 2024,
+                    "hours": 120
+                },
+                {
+                    "month": 9,
+                    "year": 2024,
+                    "hours": 120
+                },
+                {
+                    "month": 10,
+                    "year": 2024,
+                    "hours": 120
+                }
+            ],
+            "actual": []
+        },
+        {
+            "id": "2,1",
+            "ticketId": "2",
+            "userId": "1",
+            "isOwner": true,
+            "role": "Hardware Technician",
+            "billable": true,
+            "rate": 95,
+            "forecast": [
+                {
+                    "month": 3,
+                    "year": 2024,
+                    "hours": 10
+                },
+                {
+                    "month": 4,
+                    "year": 2024,
+                    "hours": 70
+                },
+                {
+                    "month": 5,
+                    "year": 2024,
+                    "hours": 95
+                },
+                {
+                    "month": 6,
+                    "year": 2024,
+                    "hours": 15
+                },
+                {
+                    "month": 7,
+                    "year": 2024,
+                    "hours": 80
+                },
+                {
+                    "month": 8,
+                    "year": 2024,
+                    "hours": 85
+                },
+                {
+                    "month": 9,
+                    "year": 2024,
+                    "hours": 100
+                },
+                {
+                    "month": 10,
+                    "year": 2024,
+                    "hours": 120
+                }
+            ],
+            "actual": []
+        },
+        {
+            "id": "1,5",
+            "ticketId": "1",
+            "userId": "5",
+            "isOwner": true,
+            "role": "Printer Support",
+            "billable": true,
+            "rate": 80,
+            "forecast": [
+                {
+                    "month": 3,
+                    "year": 2024,
+                    "hours": 30
+                },
+                {
+                    "month": 4,
+                    "year": 2024,
+                    "hours": 65
+                },
+                {
+                    "month": 5,
+                    "year": 2024,
+                    "hours": 90
+                },
+                {
+                    "month": 6,
+                    "year": 2024,
+                    "hours": 20
+                },
+                {
+                    "month": 7,
+                    "year": 2024,
+                    "hours": 110
+                },
+                {
+                    "month": 8,
+                    "year": 2024,
+                    "hours": 100
+                },
+                {
+                    "month": 9,
+                    "year": 2024,
+                    "hours": 105
+                },
+                {
+                    "month": 10,
+                    "year": 2024,
+                    "hours": 125
+                }
+            ],
+            "actual": []
+        },
+        {
+            "id": "4,3",
+            "ticketId": "4",
+            "userId": "3",
+            "isOwner": true,
+            "role": "System Technician",
+            "billable": true,
+            "rate": 110,
+            "forecast": [
+                {
+                    "month": 3,
+                    "year": 2024,
+                    "hours": 25
+                },
+                {
+                    "month": 4,
+                    "year": 2024,
+                    "hours": 85
+                },
+                {
+                    "month": 5,
+                    "year": 2024,
+                    "hours": 110
+                },
+                {
+                    "month": 6,
+                    "year": 2024,
+                    "hours": 30
+                },
+                {
+                    "month": 7,
+                    "year": 2024,
+                    "hours": 120
+                },
+                {
+                    "month": 8,
+                    "year": 2024,
+                    "hours": 120
+                },
+                {
+                    "month": 9,
+                    "year": 2024,
+                    "hours": 130
+                },
+                {
+                    "month": 10,
+                    "year": 2024,
+                    "hours": 140
+                }
+            ],
+            "actual": []
+        },
+        {
+            "id": "5,4",
+            "ticketId": "5",
+            "userId": "4",
+            "isOwner": true,
+            "role": "Mobile Device Support",
+            "billable": true,
+            "rate": 90,
+            "forecast": [
+                {
+                    "month": 3,
+                    "year": 2024,
+                    "hours": 15
+                },
+                {
+                    "month": 4,
+                    "year": 2024,
+                    "hours": 60
+                },
+                {
+                    "month": 5,
+                    "year": 2024,
+                    "hours": 95
+                },
+                {
+                    "month": 6,
+                    "year": 2024,
+                    "hours": 20
+                },
+                {
+                    "month": 7,
+                    "year": 2024,
+                    "hours": 115
+                },
+                {
+                    "month": 8,
+                    "year": 2024,
+                    "hours": 105
+                },
+                {
+                    "month": 9,
+                    "year": 2024,
+                    "hours": 120
+                },
+                {
+                    "month": 10,
+                    "year": 2024,
+                    "hours": 130
+                }
+            ],
+            "actual": []
+        },
+        {
+            "id": "6,2",
+            "ticketId": "6",
+            "userId": "2",
+            "isOwner": true,
+            "role": "Software Installation",
+            "billable": true,
+            "rate": 75,
+            "forecast": [
+                {
+                    "month": 3,
+                    "year": 2024,
+                    "hours": 12
+                },
+                {
+                    "month": 4,
+                    "year": 2024,
+                    "hours": 55
+                },
+                {
+                    "month": 5,
+                    "year": 2024,
+                    "hours": 90
+                },
+                {
+                    "month": 6,
+                    "year": 2024,
+                    "hours": 5
+                },
+                {
+                    "month": 7,
+                    "year": 2024,
+                    "hours": 95
+                },
+                {
+                    "month": 8,
+                    "year": 2024,
+                    "hours": 85
+                },
+                {
+                    "month": 9,
+                    "year": 2024,
+                    "hours": 100
+                },
+                {
+                    "month": 10,
+                    "year": 2024,
+                    "hours": 115
+                }
+            ],
+            "actual": []
+        },
+        {
+            "id": "7,2",
+            "ticketId": "7",
+            "userId": "2",
+            "isOwner": true,
+            "role": "Tablet Support",
+            "billable": true,
+            "rate": 80,
+            "forecast": [
+                {
+                    "month": 3,
+                    "year": 2024,
+                    "hours": 20
+                },
+                {
+                    "month": 4,
+                    "year": 2024,
+                    "hours": 70
+                },
+                {
+                    "month": 5,
+                    "year": 2024,
+                    "hours": 85
+                },
+                {
+                    "month": 6,
+                    "year": 2024,
+                    "hours": 10
+                },
+                {
+                    "month": 7,
+                    "year": 2024,
+                    "hours": 100
+                },
+                {
+                    "month": 8,
+                    "year": 2024,
+                    "hours": 105
+                },
+                {
+                    "month": 9,
+                    "year": 2024,
+                    "hours": 110
+                },
+                {
+                    "month": 10,
+                    "year": 2024,
+                    "hours": 120
+                }
+            ],
+            "actual": []
+        },
+        {
+            "id": "8,6",
+            "ticketId": "8",
+            "userId": "6",
+            "isOwner": true,
+            "role": "Camera Technician",
+            "billable": true,
+            "rate": 70,
+            "forecast": [
+                {
+                    "month": 3,
+                    "year": 2024,
+                    "hours": 5
+                },
+                {
+                    "month": 4,
+                    "year": 2024,
+                    "hours": 40
+                },
+                {
+                    "month": 5,
+                    "year": 2024,
+                    "hours": 75
+                },
+                {
+                    "month": 6,
+                    "year": 2024,
+                    "hours": 10
+                },
+                {
+                    "month": 7,
+                    "year": 2024,
+                    "hours": 85
+                },
+                {
+                    "month": 8,
+                    "year": 2024,
+                    "hours": 90
+                },
+                {
+                    "month": 9,
+                    "year": 2024,
+                    "hours": 95
+                },
+                {
+                    "month": 10,
+                    "year": 2024,
+                    "hours": 105
+                }
+            ],
+            "actual": []
+        },
+        {
+            "id": "9,3",
+            "ticketId": "9",
+            "userId": "3",
+            "isOwner": true,
+            "role": "Audio Technician",
+            "billable": true,
+            "rate": 85,
+            "forecast": [
+                {
+                    "month": 3,
+                    "year": 2024,
+                    "hours": 18
+                },
+                {
+                    "month": 4,
+                    "year": 2024,
+                    "hours": 60
+                },
+                {
+                    "month": 5,
+                    "year": 2024,
+                    "hours": 80
+                },
+                {
+                    "month": 6,
+                    "year": 2024,
+                    "hours": 5
+                },
+                {
+                    "month": 7,
+                    "year": 2024,
+                    "hours": 105
+                },
+                {
+                    "month": 8,
+                    "year": 2024,
+                    "hours": 110
+                },
+                {
+                    "month": 9,
+                    "year": 2024,
+                    "hours": 115
+                },
+                {
+                    "month": 10,
+                    "year": 2024,
+                    "hours": 120
+                }
+            ],
+            "actual": []
+        },
+        {
+            "id": "10,1",
+            "ticketId": "10",
+            "userId": "1",
+            "isOwner": true,
+            "role": "Surface Pro Technician",
+            "billable": true,
+            "rate": 95,
+            "forecast": [
+                {
+                    "month": 3,
+                    "year": 2024,
+                    "hours": 25
+                },
+                {
+                    "month": 4,
+                    "year": 2024,
+                    "hours": 75
+                },
+                {
+                    "month": 5,
+                    "year": 2024,
+                    "hours": 100
+                },
+                {
+                    "month": 6,
+                    "year": 2024,
+                    "hours": 15
+                },
+                {
+                    "month": 7,
+                    "year": 2024,
+                    "hours": 110
+                },
+                {
+                    "month": 8,
+                    "year": 2024,
+                    "hours": 120
+                },
+                {
+                    "month": 9,
+                    "year": 2024,
+                    "hours": 130
+                },
+                {
+                    "month": 10,
+                    "year": 2024,
+                    "hours": 140
+                }
+            ],
+            "actual": []
+        },
+        {
+            "id": "1,2",
+            "ticketId": "1",
+            "userId": "2",
+            "isOwner": true,
+            "role": "Architect",
+            "billable": true,
+            "rate": 100,
+            "forecast": [
+                {
+                    "month": 3,
+                    "year": 2024,
+                    "hours": 23
+                },
+                {
+                    "month": 4,
+                    "year": 2024,
+                    "hours": 80
+                },
+                {
+                    "month": 5,
+                    "year": 2024,
+                    "hours": 100
+                },
+                {
+                    "month": 6,
+                    "year": 2024,
+                    "hours": 1
+                },
+                {
+                    "month": 7,
+                    "year": 2024,
+                    "hours": 120
+                },
+                {
+                    "month": 8,
+                    "year": 2024,
+                    "hours": 120
+                },
+                {
+                    "month": 9,
+                    "year": 2024,
+                    "hours": 120
+                },
+                {
+                    "month": 10,
+                    "year": 2024,
+                    "hours": 120
+                }
+            ],
+            "actual": []
+        },
+        {
+            "id": "2,3",
+            "ticketId": "2",
+            "userId": "3",
+            "isOwner": true,
+            "role": "Technician",
+            "billable": true,
+            "rate": 85,
+            "forecast": [
+                {
+                    "month": 3,
+                    "year": 2024,
+                    "hours": 20
+                },
+                {
+                    "month": 4,
+                    "year": 2024,
+                    "hours": 60
+                },
+                {
+                    "month": 5,
+                    "year": 2024,
+                    "hours": 100
+                },
+                {
+                    "month": 6,
+                    "year": 2024,
+                    "hours": 80
+                }
+            ],
+            "actual": []
+        },
+        {
+            "id": "3,4",
+            "ticketId": "3",
+            "userId": "4",
+            "isOwner": true,
+            "role": "Supervisor",
+            "billable": false,
+            "rate": 0,
+            "forecast": [
+                {
+                    "month": 3,
+                    "year": 2024,
+                    "hours": 15
+                },
+                {
+                    "month": 4,
+                    "year": 2024,
+                    "hours": 30
+                },
+                {
+                    "month": 5,
+                    "year": 2024,
+                    "hours": 40
+                }
+            ],
+            "actual": []
+        },
+        {
+            "id": "4,5",
+            "ticketId": "4",
+            "userId": "5",
+            "isOwner": false,
+            "role": "Inspector",
+            "billable": true,
+            "rate": 90,
+            "forecast": [
+                {
+                    "month": 5,
+                    "year": 2024,
+                    "hours": 50
+                },
+                {
+                    "month": 6,
+                    "year": 2024,
+                    "hours": 70
+                },
+                {
+                    "month": 7,
+                    "year": 2024,
+                    "hours": 40
+                }
+            ],
+            "actual": []
+        },
+        {
+            "id": "5,6",
+            "ticketId": "5",
+            "userId": "6",
+            "isOwner": false,
+            "role": "Technician",
+            "billable": true,
+            "rate": 85,
+            "forecast": [
+                {
+                    "month": 3,
+                    "year": 2024,
+                    "hours": 10
+                },
+                {
+                    "month": 4,
+                    "year": 2024,
+                    "hours": 20
+                },
+                {
+                    "month": 5,
+                    "year": 2024,
+                    "hours": 80
+                }
+            ],
+            "actual": []
+        },
+        {
+            "id": "6,7",
+            "ticketId": "6",
+            "userId": "7",
+            "isOwner": true,
+            "role": "Supervisor",
+            "billable": false,
+            "rate": 0,
+            "forecast": [
+                {
+                    "month": 4,
+                    "year": 2024,
+                    "hours": 30
+                },
+                {
+                    "month": 5,
+                    "year": 2024,
+                    "hours": 20
+                }
+            ],
+            "actual": []
+        },
+        {
+            "id": "7,8",
+            "ticketId": "7",
+            "userId": "8",
+            "isOwner": true,
+            "role": "Mechanic",
+            "billable": true,
+            "rate": 75,
+            "forecast": [
+                {
+                    "month": 3,
+                    "year": 2024,
+                    "hours": 25
+                },
+                {
+                    "month": 4,
+                    "year": 2024,
+                    "hours": 50
+                }
+            ],
+            "actual": []
+        },
+        {
+            "id": "8,9",
+            "ticketId": "8",
+            "userId": "9",
+            "isOwner": false,
+            "role": "Technician",
+            "billable": true,
+            "rate": 85,
+            "forecast": [
+                {
+                    "month": 5,
+                    "year": 2024,
+                    "hours": 60
+                },
+                {
+                    "month": 6,
+                    "year": 2024,
+                    "hours": 30
+                }
+            ],
+            "actual": []
+        },
+        {
+            "id": "9,7",
+            "ticketId": "9",
+            "userId": "7",
+            "isOwner": true,
+            "role": "Supervisor",
+            "billable": false,
+            "rate": 0,
+            "forecast": [
+                {
+                    "month": 6,
+                    "year": 2024,
+                    "hours": 50
+                }
+            ],
+            "actual": []
+        },
+        {
+            "id": "10,8",
+            "ticketId": "10",
+            "userId": "8",
+            "isOwner": true,
+            "role": "Technician",
+            "billable": true,
+            "rate": 90,
+            "forecast": [
+                {
+                    "month": 3,
+                    "year": 2024,
+                    "hours": 60
+                },
+                {
+                    "month": 4,
+                    "year": 2024,
+                    "hours": 40
+                }
+            ],
+            "actual": []
+        },
+        {
+            "id": "3,5",
+            "ticketId": "3",
+            "userId": "5",
+            "isOwner": true,
+            "role": "Inspector",
+            "billable": true,
+            "rate": 70,
+            "forecast": [
+                {
+                    "month": 4,
+                    "year": 2024,
+                    "hours": 25
+                },
+                {
+                    "month": 5,
+                    "year": 2024,
+                    "hours": 35
+                }
+            ],
+            "actual": []
+        },
+        {
+            "id": "7,5",
+            "ticketId": "7",
+            "userId": "5",
+            "isOwner": false,
+            "role": "Technician",
+            "billable": true,
+            "rate": 90,
+            "forecast": [
+                {
+                    "month": 5,
+                    "year": 2024,
+                    "hours": 45
+                }
+            ],
+            "actual": []
+        },
+        {
+            "id": "6,6",
+            "ticketId": "6",
+            "userId": "6",
+            "isOwner": true,
+            "role": "Architect",
+            "billable": true,
+            "rate": 100,
+            "forecast": [
+                {
+                    "month": 3,
+                    "year": 2024,
+                    "hours": 50
+                }
+            ],
+            "actual": []
+        },
+        {
+            "id": "3,3",
+            "ticketId": "3",
+            "userId": "3",
+            "isOwner": true,
+            "role": "Technician",
+            "billable": true,
+            "rate": 85,
+            "forecast": [
+                {
+                    "month": 4,
+                    "year": 2024,
+                    "hours": 35
+                }
+            ],
+            "actual": []
+        },
+        {
+            "id": "1,8",
+            "ticketId": "1",
+            "userId": "8",
+            "isOwner": true,
+            "role": "Inspector",
+            "billable": false,
+            "rate": 0,
+            "forecast": [
+                {
+                    "month": 4,
+                    "year": 2024,
+                    "hours": 15
+                }
+            ],
+            "actual": []
+        }
+    ]
+}

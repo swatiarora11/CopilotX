@@ -3,19 +3,178 @@
         {
             "id": "1",
             "name": "Asset 1",
-            "description": "Asset 1 Description",
+            "description": "Automated Sorting Machine",
             "acquisitionDate": "2024-10-20T13:48:51.5369197Z",
             "status": "under maintenance",
-            "photoUrl": ""
+            "photoUrl": "https://cdn-icons-png.flaticon.com/512/1085/1085141.png"
         },
         {
             "id": "2",
             "name": "Asset 2",
-            "description": "Asset 2 Description",
+            "description": "Lathe Machine",
             "acquisitionDate": "2024-10-25T13:48:51.5369197Z",
             "status": "active",
+            "photoUrl": "https://cdn-icons-png.flaticon.com/512/10950/10950321.png"
+        },
+        {
+            "id": "3",
+            "name": "Asset 3",
+            "description": "High-speed Conveyor",
+            "acquisitionDate": "2024-10-20T13:48:51.5369197Z",
+            "status": "under maintenance",
+            "photoUrl": "https://cdn-icons-png.flaticon.com/512/1245/1245763.png"
+        },
+        {
+            "id": "4",
+            "name": "Asset 4",
+            "description": "Automated Assembly Line",
+            "acquisitionDate": "2024-10-25T13:48:51.5369197Z",
+            "status": "active",
+            "photoUrl": "https://img.freepik.com/premium-vector/robotic-assembly-line-automation-production-vector-icon_116137-6004.jpg"
+        },
+        {
+            "id": "5",
+            "name": "Asset 5",
+            "description": "Industrial Robot Arm",
+            "acquisitionDate": "2023-05-18T09:15:23.563792Z",
+            "status": "inactive",
+            "photoUrl": "https://www.heiligbv.com/wp-content/uploads/2017/07/belt-conveyor-system.jpg"
+        },
+        {
+            "id": "6",
+            "name": "Asset 6",
+            "description": "Welding Machine",
+            "acquisitionDate": "2024-03-10T07:22:12.351248Z",
+            "status": "under maintenance",
+            "photoUrl": "https://cdn-icons-png.flaticon.com/512/4827/4827047.png"
+        },
+        {
+            "id": "7",
+            "name": "Asset 7",
+            "description": "Packing Line Equipment",
+            "acquisitionDate": "2022-12-29T16:45:18.423529Z",
+            "status": "active",
+            "photoUrl": "https://cdn-icons-png.flaticon.com/512/3620/3620359.png"
+        },
+        {
+            "id": "8",
+            "name": "Asset 8",
+            "description": "Hydraulic Press",
+            "acquisitionDate": "2023-02-12T11:30:55.224135Z",
+            "status": "active",
+            "photoUrl": "https://cdn.iconscout.com/icon/premium/png-256-thumb/hydraulic-press-6032145-5035247.png"
+        },
+        {
+            "id": "9",
+            "name": "Asset 9",
+            "description": "Heat Exchanger",
+            "acquisitionDate": "2022-07-05T14:14:23.989124Z",
+            "status": "inactive",
+            "photoUrl": "https://static.vecteezy.com/system/resources/previews/040/353/492/large_2x/nano-heat-exchanger-icon-in-logotype-vector.jpg"
+        },
+        {
+            "id": "10",
+            "name": "Asset 10",
+            "description": "Air Compressor",
+            "acquisitionDate": "2024-01-25T10:22:45.546789Z",
+            "status": "active",
+            "photoUrl": "https://cdn0.iconfinder.com/data/icons/construction-tools-21/64/air_compressor-home_repair-air-Compressor_-512.png"
+        },
+        {
+            "id": "11",
+            "name": "Asset 11",
+            "description": "Cooling Tower",
+            "acquisitionDate": "2023-11-03T05:33:19.981345Z",
+            "status": "under maintenance",
+            "photoUrl": ""
+        },
+        {
+            "id": "12",
+            "name": "Asset 12",
+            "description": "Material Storage Tank",
+            "acquisitionDate": "2021-06-15T08:47:30.125692Z",
+            "status": "inactive",
+            "photoUrl": ""
+        },
+        {
+            "id": "13",
+            "name": "Asset 13",
+            "description": "Mixing Machine",
+            "acquisitionDate": "2023-08-29T14:51:12.658953Z",
+            "status": "active",
+            "photoUrl": ""
+        },
+        {
+            "id": "14",
+            "name": "Asset 14",
+            "description": "Chemical Processor",
+            "acquisitionDate": "2023-04-17T12:29:34.125468Z",
+            "status": "inactive",
+            "photoUrl": ""
+        },
+        {
+            "id": "15",
+            "name": "Asset 15",
+            "description": "Storage Conveyor",
+            "acquisitionDate": "2024-07-21T13:44:23.789231Z",
+            "status": "active",
+            "photoUrl": ""
+        },
+        {
+            "id": "16",
+            "name": "Asset 16",
+            "description": "Automated Labeling Machine",
+            "acquisitionDate": "2022-03-09T09:12:11.115483Z",
+            "status": "under maintenance",
+            "photoUrl": ""
+        },
+        {
+            "id": "17",
+            "name": "Asset 17",
+            "description": "Filling Machine",
+            "acquisitionDate": "2023-10-19T06:22:48.554674Z",
+            "status": "active",
+            "photoUrl": ""
+        },
+        {
+            "id": "18",
+            "name": "Asset 18",
+            "description": "Packing Robot",
+            "acquisitionDate": "2024-05-01T15:13:19.124881Z",
+            "status": "inactive",
+            "photoUrl": ""
+        },
+        {
+            "id": "19",
+            "name": "Asset 19",
+            "description": "Product Inspector",
+            "acquisitionDate": "2022-11-07T04:28:31.368541Z",
+            "status": "active",
+            "photoUrl": ""
+        },
+        {
+            "id": "20",
+            "name": "Asset 20",
+            "description": "Electric Motor",
+            "acquisitionDate": "2023-01-12T03:20:17.659357Z",
+            "status": "under maintenance",
+            "photoUrl": ""
+        },
+        {
+            "id": "21",
+            "name": "Asset 21",
+            "description": "Boiler",
+            "acquisitionDate": "2024-09-29T13:10:55.554231Z",
+            "status": "active",
+            "photoUrl": ""
+        },
+        {
+            "id": "22",
+            "name": "Asset 22",
+            "description": "Water Treatment System",
+            "acquisitionDate": "2022-08-19T02:45:22.334781Z",
+            "status": "inactive",
             "photoUrl": ""
         }
-        
     ]
 }

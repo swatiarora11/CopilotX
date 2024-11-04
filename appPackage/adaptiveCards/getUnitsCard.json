@@ -1,0 +1,204 @@
+  {
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.5",
+    "body": [
+      {
+        "type": "Container",
+        "$data": "${$root}",
+        "style": "emphasis",
+        "items": [
+          {
+            "speak": "${name}",
+            "type": "ColumnSet",
+            "columns": [
+              {
+                "type": "Column",
+                "items": [
+                  {
+                    "type": "TextBlock",
+                    "size": "Large",
+                    "weight": "Bolder",
+                    "text": "**Unit Details**",
+                    "style": "heading",
+                    "wrap": true
+                  }
+                ],
+                "width": "stretch"
+              },
+              {
+                "type": "Column",
+                "items": [
+                  {
+                    "type": "TextBlock",
+                    "size": "Large",
+                    "text": "${id}",
+                    "wrap": true,
+                    "style": "heading"
+                  }
+                ],
+                "width": "auto"
+              }
+            ]
+          }
+        ],
+        "bleed": true
+      },
+      {
+        "type": "Container",
+        "items": [
+          {
+            "type": "ColumnSet",
+            "columns": [
+              {
+                "type": "Column",
+                "items": [
+                  {
+                    "type": "TextBlock",
+                    "size": "Large",
+                    "text": "${name}",
+                    "wrap": true,
+                    "style": "heading"
+                  }
+                ],
+                "width": "stretch"
+              },
+              {
+                "type": "Column",
+                "items": [
+                  {
+                    "type": "ActionSet",
+                    "actions": [
+                      {
+                        "type": "Action.OpenUrl",
+                        "title": "View on Map",
+                        "url": "https://www.google.com/maps/search/?api=1&query=${location.latitude},${location.longitude}"
+                      }
+                    ]
+                  }
+                ],
+                "width": "auto"
+              }
+            ]
+          },
+          {
+            "type": "FactSet",
+            "facts": [
+              {
+                "title": "Contact:",
+                "value": "[${unitContact}](${unitContactEmail})"
+              },
+              {
+                "title": "Address:",
+                "value": "${location.street}, ${location.city}, ${location.state}, ${location.country}, ${location.postalCode}"
+              }
+            ]
+          },
+          {
+            "type": "TextBlock",
+            "text": "Assets under management",
+            "wrap": true,
+            "spacing": "ExtraLarge",
+            "size": "Medium",
+            "weight": "Bolder"
+          },
+          {
+            "type": "Container"
+          },
+          {
+            "type": "ColumnSet",
+            "$data": "${$root.assets}",
+            "columns": [
+              {
+                "type": "Column",
+                "width": "50px",
+                "items": [
+                  {
+                    "type": "Image",
+                    "url": "${photoUrl}",
+                    "width": "48px",
+                    "height": "48px",
+                    "horizontalAlignment": "Center"
+                  }
+                ],
+                "verticalContentAlignment": "Center"
+              },
+              {
+                "type": "Column",
+                "width": 75,
+                "items": [
+                  {
+                    "type": "ColumnSet",
+                    "columns": [
+                      {
+                        "type": "Column",
+                        "width": 23,
+                        "items": [
+                          {
+                            "type": "TextBlock",
+                            "text": "${name}",
+                            "wrap": true,
+                            "weight": "Bolder"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "Column",
+                        "width": 13,
+                        "items": [
+                          {
+                            "type": "TextBlock",
+                            "text": "${status}",
+                            "wrap": true
+                          }
+                        ]
+                      },
+                      {
+                        "type": "Column",
+                        "width": 33,
+                        "items": [
+                          {
+                            "type": "TextBlock",
+                            "text": "${acquisitionDate}",
+                            "wrap": true
+                          }
+                        ]
+                      },
+                      {
+                        "type": "Column",
+                        "width": 33
+                      }
+                    ],
+                    "spacing": "Small"
+                  },
+                  {
+                    "type": "TextBlock",
+                    "text": "${description}",
+                    "size": "Small",
+                    "wrap": true
+                  }
+                ],
+                "verticalContentAlignment": "Center"
+              },
+              {
+                "type": "Column",
+                "width": 5,
+                "items": [
+                  {
+                    "type": "Image",
+                    "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/inventory/assets/arrowforward.png",
+                    "width": "20px",
+                    "height": "20px"
+                  }
+                ],
+                "verticalContentAlignment": "Center",
+                "horizontalAlignment": "Right"
+              }
+            ],
+            "spacing": "Medium",
+            "separator": true
+          }
+        ]
+      }
+    ]
+  }

@@ -13,6 +13,210 @@
           "properties": {
             "title": "$.name",
             "subtitle": "$.id"
+          },
+          "static_template": {
+            "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+            "type": "AdaptiveCard",
+            "version": "1.5",
+            "body": [
+              {
+                "type": "Container",
+                "$data": "${$root}",
+                "style": "emphasis",
+                "items": [
+                  {
+                    "speak": "${name}",
+                    "type": "ColumnSet",
+                    "columns": [
+                      {
+                        "type": "Column",
+                        "items": [
+                          {
+                            "type": "TextBlock",
+                            "size": "Large",
+                            "weight": "Bolder",
+                            "text": "**Unit Details**",
+                            "style": "heading",
+                            "wrap": true
+                          }
+                        ],
+                        "width": "stretch"
+                      },
+                      {
+                        "type": "Column",
+                        "items": [
+                          {
+                            "type": "TextBlock",
+                            "size": "Large",
+                            "text": "${id}",
+                            "wrap": true,
+                            "style": "heading"
+                          }
+                        ],
+                        "width": "auto"
+                      }
+                    ]
+                  }
+                ],
+                "bleed": true
+              },
+              {
+                "type": "Container",
+                "items": [
+                  {
+                    "type": "ColumnSet",
+                    "columns": [
+                      {
+                        "type": "Column",
+                        "items": [
+                          {
+                            "type": "TextBlock",
+                            "size": "Large",
+                            "text": "${name}",
+                            "wrap": true,
+                            "style": "heading"
+                          }
+                        ],
+                        "width": "stretch"
+                      },
+                      {
+                        "type": "Column",
+                        "items": [
+                          {
+                            "type": "ActionSet",
+                            "actions": [
+                              {
+                                "type": "Action.OpenUrl",
+                                "title": "View on Map",
+                                "url": "https://www.google.com/maps/search/?api=1&query=${location.latitude},${location.longitude}"
+                              }
+                            ]
+                          }
+                        ],
+                        "width": "auto"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "FactSet",
+                    "facts": [
+                      {
+                        "title": "Contact:",
+                        "value": "[${unitContact}](${unitContactEmail})"
+                      },
+                      {
+                        "title": "Address:",
+                        "value": "${location.street}, ${location.city}, ${location.state}, ${location.country}, ${location.postalCode}"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "TextBlock",
+                    "text": "Assets under management",
+                    "wrap": true,
+                    "spacing": "ExtraLarge",
+                    "size": "Medium",
+                    "weight": "Bolder"
+                  },
+                  {
+                    "type": "Container"
+                  },
+                  {
+                    "type": "ColumnSet",
+                    "$data": "${$root.assets}",
+                    "columns": [
+                      {
+                        "type": "Column",
+                        "width": "50px",
+                        "items": [
+                          {
+                            "type": "Image",
+                            "url": "${photoUrl}",
+                            "width": "48px",
+                            "height": "48px",
+                            "horizontalAlignment": "Center"
+                          }
+                        ],
+                        "verticalContentAlignment": "Center"
+                      },
+                      {
+                        "type": "Column",
+                        "width": 75,
+                        "items": [
+                          {
+                            "type": "ColumnSet",
+                            "columns": [
+                              {
+                                "type": "Column",
+                                "width": 23,
+                                "items": [
+                                  {
+                                    "type": "TextBlock",
+                                    "text": "${name}",
+                                    "wrap": true,
+                                    "weight": "Bolder"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "Column",
+                                "width": 13,
+                                "items": [
+                                  {
+                                    "type": "TextBlock",
+                                    "text": "${status}",
+                                    "wrap": true
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "Column",
+                                "width": 33,
+                                "items": [
+                                  {
+                                    "type": "TextBlock",
+                                    "text": "${acquisitionDate}",
+                                    "wrap": true
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "Column",
+                                "width": 33
+                              }
+                            ],
+                            "spacing": "Small"
+                          },
+                          {
+                            "type": "TextBlock",
+                            "text": "${description}",
+                            "size": "Small",
+                            "wrap": true
+                          }
+                        ],
+                        "verticalContentAlignment": "Center"
+                      },
+                      {
+                        "type": "Column",
+                        "width": 5,
+                        "items": [
+                          {
+                            "type": "Image",
+                            "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/inventory/assets/arrowforward.png",
+                            "width": "20px",
+                            "height": "20px"
+                          }
+                        ],
+                        "verticalContentAlignment": "Center",
+                        "horizontalAlignment": "Right"
+                      }
+                    ],
+                    "spacing": "Medium",
+                    "separator": true
+                  }
+                ]
+              }
+            ]
           }
         }
       }
@@ -44,6 +248,66 @@
           "properties": {
             "title": "$.name",
             "subtitle": "$.id"
+          },
+          "static_template": {
+            "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+            "type": "AdaptiveCard",
+            "version": "1.5",
+            "body": [
+              {
+                "type": "Container",
+                "$data": "${$root}",
+                "items": [
+                  {
+                    "speak": "${name}",
+                    "type": "ColumnSet",
+                    "columns": [
+                      {
+                        "type": "Column",
+                        "items": [
+                          {
+                            "type": "TextBlock",
+                            "text": "${name}",
+                            "weight": "bolder",
+                            "size": "extraLarge",
+                            "spacing": "none",
+                            "wrap": true,
+                            "style": "heading"
+                          },
+                          {
+                            "type": "TextBlock",
+                            "text": "${acquisitionDate}",
+                            "wrap": true,
+                            "spacing": "none"
+                          },
+                          {
+                            "type": "TextBlock",
+                            "text": "${description}",
+                            "wrap": true,
+                            "spacing": "none"
+                          },
+                          {
+                            "type": "TextBlock",
+                            "text": "${status}",
+                            "wrap": true
+                          }
+                        ]
+                      },
+                      {
+                        "type": "Column",
+                        "items": [
+                          {
+                            "type": "Image",
+                            "url": "${photoUrl}",
+                            "altText": "${name}"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         }
       }
@@ -58,6 +322,66 @@
             "title": "$.name",
             "subtitle": "$.id",
             "url": "$.photoUrl"
+          },
+          "static_template": {
+            "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+            "type": "AdaptiveCard",
+            "version": "1.5",
+            "body": [
+              {
+                "type": "Container",
+                "$data": "${$root}",
+                "items": [
+                  {
+                    "speak": "${name}",
+                    "type": "ColumnSet",
+                    "columns": [
+                      {
+                        "type": "Column",
+                        "items": [
+                          {
+                            "type": "TextBlock",
+                            "text": "${name}",
+                            "weight": "bolder",
+                            "size": "extraLarge",
+                            "spacing": "none",
+                            "wrap": true,
+                            "style": "heading"
+                          },
+                          {
+                            "type": "TextBlock",
+                            "text": "${email}",
+                            "wrap": true,
+                            "spacing": "none"
+                          },
+                          {
+                            "type": "TextBlock",
+                            "text": "${phone}",
+                            "wrap": true,
+                            "spacing": "none"
+                          },
+                          {
+                            "type": "TextBlock",
+                            "text": "${location.city}, ${location.country}",
+                            "wrap": true
+                          }
+                        ]
+                      },
+                      {
+                        "type": "Column",
+                        "items": [
+                          {
+                            "type": "Image",
+                            "url": "${photoUrl}",
+                            "altText": "${name}"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         }
       }
@@ -71,6 +395,177 @@
           "properties": {
             "title": "$.name",
             "subtitle": "$.description"
+          },
+          "static_template": {
+            "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+            "type": "AdaptiveCard",
+            "version": "1.5",
+            "body": [
+              {
+                "type": "Container",
+                "$data": "${$root}",
+                "items": [
+                  {
+                    "speak": "${description}",
+                    "type": "ColumnSet",
+                    "columns": [
+                      {
+                        "type": "Column",
+                        "items": [
+                          {
+                            "type": "TextBlock",
+                            "text": "${name}",
+                            "weight": "Bolder",
+                            "size": "ExtraLarge",
+                            "spacing": "None",
+                            "wrap": true,
+                            "style": "heading"
+                          },
+                          {
+                            "type": "TextBlock",
+                            "text": "${description}",
+                            "wrap": true,
+                            "spacing": "None"
+                          },
+                          {
+                            "type": "TextBlock",
+                            "text": "${priority}",
+                            "wrap": true
+                          },
+                          {
+                            "type": "TextBlock",
+                            "text": "${ownerName}",
+                            "weight": "Bolder",
+                            "size": "Large",
+                            "spacing": "Medium",
+                            "wrap": true,
+                            "maxLines": 3
+                          },
+                          {
+                            "type": "TextBlock",
+                            "text": "Tagged To: ${assetName}",
+                            "size": "Small",
+                            "wrap": true
+                          }
+                        ],
+                        "width": "stretch"
+                      },
+                      {
+                        "type": "Column",
+                        "items": [
+                          {
+                            "type": "Image",
+                            "url": "${status}",
+                            "altText": "${status}"
+                          }
+                        ],
+                        "width": "stretch"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "TextBlock",
+                "text": "Ticket Metrics",
+                "weight": "Bolder",
+                "size": "Large",
+                "spacing": "Medium",
+                "horizontalAlignment": "Center",
+                "separator": true
+              },
+              {
+                "type": "ColumnSet",
+                "columns": [
+                  {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                      {
+                        "type": "TextBlock",
+                        "text": "Forecast This Month",
+                        "weight": "Bolder",
+                        "spacing": "Small",
+                        "horizontalAlignment": "Center"
+                      },
+                      {
+                        "type": "TextBlock",
+                        "text": "${forecastThisMonth} ",
+                        "size": "ExtraLarge",
+                        "weight": "Bolder",
+                        "horizontalAlignment": "Center"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                      {
+                        "type": "TextBlock",
+                        "text": "Forecast Next Month",
+                        "weight": "Bolder",
+                        "spacing": "Small",
+                        "horizontalAlignment": "Center"
+                      },
+                      {
+                        "type": "TextBlock",
+                        "text": "${forecastNextMonth} ",
+                        "size": "ExtraLarge",
+                        "weight": "Bolder",
+                        "horizontalAlignment": "Center"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "ColumnSet",
+                "columns": [
+                  {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                      {
+                        "type": "TextBlock",
+                        "text": "Actual Last Month",
+                        "weight": "Bolder",
+                        "spacing": "Small",
+                        "horizontalAlignment": "Center"
+                      },
+                      {
+                        "type": "TextBlock",
+                        "text": "${actualLastMonth} ",
+                        "size": "ExtraLarge",
+                        "weight": "Bolder",
+                        "horizontalAlignment": "Center"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                      {
+                        "type": "TextBlock",
+                        "text": "Actual This Month",
+                        "weight": "Bolder",
+                        "spacing": "Small",
+                        "horizontalAlignment": "Center"
+                      },
+                      {
+                        "type": "TextBlock",
+                        "text": "${actualThisMonth} ",
+                        "size": "ExtraLarge",
+                        "weight": "Bolder",
+                        "horizontalAlignment": "Center"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "actions": []
           }
         }
       }
@@ -118,6 +613,101 @@
           "properties": {
             "title": "$.results.ticketName",
             "subtitle": "$.results.userName"
+          },
+          "static_template": {
+            "type": "AdaptiveCard",
+            "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+            "version": "1.5",
+            "body": [
+              {
+                "type": "TextBlock",
+                "text": "Ticket Overview",
+                "weight": "Bolder",
+                "size": "Large",
+                "separator": true,
+                "spacing": "Medium"
+              },
+              {
+                "type": "Container",
+                "items": [
+                  {
+                    "type": "TextBlock",
+                    "text": "Asset Name",
+                    "weight": "Bolder",
+                    "spacing": "Small"
+                  },
+                  {
+                    "type": "TextBlock",
+                    "text": "${if(results.assetName, results.assetName, 'N/A')}",
+                    "wrap": true
+                  }
+                ]
+              },
+              {
+                "type": "Container",
+                "items": [
+                  {
+                    "type": "TextBlock",
+                    "text": "Ticket Name",
+                    "weight": "Bolder",
+                    "spacing": "Small"
+                  },
+                  {
+                    "type": "TextBlock",
+                    "text": "${if(results.ticketName, results.ticketName, 'N/A')}",
+                    "wrap": true
+                  }
+                ]
+              },
+              {
+                "type": "Container",
+                "items": [
+                  {
+                    "type": "TextBlock",
+                    "text": "User Name",
+                    "weight": "Bolder",
+                    "spacing": "Small"
+                  },
+                  {
+                    "type": "TextBlock",
+                    "text": "${if(results.userName, results.userName, 'N/A')}",
+                    "wrap": true
+                  }
+                ]
+              },
+              {
+                "type": "Container",
+                "items": [
+                  {
+                    "type": "TextBlock",
+                    "text": "Remaining Forecast",
+                    "weight": "Bolder",
+                    "spacing": "Small"
+                  },
+                  {
+                    "type": "TextBlock",
+                    "text": "${if(results.remainingForecast, results.remainingForecast, 'N/A')}",
+                    "wrap": true
+                  }
+                ]
+              },
+              {
+                "type": "Container",
+                "items": [
+                  {
+                    "type": "TextBlock",
+                    "text": "Message",
+                    "weight": "Bolder",
+                    "spacing": "Small"
+                  },
+                  {
+                    "type": "TextBlock",
+                    "text": "${if(results.message, results.message, 'N/A')}",
+                    "wrap": true
+                  }
+                ]
+              }
+            ]
           }
         },
         "confirmation": {
@@ -144,6 +734,160 @@
           "body": "* **TicketName**: {{function.parameters.ticketName}}\n* **UserName**: {{function.parameters.userName}}\n* **CommentText**: {{function.parameters.commentText}}"
         }
       }
+    },
+    {
+      "name": "getUserInformation",
+      "description": "Retrieve the user profile for the logged-in user including skills, roles, certifications, location, availability, and ticket assignments.",
+      "capabilities": {
+        "response_semantics": {
+          "data_path": "$.results",
+          "properties": {
+            "title": "$.name",
+            "subtitle": "$.id",
+            "url": "$.photoUrl"
+          },
+          "static_template": {
+            "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+            "type": "AdaptiveCard",
+            "version": "1.5",
+            "body": [
+              {
+                "type": "Container",
+                "$data": "${$root}",
+                "items": [
+                  {
+                    "speak": "${name}",
+                    "type": "ColumnSet",
+                    "columns": [
+                      {
+                        "type": "Column",
+                        "items": [
+                          {
+                            "type": "TextBlock",
+                            "text": "${name}",
+                            "weight": "bolder",
+                            "size": "extraLarge",
+                            "spacing": "none",
+                            "wrap": true,
+                            "style": "heading"
+                          },
+                          {
+                            "type": "TextBlock",
+                            "text": "${email}",
+                            "wrap": true,
+                            "spacing": "none"
+                          },
+                          {
+                            "type": "TextBlock",
+                            "text": "${phone}",
+                            "wrap": true,
+                            "spacing": "none"
+                          },
+                          {
+                            "type": "TextBlock",
+                            "text": "${location.city}, ${location.country}",
+                            "wrap": true
+                          }
+                        ]
+                      },
+                      {
+                        "type": "Column",
+                        "items": [
+                          {
+                            "type": "Image",
+                            "url": "${photoUrl}",
+                            "altText": "${name}"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "workOnTicket",
+      "description": "log work time to a specific ticket on behalf of the logged in user, and return the number of hours remaining in their forecast.",
+      "capabilities": {
+        "response_semantics": {
+          "data_path": "$",
+          "properties": {
+            "title": "$.results.userName",
+            "subtitle": "$.results.status"
+          },
+          "static_template": {
+            "type": "AdaptiveCard",
+            "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+            "version": "1.5",
+            "body": [
+              {
+                "type": "TextBlock",
+                "text": "Ticket Status Summary",
+                "weight": "Bolder",
+                "size": "Large",
+                "separator": true
+              },
+              {
+                "type": "Container",
+                "items": [
+                  {
+                    "type": "TextBlock",
+                    "text": "Ticket Name",
+                    "weight": "Bolder",
+                    "spacing": "Small"
+                  },
+                  {
+                    "type": "TextBlock",
+                    "text": "${if(results.ticketName, results.ticketName, 'N/A')}",
+                    "wrap": true
+                  }
+                ]
+              },
+              {
+                "type": "Container",
+                "items": [
+                  {
+                    "type": "TextBlock",
+                    "text": "Remaining Forecast",
+                    "weight": "Bolder",
+                    "spacing": "Small"
+                  },
+                  {
+                    "type": "TextBlock",
+                    "text": "${if(results.remainingForecast, results.remainingForecast, 'N/A')}",
+                    "wrap": true
+                  }
+                ]
+              },
+              {
+                "type": "Container",
+                "items": [
+                  {
+                    "type": "TextBlock",
+                    "text": "Message",
+                    "weight": "Bolder",
+                    "spacing": "Small"
+                  },
+                  {
+                    "type": "TextBlock",
+                    "text": "${if(results.message, results.message, 'N/A')}",
+                    "wrap": true
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "confirmation": {
+          "type": "AdaptiveCard",
+          "title": "Log work time to a ticket on behalf of the logged in user.",
+          "body": "* **TicketName**: {{function.parameters.ticketName}}\n* **Hours**: {{function.parameters.hours}}"
+        }
+      }
     }
   ],
   "runtimes": [
@@ -164,7 +908,9 @@
         "createTicket",
         "updateTicket",
         "postAssignUser",
-        "commentTicket"
+        "commentTicket",
+        "getUserInformation",
+        "workOnTicket"
       ]
     }
   ],
@@ -190,7 +936,7 @@
         "text": "Find a user who is available now and has Python skills"
       },
       {
-        "text": "Add Avery as a developer on the Ticket 3 ticket"
+        "text": "Add Avery as a developer on the Ticket 3"
       }
     ]
   }

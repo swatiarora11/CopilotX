@@ -1,0 +1,10 @@
+{
+  "results": {
+    "status": 200,
+    "assetName": "Asset 3",
+    "ticketName": "ticket 1",
+    "userName": "Avery Howard",
+    "remainingForecast": 30,
+    "message": "Added user Avery Howard to Asset 3 on ticket \"ticket 1\" with 30 hours forecast this month."
+  }
+}

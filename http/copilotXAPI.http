@@ -5,11 +5,10 @@
 {{base_url}}/units
 
 ### Get unit by id
-{{base_url}}/units/3
+{{base_url}}/units/1
 
 ### Get unit by unit or asset name
 {{base_url}}/units/?unitName=Unit 1
-
 ### Get unit by asset name
 {{base_url}}/units/?assetName=asset 1
 
@@ -18,8 +17,8 @@ POST {{base_url}}/units/addAsset
 Content-Type: application/json
 
 {
-    "unitName": "Unit 5",
-    "assetName": "Asset 3"
+    "unitName": "Unit 3",
+    "assetName": "Asset 5"
 }
 
 ########## /api/assets - working with assets ##########
@@ -42,7 +41,7 @@ POST {{base_url}}/me/workonticket
 Content-Type: application/json
 
 {
-    "ticketName": "My Ticket ID 1",
+    "ticketName": "Ticket 1",
     "hours": 20
 }
 
@@ -95,10 +94,10 @@ POST {{base_url}}/tickets/create
 Content-Type: application/json
 
 {
-    "ticketName": "Ticket 7",
+    "ticketName": "Ticket 1",
     "description": "My Ticket Description",
     "ownerName": "Peter",
-    "assetName": "Asset 2",
+    "assetName": "Asset 3",
     "priority": "high"
 }
 
@@ -123,7 +122,7 @@ POST {{base_url}}/tickets/assignUser
 Content-Type: application/json
 
 {
-    "ticketName": "Ticket 7",
+    "ticketName": "Ticket 1",
     "userName": "Avery",
     "isOwner": false,
     "role": "architect",

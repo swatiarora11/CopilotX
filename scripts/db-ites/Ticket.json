@@ -1,0 +1,139 @@
+{
+    "rows": [
+        {
+            "id": "1",
+            "name": "Network Connectivity Issue",
+            "description": "Frequent network drops in the office area.",
+            "status": "open",
+            "priority": "high",
+            "ownerId": "7",
+            "assetId": "8"
+        },
+        {
+            "id": "2",
+            "name": "Laptop Screen Flickering",
+            "description": "Screen flickering observed on Lenovo ThinkPad.",
+            "status": "open",
+            "priority": "medium",
+            "ownerId": "1",
+            "assetId": "1"
+        },
+        {
+            "id": "3",
+            "name": "Printer Paper Jam",
+            "description": "Epson printer frequently jams during printing.",
+            "status": "closed",
+            "priority": "low",
+            "ownerId": "5",
+            "assetId": "7"
+        },
+        {
+            "id": "4",
+            "name": "System Overheating",
+            "description": "Dell Latitude overheating during heavy usage.",
+            "status": "in progress",
+            "priority": "high",
+            "ownerId": "3",
+            "assetId": "3"
+        },
+        {
+            "id": "5",
+            "name": "Battery Replacement",
+            "description": "Samsung Galaxy S21 battery drains quickly.",
+            "status": "open",
+            "priority": "medium",
+            "ownerId": "4",
+            "assetId": "4"
+        },
+        {
+            "id": "6",
+            "name": "Software Installation Required",
+            "description": "New software installation requested on HP EliteBook.",
+            "status": "open",
+            "priority": "medium",
+            "ownerId": "2",
+            "assetId": "2"
+        },
+        {
+            "id": "7",
+            "name": "Tablet Screen Issue",
+            "description": "Apple iPad Air screen has dead pixels.",
+            "status": "in progress",
+            "priority": "high",
+            "ownerId": "5",
+            "assetId": "5"
+        },
+        {
+            "id": "8",
+            "name": "Camera Not Working",
+            "description": "Canon EOS 1500D not capturing images.",
+            "status": "closed",
+            "priority": "low",
+            "ownerId": "6",
+            "assetId": "6"
+        },
+        {
+            "id": "9",
+            "name": "Headphones Audio Distortion",
+            "description": "Sony WH-1000XM4 has audio distortion issues.",
+            "status": "open",
+            "priority": "medium",
+            "ownerId": "7",
+            "assetId": "9"
+        },
+        {
+            "id": "10",
+            "name": "Surface Pro Not Charging",
+            "description": "Microsoft Surface Pro not charging properly.",
+            "status": "open",
+            "priority": "high",
+            "ownerId": "5",
+            "assetId": "10"
+        },
+        {
+            "id": "11",
+            "name": "Desktop Performance Issue",
+            "description": "Acer Aspire Desktop running slow.",
+            "status": "open",
+            "priority": "medium",
+            "ownerId": "3",
+            "assetId": "11"
+        },
+        {
+            "id": "12",
+            "name": "High-Speed Printing Required",
+            "description": "Upgrade requested for Brother HL Printer.",
+            "status": "in progress",
+            "priority": "medium",
+            "ownerId": "2",
+            "assetId": "12"
+        },
+        {
+            "id": "13",
+            "name": "MacBook Pro Overheating",
+            "description": "Apple MacBook Pro heating up during tasks.",
+            "status": "open",
+            "priority": "high",
+            "ownerId": "5",
+            "assetId": "13"
+        },
+        {
+            "id": "14",
+            "name": "Monitor Display Issues",
+            "description": "LG UltraWide monitor showing color distortion.",
+            "status": "open",
+            "priority": "medium",
+            "ownerId": "4",
+            "assetId": "14"
+        },
+        {
+            "id": "15",
+            "name": "Data Backup Failure",
+            "description": "Seagate External HDD failing during backup.",
+            "status": "in progress",
+            "priority": "high",
+            "ownerId": "8",
+            "assetId": "15"
+        }
+    ]
+}

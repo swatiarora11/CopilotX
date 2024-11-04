@@ -1,0 +1,72 @@
+{
+  "results": [
+    {
+      "id": "1",
+      "name": "Avery Howard",
+      "email": "avery@treyresearch.com",
+      "phone": "1-555-456-7890",
+      "photoUrl": "https://bobgerman.github.io/fictitiousAiGenerated/Avery.jpg",
+      "location": {
+        "street": "5 Wayside Rd.",
+        "city": "Burlington",
+        "state": "MA",
+        "country": "USA",
+        "postalCode": "01803",
+        "latitude": 42.5048,
+        "longitude": -71.1956
+      },
+      "relationType": "employee",
+      "skills": [
+        "C#",
+        "JavaScript",
+        "TypeScript",
+        "React",
+        "Node.js"
+      ],
+      "certifications": [
+        "MCSADA",
+        "Azure Developer Associate",
+        "MCAAF",
+        "Azure AI Fundamentals"
+      ],
+      "roles": [
+        "Project lead",
+        "Developer",
+        "Architect",
+        "DevOps"
+      ],
+      "tickets": [
+        {
+          "ticketName": "Overheating in Conveyor",
+          "ticketDescription": "Conveyor system overheating, causing interruptions in operations.",
+          "ticketStatus": "open",
+          "ticketPriority": "high",
+          "ticketOwnerId": "3",
+          "assetName": "Asset 1",
+          "role": "Architect",
+          "forecastThisMonth": 0,
+          "forecastNextMonth": 0,
+          "actualLastMonth": 0,
+          "actualThisMonth": 0
+        },
+        {
+          "ticketName": "ticket 1",
+          "ticketDescription": "My Ticket Description",
+          "ticketStatus": "new",
+          "ticketPriority": "high",
+          "ticketOwnerId": "2",
+          "assetName": "Asset 3",
+          "role": "architect",
+          "forecastThisMonth": 30,
+          "forecastNextMonth": 0,
+          "actualLastMonth": 0,
+          "actualThisMonth": 0
+        }
+      ],
+      "forecastThisMonth": 30,
+      "forecastNextMonth": 0,
+      "actualLastMonth": 0,
+      "actualThisMonth": 0
+    }
+  ]
+}

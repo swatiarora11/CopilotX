@@ -1,0 +1,688 @@
+{
+  "results": [
+    {
+      "id": "1",
+      "name": "Avery Howard",
+      "email": "avery@treyresearch.com",
+      "phone": "1-555-456-7890",
+      "photoUrl": "https://bobgerman.github.io/fictitiousAiGenerated/Avery.jpg",
+      "location": {
+        "street": "5 Wayside Rd.",
+        "city": "Burlington",
+        "state": "MA",
+        "country": "USA",
+        "postalCode": "01803",
+        "latitude": 42.5048,
+        "longitude": -71.1956
+      },
+      "relationType": "employee",
+      "skills": [
+        "C#",
+        "JavaScript",
+        "TypeScript",
+        "React",
+        "Node.js"
+      ],
+      "certifications": [
+        "MCSADA",
+        "Azure Developer Associate",
+        "MCAAF",
+        "Azure AI Fundamentals"
+      ],
+      "roles": [
+        "Project lead",
+        "Developer",
+        "Architect",
+        "DevOps"
+      ],
+      "tickets": [
+        {
+          "ticketName": "Overheating in Conveyor",
+          "ticketDescription": "Conveyor system overheating, causing interruptions in operations.",
+          "ticketStatus": "open",
+          "ticketPriority": "high",
+          "ticketOwnerId": "3",
+          "assetName": "Asset 1",
+          "role": "Architect",
+          "forecastThisMonth": 0,
+          "forecastNextMonth": 0,
+          "actualLastMonth": 0,
+          "actualThisMonth": 0
+        }
+      ],
+      "forecastThisMonth": 0,
+      "forecastNextMonth": 0,
+      "actualLastMonth": 0,
+      "actualThisMonth": 0
+    },
+    {
+      "id": "10",
+      "name": "Nancy White",
+      "email": "nancywhite@example.com",
+      "phone": "+1-555-8901",
+      "photoUrl": "https://example.com/photos/nancywhite.jpg",
+      "location": {
+        "street": "456 Willow St",
+        "city": "Newton",
+        "state": "MA",
+        "country": "USA",
+        "postalCode": "02458",
+        "latitude": 42.337,
+        "longitude": -71.2092
+      },
+      "relationType": "employee",
+      "skills": [
+        "Preventative Maintenance",
+        "Equipment Installation"
+      ],
+      "certifications": [
+        "Maintenance Technician Certification"
+      ],
+      "roles": [
+        "Mechanic"
+      ],
+      "tickets": [
+        {
+          "ticketName": "Material Tank Cleaning",
+          "ticketDescription": "Scheduled cleaning required for storage tank.",
+          "ticketStatus": "in progress",
+          "ticketPriority": "low",
+          "ticketOwnerId": "10",
+          "assetName": "Asset 10",
+          "role": "Supervisor",
+          "forecastThisMonth": 0,
+          "forecastNextMonth": 0,
+          "actualLastMonth": 0,
+          "actualThisMonth": 0
+        }
+      ],
+      "forecastThisMonth": 0,
+      "forecastNextMonth": 0,
+      "actualLastMonth": 0,
+      "actualThisMonth": 0
+    },
+    {
+      "id": "11",
+      "name": "Chris Martinez",
+      "email": "chrismartinez@example.com",
+      "phone": "+1-555-9012",
+      "photoUrl": "https://example.com/photos/chrismartinez.jpg",
+      "location": {
+        "street": "789 Poplar St",
+        "city": "Arlington",
+        "state": "MA",
+        "country": "USA",
+        "postalCode": "02474",
+        "latitude": 42.4154,
+        "longitude": -71.1564
+      },
+      "relationType": "contractor",
+      "skills": [
+        "HVAC Systems",
+        "Pneumatic Controls"
+      ],
+      "certifications": [
+        "HVAC Certification"
+      ],
+      "roles": [
+        "Technician"
+      ],
+      "tickets": [
+        {
+          "ticketName": "Sensor Failure on Mixing Machine",
+          "ticketDescription": "Temperature sensor on mixing machine is malfunctioning.",
+          "ticketStatus": "open",
+          "ticketPriority": "medium",
+          "ticketOwnerId": "11",
+          "assetName": "Asset 11",
+          "role": "Technician",
+          "forecastThisMonth": 0,
+          "forecastNextMonth": 0,
+          "actualLastMonth": 0,
+          "actualThisMonth": 0
+        }
+      ],
+      "forecastThisMonth": 0,
+      "forecastNextMonth": 0,
+      "actualLastMonth": 0,
+      "actualThisMonth": 0
+    },
+    {
+      "id": "12",
+      "name": "Olivia Harris",
+      "email": "oliviaharris@example.com",
+      "phone": "+1-555-0123",
+      "photoUrl": "https://example.com/photos/oliviaharris.jpg",
+      "location": {
+        "street": "321 Cedar Ln",
+        "city": "Waltham",
+        "state": "MA",
+        "country": "USA",
+        "postalCode": "02451",
+        "latitude": 42.3765,
+        "longitude": -71.2356
+      },
+      "relationType": "employee",
+      "skills": [
+        "Compliance Monitoring",
+        "Environmental Safety"
+      ],
+      "certifications": [
+        "EPA Certification"
+      ],
+      "roles": [
+        "Inspector"
+      ],
+      "tickets": [
+        {
+          "ticketName": "Sensor Failure on Mixing Machine",
+          "ticketDescription": "Temperature sensor on mixing machine is malfunctioning.",
+          "ticketStatus": "open",
+          "ticketPriority": "medium",
+          "ticketOwnerId": "11",
+          "assetName": "Asset 11",
+          "role": "Inspector",
+          "forecastThisMonth": 0,
+          "forecastNextMonth": 0,
+          "actualLastMonth": 0,
+          "actualThisMonth": 0
+        },
+        {
+          "ticketName": "Chemical Processor Pressure Issue",
+          "ticketDescription": "Processor pressure reading is fluctuating unexpectedly.",
+          "ticketStatus": "open",
+          "ticketPriority": "high",
+          "ticketOwnerId": "7",
+          "assetName": "Asset 12",
+          "role": "Inspector",
+          "forecastThisMonth": 0,
+          "forecastNextMonth": 0,
+          "actualLastMonth": 0,
+          "actualThisMonth": 0
+        }
+      ],
+      "forecastThisMonth": 0,
+      "forecastNextMonth": 0,
+      "actualLastMonth": 0,
+      "actualThisMonth": 0
+    },
+    {
+      "id": "13",
+      "name": "Anthony Miller",
+      "email": "anthonymiller@example.com",
+      "phone": "+1-555-1234",
+      "photoUrl": "https://example.com/photos/anthonymiller.jpg",
+      "location": {
+        "street": "123 Vine St",
+        "city": "Lexington",
+        "state": "MA",
+        "country": "USA",
+        "postalCode": "02421",
+        "latitude": 42.4485,
+        "longitude": -71.2259
+      },
+      "relationType": "employee",
+      "skills": [
+        "System Analysis",
+        "Performance Tuning"
+      ],
+      "certifications": [
+        "Data Analysis Certification"
+      ],
+      "roles": [
+        "Technician"
+      ],
+      "tickets": [
+        {
+          "ticketName": "Conveyor Belt Maintenance",
+          "ticketDescription": "Conveyor belt requires routine maintenance.",
+          "ticketStatus": "closed",
+          "ticketPriority": "low",
+          "ticketOwnerId": "6",
+          "assetName": "Asset 13",
+          "role": "Technician",
+          "forecastThisMonth": 0,
+          "forecastNextMonth": 0,
+          "actualLastMonth": 0,
+          "actualThisMonth": 0
+        }
+      ],
+      "forecastThisMonth": 0,
+      "forecastNextMonth": 0,
+      "actualLastMonth": 0,
+      "actualThisMonth": 0
+    },
+    {
+      "id": "14",
+      "name": "Laura Brown",
+      "email": "laurabrown@example.com",
+      "phone": "+1-555-2345",
+      "photoUrl": "https://example.com/photos/laurabrown.jpg",
+      "location": {
+        "street": "654 Oak Rd",
+        "city": "Brookline",
+        "state": "MA",
+        "country": "USA",
+        "postalCode": "02445",
+        "latitude": 42.3318,
+        "longitude": -71.1212
+      },
+      "relationType": "employee",
+      "skills": [
+        "Inspection",
+        "Quality Assurance"
+      ],
+      "certifications": [
+        "QA Certification"
+      ],
+      "roles": [
+        "Inspector"
+      ],
+      "tickets": [
+        {
+          "ticketName": "Conveyor Belt Maintenance",
+          "ticketDescription": "Conveyor belt requires routine maintenance.",
+          "ticketStatus": "closed",
+          "ticketPriority": "low",
+          "ticketOwnerId": "6",
+          "assetName": "Asset 13",
+          "role": "Technician",
+          "forecastThisMonth": 0,
+          "forecastNextMonth": 0,
+          "actualLastMonth": 0,
+          "actualThisMonth": 0
+        },
+        {
+          "ticketName": "Labeling Machine Calibration",
+          "ticketDescription": "Automated labeling machine needs calibration.",
+          "ticketStatus": "in progress",
+          "ticketPriority": "medium",
+          "ticketOwnerId": "14",
+          "assetName": "Asset 14",
+          "role": "Architect",
+          "forecastThisMonth": 0,
+          "forecastNextMonth": 0,
+          "actualLastMonth": 0,
+          "actualThisMonth": 0
+        }
+      ],
+      "forecastThisMonth": 0,
+      "forecastNextMonth": 0,
+      "actualLastMonth": 0,
+      "actualThisMonth": 0
+    },
+    {
+      "id": "2",
+      "name": "Peter Jones",
+      "email": "peterjones@treyresearch.com",
+      "phone": "1-555-456-7892",
+      "photoUrl": "https://bobgerman.github.io/fictitiousAiGenerated/Avery.jpg",
+      "location": {
+        "street": "2 Wayside Rd.",
+        "city": "Burlington",
+        "state": "MA",
+        "country": "USA",
+        "postalCode": "01803",
+        "latitude": 41.5048,
+        "longitude": -71.1956
+      },
+      "relationType": "consultant",
+      "skills": [
+        "TypeScript",
+        "Python",
+        "Node.js"
+      ],
+      "certifications": [
+        "MCSADA",
+        "Cloud AI Fundamentals"
+      ],
+      "roles": [
+        "Project lead",
+        "Engineer",
+        "DevOps"
+      ],
+      "tickets": [
+        {
+          "ticketName": "Overheating in Conveyor",
+          "ticketDescription": "Conveyor system overheating, causing interruptions in operations.",
+          "ticketStatus": "open",
+          "ticketPriority": "high",
+          "ticketOwnerId": "3",
+          "assetName": "Asset 1",
+          "role": "Architect",
+          "forecastThisMonth": 0,
+          "forecastNextMonth": 0,
+          "actualLastMonth": 0,
+          "actualThisMonth": 0
+        }
+      ],
+      "forecastThisMonth": 0,
+      "forecastNextMonth": 0,
+      "actualLastMonth": 0,
+      "actualThisMonth": 0
+    },
+    {
+      "id": "3",
+      "name": "John Doe",
+      "email": "johndoe@example.com",
+      "phone": "+1-555-1234",
+      "photoUrl": "https://example.com/photos/johndoe.jpg",
+      "location": {
+        "street": "123 Main St",
+        "city": "Boston",
+        "state": "MA",
+        "country": "USA",
+        "postalCode": "01803",
+        "latitude": 42.5048,
+        "longitude": -71.1956
+      },
+      "relationType": "employee",
+      "skills": [
+        "Equipment Maintenance",
+        "Safety Inspection"
+      ],
+      "certifications": [
+        "OSHA",
+        "First Aid"
+      ],
+      "roles": [
+        "Architect"
+      ],
+      "tickets": [
+        {
+          "ticketName": "Inspection for Robot Arm",
+          "ticketDescription": "Routine inspection required for robot arm calibration.",
+          "ticketStatus": "open",
+          "ticketPriority": "medium",
+          "ticketOwnerId": "4",
+          "assetName": "Asset 3",
+          "role": "Technician",
+          "forecastThisMonth": 0,
+          "forecastNextMonth": 0,
+          "actualLastMonth": 0,
+          "actualThisMonth": 0
+        }
+      ],
+      "forecastThisMonth": 0,
+      "forecastNextMonth": 0,
+      "actualLastMonth": 0,
+      "actualThisMonth": 0
+    },
+    {
+      "id": "4",
+      "name": "Jane Smith",
+      "email": "janesmith@example.com",
+      "phone": "+1-555-2345",
+      "photoUrl": "https://example.com/photos/janesmith.jpg",
+      "location": {
+        "street": "456 Elm St",
+        "city": "Cambridge",
+        "state": "MA",
+        "country": "USA",
+        "postalCode": "02139",
+        "latitude": 42.3736,
+        "longitude": -71.1097
+      },
+      "relationType": "contractor",
+      "skills": [
+        "System Calibration",
+        "Process Improvement"
+      ],
+      "certifications": [
+        "ISO 9001"
+      ],
+      "roles": [
+        "Technician"
+      ],
+      "tickets": [
+        {
+          "ticketName": "Welding Machine Fault",
+          "ticketDescription": "Fault detected in welding machine motor; requires diagnostics.",
+          "ticketStatus": "closed",
+          "ticketPriority": "high",
+          "ticketOwnerId": "2",
+          "assetName": "Asset 4",
+          "role": "Supervisor",
+          "forecastThisMonth": 0,
+          "forecastNextMonth": 0,
+          "actualLastMonth": 0,
+          "actualThisMonth": 0
+        }
+      ],
+      "forecastThisMonth": 0,
+      "forecastNextMonth": 0,
+      "actualLastMonth": 0,
+      "actualThisMonth": 0
+    },
+    {
+      "id": "5",
+      "name": "Alex Johnson",
+      "email": "alexjohnson@example.com",
+      "phone": "+1-555-3456",
+      "photoUrl": "https://example.com/photos/alexjohnson.jpg",
+      "location": {
+        "street": "789 Maple Ave",
+        "city": "Boston",
+        "state": "MA",
+        "country": "USA",
+        "postalCode": "01803",
+        "latitude": 42.3601,
+        "longitude": -71.0589
+      },
+      "relationType": "employee",
+      "skills": [
+        "Mechanical Repairs",
+        "Welding"
+      ],
+      "certifications": [
+        "AWS Certified Welder"
+      ],
+      "roles": [
+        "Technician"
+      ],
+      "tickets": [
+        {
+          "ticketName": "Packing Line Calibration",
+          "ticketDescription": "Calibration required for automated packing line equipment.",
+          "ticketStatus": "in progress",
+          "ticketPriority": "medium",
+          "ticketOwnerId": "5",
+          "assetName": "Asset 5",
+          "role": "Inspector",
+          "forecastThisMonth": 0,
+          "forecastNextMonth": 0,
+          "actualLastMonth": 0,
+          "actualThisMonth": 0
+        }
+      ],
+      "forecastThisMonth": 0,
+      "forecastNextMonth": 0,
+      "actualLastMonth": 0,
+      "actualThisMonth": 0
+    },
+    {
+      "id": "6",
+      "name": "Emily Davis",
+      "email": "emilydavis@example.com",
+      "phone": "+1-555-4567",
+      "photoUrl": "https://example.com/photos/emilydavis.jpg",
+      "location": {
+        "street": "321 Oak St",
+        "city": "Somerville",
+        "state": "MA",
+        "country": "USA",
+        "postalCode": "02145",
+        "latitude": 42.3876,
+        "longitude": -71.0995
+      },
+      "relationType": "employee",
+      "skills": [
+        "Quality Assurance",
+        "Regulatory Compliance"
+      ],
+      "certifications": [
+        "Six Sigma Green Belt"
+      ],
+      "roles": [
+        "Supervisor"
+      ],
+      "tickets": [
+        {
+          "ticketName": "Pressure Drop in Hydraulic Press",
+          "ticketDescription": "Hydraulic press pressure readings are below the threshold.",
+          "ticketStatus": "open",
+          "ticketPriority": "high",
+          "ticketOwnerId": "6",
+          "assetName": "Asset 6",
+          "role": "Technician",
+          "forecastThisMonth": 0,
+          "forecastNextMonth": 0,
+          "actualLastMonth": 0,
+          "actualThisMonth": 0
+        }
+      ],
+      "forecastThisMonth": 0,
+      "forecastNextMonth": 0,
+      "actualLastMonth": 0,
+      "actualThisMonth": 0
+    },
+    {
+      "id": "7",
+      "name": "Michael Brown",
+      "email": "michaelbrown@example.com",
+      "phone": "+1-555-5678",
+      "photoUrl": "https://example.com/photos/michaelbrown.jpg",
+      "location": {
+        "street": "654 Pine St",
+        "city": "Medford",
+        "state": "MA",
+        "country": "USA",
+        "postalCode": "02155",
+        "latitude": 42.4184,
+        "longitude": -71.1062
+      },
+      "relationType": "employee",
+      "skills": [
+        "Production Management",
+        "Maintenance Planning"
+      ],
+      "certifications": [
+        "Lean Manufacturing"
+      ],
+      "roles": [
+        "Inspector"
+      ],
+      "tickets": [
+        {
+          "ticketName": "Heat Exchanger Maintenance",
+          "ticketDescription": "Heat exchanger requires maintenance to improve efficiency.",
+          "ticketStatus": "in progress",
+          "ticketPriority": "medium",
+          "ticketOwnerId": "3",
+          "assetName": "Asset 7",
+          "role": "Supervisor",
+          "forecastThisMonth": 0,
+          "forecastNextMonth": 0,
+          "actualLastMonth": 0,
+          "actualThisMonth": 0
+        }
+      ],
+      "forecastThisMonth": 0,
+      "forecastNextMonth": 0,
+      "actualLastMonth": 0,
+      "actualThisMonth": 0
+    },
+    {
+      "id": "8",
+      "name": "Sarah Wilson",
+      "email": "sarahwilson@example.com",
+      "phone": "+1-555-6789",
+      "photoUrl": "https://example.com/photos/sarahwilson.jpg",
+      "location": {
+        "street": "987 Cedar Ave",
+        "city": "Boston",
+        "state": "MA",
+        "country": "USA",
+        "postalCode": "02110",
+        "latitude": 42.3555,
+        "longitude": -71.0605
+      },
+      "relationType": "contractor",
+      "skills": [
+        "Troubleshooting",
+        "System Diagnostics"
+      ],
+      "certifications": [
+        "ASE Certified Mechanic"
+      ],
+      "roles": [
+        "Technician"
+      ],
+      "tickets": [
+        {
+          "ticketName": "Air Compressor Oil Leak",
+          "ticketDescription": "Oil leakage detected in the air compressor.",
+          "ticketStatus": "open",
+          "ticketPriority": "high",
+          "ticketOwnerId": "8",
+          "assetName": "Asset 8",
+          "role": "Mechanic",
+          "forecastThisMonth": 0,
+          "forecastNextMonth": 0,
+          "actualLastMonth": 0,
+          "actualThisMonth": 0
+        }
+      ],
+      "forecastThisMonth": 0,
+      "forecastNextMonth": 0,
+      "actualLastMonth": 0,
+      "actualThisMonth": 0
+    },
+    {
+      "id": "9",
+      "name": "David Lee",
+      "email": "davidlee@example.com",
+      "phone": "+1-555-7890",
+      "photoUrl": "https://example.com/photos/davidlee.jpg",
+      "location": {
+        "street": "123 Birch St",
+        "city": "Watertown",
+        "state": "MA",
+        "country": "USA",
+        "postalCode": "02472",
+        "latitude": 42.3709,
+        "longitude": -71.1828
+      },
+      "relationType": "employee",
+      "skills": [
+        "Machinery Calibration",
+        "Sensor Integration"
+      ],
+      "certifications": [
+        "PLC Programming"
+      ],
+      "roles": [
+        "Supervisor"
+      ],
+      "tickets": [
+        {
+          "ticketName": "Cooling Tower Pump Issue",
+          "ticketDescription": "Pump in the cooling tower is malfunctioning.",
+          "ticketStatus": "closed",
+          "ticketPriority": "low",
+          "ticketOwnerId": "9",
+          "assetName": "Asset 9",
+          "role": "Technician",
+          "forecastThisMonth": 0,
+          "forecastNextMonth": 0,
+          "actualLastMonth": 0,
+          "actualThisMonth": 0
+        }
+      ],
+      "forecastThisMonth": 0,
+      "forecastNextMonth": 0,
+      "actualLastMonth": 0,
+      "actualThisMonth": 0
+    }
+  ]
+}

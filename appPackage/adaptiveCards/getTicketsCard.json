@@ -1,0 +1,171 @@
+{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.5",
+    "body": [
+        {
+            "type": "Container",
+            "$data": "${$root}",
+            "items": [
+                {
+                    "speak": "${description}",
+                    "type": "ColumnSet",
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "text": "${name}",
+                                    "weight": "Bolder",
+                                    "size": "ExtraLarge",
+                                    "spacing": "None",
+                                    "wrap": true,
+                                    "style": "heading"
+                                },
+                                {
+                                    "type": "TextBlock",
+                                    "text": "${description}",
+                                    "wrap": true,
+                                    "spacing": "None"
+                                },
+                                {
+                                    "type": "TextBlock",
+                                    "text": "${priority}",
+                                    "wrap": true
+                                },
+                                {
+                                    "type": "TextBlock",
+                                    "text": "${ownerName}",
+                                    "weight": "Bolder",
+                                    "size": "Large",
+                                    "spacing": "Medium",
+                                    "wrap": true,
+                                    "maxLines": 3
+                                },
+                                {
+                                    "type": "TextBlock",
+                                    "text": "Tagged To: ${assetName}",
+                                    "size": "Small",
+                                    "wrap": true
+                                }
+                            ],
+                            "width": "stretch"
+                        },
+                        {
+                            "type": "Column",
+                            "items": [
+                                {
+                                    "type": "Image",
+                                    "url": "${status}",
+                                    "altText": "${status}"
+                                }
+                            ],
+                            "width": "stretch"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "TextBlock",
+            "text": "Ticket Metrics",
+            "weight": "Bolder",
+            "size": "Large",
+            "spacing": "Medium",
+            "horizontalAlignment": "Center",
+            "separator": true
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Forecast This Month",
+                            "weight": "Bolder",
+                            "spacing": "Small",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${forecastThisMonth} ",
+                            "size": "ExtraLarge",
+                            "weight": "Bolder",
+                            "horizontalAlignment": "Center"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Forecast Next Month",
+                            "weight": "Bolder",
+                            "spacing": "Small",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${forecastNextMonth} ",
+                            "size": "ExtraLarge",
+                            "weight": "Bolder",
+                            "horizontalAlignment": "Center"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Actual Last Month",
+                            "weight": "Bolder",
+                            "spacing": "Small",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${actualLastMonth} ",
+                            "size": "ExtraLarge",
+                            "weight": "Bolder",
+                            "horizontalAlignment": "Center"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Actual This Month",
+                            "weight": "Bolder",
+                            "spacing": "Small",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${actualThisMonth} ",
+                            "size": "ExtraLarge",
+                            "weight": "Bolder",
+                            "horizontalAlignment": "Center"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "actions": []
+}

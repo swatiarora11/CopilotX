@@ -1,0 +1,30 @@
+{
+  "results": [
+    {
+      "id": "1",
+      "name": "Unit 1",
+      "location": {
+        "street": "28, Parliment Road",
+        "city": "Bangalore",
+        "state": "Telangana",
+        "country": "India",
+        "postalCode": "110132",
+        "latitude": 28.5985,
+        "longitude": 77.214
+      },
+      "unitContact": "Suren Narain 1",
+      "unitContactEmail": "surennarain1@sbu.com",
+      "assets": [
+        {
+          "id": "2",
+          "name": "Asset 2",
+          "description": "Lathe Machine",
+          "acquisitionDate": "2024-10-25T13:48:51.5369197Z",
+          "status": "active",
+          "photoUrl": "https://microsoft.github.io/copilot-camp/demo-assets/images/maps/asset-2.jpg",
+          "tickets": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,569 @@
+{
+  "results": [
+    {
+      "id": "1",
+      "name": "Overheating in Conveyor",
+      "description": "Conveyor system overheating, causing interruptions in operations.",
+      "status": "open",
+      "priority": "high",
+      "ownerId": "3",
+      "assetId": "1",
+      "users": [
+        {
+          "userName": "Avery Howard",
+          "userLocation": {
+            "street": "5 Wayside Rd.",
+            "city": "Burlington",
+            "state": "MA",
+            "country": "USA",
+            "postalCode": "01803",
+            "latitude": 42.5048,
+            "longitude": -71.1956
+          },
+          "role": "Architect",
+          "forecastThisMonth": 0,
+          "forecastNextMonth": 0,
+          "actualLastMonth": 0,
+          "actualThisMonth": 0
+        },
+        {
+          "userName": "Peter Jones",
+          "userLocation": {
+            "street": "2 Wayside Rd.",
+            "city": "Burlington",
+            "state": "MA",
+            "country": "USA",
+            "postalCode": "01803",
+            "latitude": 41.5048,
+            "longitude": -71.1956
+          },
+          "role": "Architect",
+          "forecastThisMonth": 0,
+          "forecastNextMonth": 0,
+          "actualLastMonth": 0,
+          "actualThisMonth": 0
+        }
+      ],
+      "forecastThisMonth": 0,
+      "forecastNextMonth": 0,
+      "actualLastMonth": 0,
+      "actualThisMonth": 0
+    },
+    {
+      "id": "10",
+      "name": "Sensor Failure on Mixing Machine",
+      "description": "Temperature sensor on mixing machine is malfunctioning.",
+      "status": "open",
+      "priority": "medium",
+      "ownerId": "11",
+      "assetId": "11",
+      "users": [
+        {
+          "userName": "Chris Martinez",
+          "userLocation": {
+            "street": "789 Poplar St",
+            "city": "Arlington",
+            "state": "MA",
+            "country": "USA",
+            "postalCode": "02474",
+            "latitude": 42.4154,
+            "longitude": -71.1564
+          },
+          "role": "Technician",
+          "forecastThisMonth": 0,
+          "forecastNextMonth": 0,
+          "actualLastMonth": 0,
+          "actualThisMonth": 0
+        },
+        {
+          "userName": "Olivia Harris",
+          "userLocation": {
+            "street": "321 Cedar Ln",
+            "city": "Waltham",
+            "state": "MA",
+            "country": "USA",
+            "postalCode": "02451",
+            "latitude": 42.3765,
+            "longitude": -71.2356
+          },
+          "role": "Inspector",
+          "forecastThisMonth": 0,
+          "forecastNextMonth": 0,
+          "actualLastMonth": 0,
+          "actualThisMonth": 0
+        }
+      ],
+      "forecastThisMonth": 0,
+      "forecastNextMonth": 0,
+      "actualLastMonth": 0,
+      "actualThisMonth": 0
+    },
+    {
+      "id": "11",
+      "name": "Chemical Processor Pressure Issue",
+      "description": "Processor pressure reading is fluctuating unexpectedly.",
+      "status": "open",
+      "priority": "high",
+      "ownerId": "7",
+      "assetId": "12",
+      "users": [
+        {
+          "userName": "Olivia Harris",
+          "userLocation": {
+            "street": "321 Cedar Ln",
+            "city": "Waltham",
+            "state": "MA",
+            "country": "USA",
+            "postalCode": "02451",
+            "latitude": 42.3765,
+            "longitude": -71.2356
+          },
+          "role": "Inspector",
+          "forecastThisMonth": 0,
+          "forecastNextMonth": 0,
+          "actualLastMonth": 0,
+          "actualThisMonth": 0
+        }
+      ],
+      "forecastThisMonth": 0,
+      "forecastNextMonth": 0,
+      "actualLastMonth": 0,
+      "actualThisMonth": 0
+    },
+    {
+      "id": "12",
+      "name": "Conveyor Belt Maintenance",
+      "description": "Conveyor belt requires routine maintenance.",
+      "status": "closed",
+      "priority": "low",
+      "ownerId": "6",
+      "assetId": "13",
+      "users": [
+        {
+          "userName": "Anthony Miller",
+          "userLocation": {
+            "street": "123 Vine St",
+            "city": "Lexington",
+            "state": "MA",
+            "country": "USA",
+            "postalCode": "02421",
+            "latitude": 42.4485,
+            "longitude": -71.2259
+          },
+          "role": "Technician",
+          "forecastThisMonth": 0,
+          "forecastNextMonth": 0,
+          "actualLastMonth": 0,
+          "actualThisMonth": 0
+        },
+        {
+          "userName": "Laura Brown",
+          "userLocation": {
+            "street": "654 Oak Rd",
+            "city": "Brookline",
+            "state": "MA",
+            "country": "USA",
+            "postalCode": "02445",
+            "latitude": 42.3318,
+            "longitude": -71.1212
+          },
+          "role": "Technician",
+          "forecastThisMonth": 0,
+          "forecastNextMonth": 0,
+          "actualLastMonth": 0,
+          "actualThisMonth": 0
+        }
+      ],
+      "forecastThisMonth": 0,
+      "forecastNextMonth": 0,
+      "actualLastMonth": 0,
+      "actualThisMonth": 0
+    },
+    {
+      "id": "13",
+      "name": "Labeling Machine Calibration",
+      "description": "Automated labeling machine needs calibration.",
+      "status": "in progress",
+      "priority": "medium",
+      "ownerId": "14",
+      "assetId": "14",
+      "users": [
+        {
+          "userName": "Laura Brown",
+          "userLocation": {
+            "street": "654 Oak Rd",
+            "city": "Brookline",
+            "state": "MA",
+            "country": "USA",
+            "postalCode": "02445",
+            "latitude": 42.3318,
+            "longitude": -71.1212
+          },
+          "role": "Architect",
+          "forecastThisMonth": 0,
+          "forecastNextMonth": 0,
+          "actualLastMonth": 0,
+          "actualThisMonth": 0
+        }
+      ],
+      "forecastThisMonth": 0,
+      "forecastNextMonth": 0,
+      "actualLastMonth": 0,
+      "actualThisMonth": 0
+    },
+    {
+      "id": "14",
+      "name": "Filling Machine Leak",
+      "description": "Leak detected in the filling machine hydraulic system.",
+      "status": "open",
+      "priority": "high",
+      "ownerId": "11",
+      "assetId": "15",
+      "users": [],
+      "forecastThisMonth": 0,
+      "forecastNextMonth": 0,
+      "actualLastMonth": 0,
+      "actualThisMonth": 0
+    },
+    {
+      "id": "15",
+      "name": "Packing Robot Calibration",
+      "description": "Packing robot arm needs adjustment and calibration.",
+      "status": "open",
+      "priority": "medium",
+      "ownerId": "8",
+      "assetId": "16",
+      "users": [],
+      "forecastThisMonth": 0,
+      "forecastNextMonth": 0,
+      "actualLastMonth": 0,
+      "actualThisMonth": 0
+    },
+    {
+      "id": "16",
+      "name": "Product Inspector Camera Issue",
+      "description": "Camera on the product inspector is not functioning correctly.",
+      "status": "closed",
+      "priority": "high",
+      "ownerId": "13",
+      "assetId": "17",
+      "users": [],
+      "forecastThisMonth": 0,
+      "forecastNextMonth": 0,
+      "actualLastMonth": 0,
+      "actualThisMonth": 0
+    },
+    {
+      "id": "17",
+      "name": "Electric Motor Overheating",
+      "description": "Electric motor temperature is exceeding safe levels.",
+      "status": "in progress",
+      "priority": "high",
+      "ownerId": "12",
+      "assetId": "18",
+      "users": [],
+      "forecastThisMonth": 0,
+      "forecastNextMonth": 0,
+      "actualLastMonth": 0,
+      "actualThisMonth": 0
+    },
+    {
+      "id": "18",
+      "name": "Boiler Inspection",
+      "description": "Annual inspection required for boiler.",
+      "status": "open",
+      "priority": "low",
+      "ownerId": "10",
+      "assetId": "19",
+      "users": [],
+      "forecastThisMonth": 0,
+      "forecastNextMonth": 0,
+      "actualLastMonth": 0,
+      "actualThisMonth": 0
+    },
+    {
+      "id": "19",
+      "name": "Filter Replacement in Water Treatment",
+      "description": "Filters in water treatment system need replacement.",
+      "status": "in progress",
+      "priority": "medium",
+      "ownerId": "11",
+      "assetId": "20",
+      "users": [],
+      "forecastThisMonth": 0,
+      "forecastNextMonth": 0,
+      "actualLastMonth": 0,
+      "actualThisMonth": 0
+    },
+    {
+      "id": "2",
+      "name": "Inspection for Robot Arm",
+      "description": "Routine inspection required for robot arm calibration.",
+      "status": "open",
+      "priority": "medium",
+      "ownerId": "4",
+      "assetId": "3",
+      "users": [
+        {
+          "userName": "John Doe",
+          "userLocation": {
+            "street": "123 Main St",
+            "city": "Boston",
+            "state": "MA",
+            "country": "USA",
+            "postalCode": "01803",
+            "latitude": 42.5048,
+            "longitude": -71.1956
+          },
+          "role": "Technician",
+          "forecastThisMonth": 0,
+          "forecastNextMonth": 0,
+          "actualLastMonth": 0,
+          "actualThisMonth": 0
+        }
+      ],
+      "forecastThisMonth": 0,
+      "forecastNextMonth": 0,
+      "actualLastMonth": 0,
+      "actualThisMonth": 0
+    },
+    {
+      "id": "20",
+      "name": "Overload on Assembly Line",
+      "description": "Assembly line load is exceeding standard levels.",
+      "status": "open",
+      "priority": "high",
+      "ownerId": "8",
+      "assetId": "2",
+      "users": [],
+      "forecastThisMonth": 0,
+      "forecastNextMonth": 0,
+      "actualLastMonth": 0,
+      "actualThisMonth": 0
+    },
+    {
+      "id": "3",
+      "name": "Welding Machine Fault",
+      "description": "Fault detected in welding machine motor; requires diagnostics.",
+      "status": "closed",
+      "priority": "high",
+      "ownerId": "2",
+      "assetId": "4",
+      "users": [
+        {
+          "userName": "Jane Smith",
+          "userLocation": {
+            "street": "456 Elm St",
+            "city": "Cambridge",
+            "state": "MA",
+            "country": "USA",
+            "postalCode": "02139",
+            "latitude": 42.3736,
+            "longitude": -71.1097
+          },
+          "role": "Supervisor",
+          "forecastThisMonth": 0,
+          "forecastNextMonth": 0,
+          "actualLastMonth": 0,
+          "actualThisMonth": 0
+        }
+      ],
+      "forecastThisMonth": 0,
+      "forecastNextMonth": 0,
+      "actualLastMonth": 0,
+      "actualThisMonth": 0
+    },
+    {
+      "id": "4",
+      "name": "Packing Line Calibration",
+      "description": "Calibration required for automated packing line equipment.",
+      "status": "in progress",
+      "priority": "medium",
+      "ownerId": "5",
+      "assetId": "5",
+      "users": [
+        {
+          "userName": "Alex Johnson",
+          "userLocation": {
+            "street": "789 Maple Ave",
+            "city": "Boston",
+            "state": "MA",
+            "country": "USA",
+            "postalCode": "01803",
+            "latitude": 42.3601,
+            "longitude": -71.0589
+          },
+          "role": "Inspector",
+          "forecastThisMonth": 0,
+          "forecastNextMonth": 0,
+          "actualLastMonth": 0,
+          "actualThisMonth": 0
+        }
+      ],
+      "forecastThisMonth": 0,
+      "forecastNextMonth": 0,
+      "actualLastMonth": 0,
+      "actualThisMonth": 0
+    },
+    {
+      "id": "5",
+      "name": "Pressure Drop in Hydraulic Press",
+      "description": "Hydraulic press pressure readings are below the threshold.",
+      "status": "open",
+      "priority": "high",
+      "ownerId": "6",
+      "assetId": "6",
+      "users": [
+        {
+          "userName": "Emily Davis",
+          "userLocation": {
+            "street": "321 Oak St",
+            "city": "Somerville",
+            "state": "MA",
+            "country": "USA",
+            "postalCode": "02145",
+            "latitude": 42.3876,
+            "longitude": -71.0995
+          },
+          "role": "Technician",
+          "forecastThisMonth": 0,
+          "forecastNextMonth": 0,
+          "actualLastMonth": 0,
+          "actualThisMonth": 0
+        }
+      ],
+      "forecastThisMonth": 0,
+      "forecastNextMonth": 0,
+      "actualLastMonth": 0,
+      "actualThisMonth": 0
+    },
+    {
+      "id": "6",
+      "name": "Heat Exchanger Maintenance",
+      "description": "Heat exchanger requires maintenance to improve efficiency.",
+      "status": "in progress",
+      "priority": "medium",
+      "ownerId": "3",
+      "assetId": "7",
+      "users": [
+        {
+          "userName": "Michael Brown",
+          "userLocation": {
+            "street": "654 Pine St",
+            "city": "Medford",
+            "state": "MA",
+            "country": "USA",
+            "postalCode": "02155",
+            "latitude": 42.4184,
+            "longitude": -71.1062
+          },
+          "role": "Supervisor",
+          "forecastThisMonth": 0,
+          "forecastNextMonth": 0,
+          "actualLastMonth": 0,
+          "actualThisMonth": 0
+        }
+      ],
+      "forecastThisMonth": 0,
+      "forecastNextMonth": 0,
+      "actualLastMonth": 0,
+      "actualThisMonth": 0
+    },
+    {
+      "id": "7",
+      "name": "Air Compressor Oil Leak",
+      "description": "Oil leakage detected in the air compressor.",
+      "status": "open",
+      "priority": "high",
+      "ownerId": "8",
+      "assetId": "8",
+      "users": [
+        {
+          "userName": "Sarah Wilson",
+          "userLocation": {
+            "street": "987 Cedar Ave",
+            "city": "Boston",
+            "state": "MA",
+            "country": "USA",
+            "postalCode": "02110",
+            "latitude": 42.3555,
+            "longitude": -71.0605
+          },
+          "role": "Mechanic",
+          "forecastThisMonth": 0,
+          "forecastNextMonth": 0,
+          "actualLastMonth": 0,
+          "actualThisMonth": 0
+        }
+      ],
+      "forecastThisMonth": 0,
+      "forecastNextMonth": 0,
+      "actualLastMonth": 0,
+      "actualThisMonth": 0
+    },
+    {
+      "id": "8",
+      "name": "Cooling Tower Pump Issue",
+      "description": "Pump in the cooling tower is malfunctioning.",
+      "status": "closed",
+      "priority": "low",
+      "ownerId": "9",
+      "assetId": "9",
+      "users": [
+        {
+          "userName": "David Lee",
+          "userLocation": {
+            "street": "123 Birch St",
+            "city": "Watertown",
+            "state": "MA",
+            "country": "USA",
+            "postalCode": "02472",
+            "latitude": 42.3709,
+            "longitude": -71.1828
+          },
+          "role": "Technician",
+          "forecastThisMonth": 0,
+          "forecastNextMonth": 0,
+          "actualLastMonth": 0,
+          "actualThisMonth": 0
+        }
+      ],
+      "forecastThisMonth": 0,
+      "forecastNextMonth": 0,
+      "actualLastMonth": 0,
+      "actualThisMonth": 0
+    },
+    {
+      "id": "9",
+      "name": "Material Tank Cleaning",
+      "description": "Scheduled cleaning required for storage tank.",
+      "status": "in progress",
+      "priority": "low",
+      "ownerId": "10",
+      "assetId": "10",
+      "users": [
+        {
+          "userName": "Nancy White",
+          "userLocation": {
+            "street": "456 Willow St",
+            "city": "Newton",
+            "state": "MA",
+            "country": "USA",
+            "postalCode": "02458",
+            "latitude": 42.337,
+            "longitude": -71.2092
+          },
+          "role": "Supervisor",
+          "forecastThisMonth": 0,
+          "forecastNextMonth": 0,
+          "actualLastMonth": 0,
+          "actualThisMonth": 0
+        }
+      ],
+      "forecastThisMonth": 0,
+      "forecastNextMonth": 0,
+      "actualLastMonth": 0,
+      "actualThisMonth": 0
+    }
+  ]
+}
