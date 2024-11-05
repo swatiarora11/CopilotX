@@ -12,7 +12,7 @@ languages:
 
 # CopilotX Agent (ITES | Manufacturing | Retail | Healthcare)
 
-[CopilotX (Manufacturing)](https://github.com/swatiarora11/CopilotX/blob/main/README.md ) | [CopilotX (IT Services)](https://github.com/swatiarora11/CopilotX/commit/19faebb7279da3d964b8d2cce727c5cb91c1899e)
+[CopilotX (Manufacturing)](https://github.com/swatiarora11/CopilotX/blob/main/README.md ) | [CopilotX (IT Services)](https://github.com/swatiarora11/CopilotX/blob/main/README_ITES.md)
 
 ## Overview
 
@@ -168,4 +168,7 @@ SECRET_STORAGE_ACCOUNT_CONNECTION_STRING=UseDevelopmentStorage=true
 Version|Manifest version|Date|Author|Comments
 -------|--|--|----|--------
 1.0|1.xx |November, 2024 |Swati Arora |Initial release for Internal Repeatable IP 
-1.1|1.xx|December, 2024 | Swati Arora| SAP Connector, Custom Vision to be added in next version
+
+## Next Releases
+- SAP Connector, Custom Vision to be added in next version
+- Tailoring for Retail and Healthcare verticals
