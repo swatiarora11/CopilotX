@@ -1,4 +1,5 @@
-## CopilotX(ITES) tailored for incident and ticket management within the ITES vertical, leveraging Microsoft technologies to streamline IT service workflows. Designed to handle incidents reported via text, audio, or image through Outlook, the bot seamlessly integrates Azure, Logic Apps, SharePoint, and Microsoft Teams.
+### CopilotX(ITES) 
+Bot is tailored for incident and ticket management within the ITES vertical, leveraging Microsoft technologies to streamline IT service workflows. Designed to handle incidents reported via text, audio, or image through Outlook, the bot seamlessly integrates Azure, Logic Apps, SharePoint, and Microsoft Teams.
 
 ## Key Capabilities:
 
