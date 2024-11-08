@@ -211,6 +211,11 @@ SECRET_STORAGE_ACCOUNT_CONNECTION_STRING=UseDevelopmentStorage=true
 
 ![What users are assigned to ticket](https://github.com/swatiarora11/CopilotX/blob/main/gif's/What%20are%20the%20tickets%20assigned%20to%20user%20N.gif)
 
+## Ticket Management 
+
+> Prompts to try: Add 5 hours on Overheating in conveyor ticket
+
+![Add more hours to the ticket](https://github.com/swatiarora11/CopilotX/blob/main/gif's/What%20are%20the%20tickets%20assigned%20to%20user.gif))
 
 
 
