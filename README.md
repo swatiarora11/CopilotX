@@ -194,7 +194,7 @@ SECRET_STORAGE_ACCOUNT_CONNECTION_STRING=UseDevelopmentStorage=true
    
 ## Adaptive Cards
 
-                                  <<Attach adaptive card snapshots>>
+gif's/Starter Prompts & Unit Details 18.gif
 
 ## Version History
 
