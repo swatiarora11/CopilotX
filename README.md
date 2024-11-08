@@ -215,10 +215,16 @@ SECRET_STORAGE_ACCOUNT_CONNECTION_STRING=UseDevelopmentStorage=true
 
 > Prompts to try: Add 5 hours on Overheating in conveyor ticket
 
-![Add more hours to the ticket](https://github.com/swatiarora11/CopilotX/blob/main/gif's/What%20are%20the%20tickets%20assigned%20to%20user.gif))
+![Add more hours to the ticket](https://github.com/swatiarora11/CopilotX/blob/main/gif's/What%20are%20the%20tickets%20assigned%20to%20user.gif)
 
+> Prompts to try: Add  Jane Smith as technician on Welding Machine Fault ticket
+![Add users to he ticket](https://github.com/swatiarora11/CopilotX/blob/main/gif's/Manage%20tickets-Add%20user%20to%20the%20ticket.gif)
 
+> Prompts to try: Can you tell me what all users are assigned to welding machine fault ticket
 
+![What all users are assigned to the ticket](https://github.com/swatiarora11/CopilotX/blob/main/gif's/Ticket%20Management-%20Who%20all%20users%20are%20assigned%20to%20ticket.gif)
+
+> Prompts to try: 
 ## Version History
 
 Version|Manifest version|Date|Author|Comments
