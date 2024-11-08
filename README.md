@@ -192,9 +192,27 @@ SECRET_STORAGE_ACCOUNT_CONNECTION_STRING=UseDevelopmentStorage=true
 
 1. OPTIONAL: Copy the files from the **/sampleDocs** folder to OneDrive or SharePoint. Add the location of these files in the `OneDriveAndSharePoint` capability in the declarative copilot (**/appPackage/**).
    
-## Adaptive Cards
+## Adaptive Cards and Prompts to try
 
-gif's/Starter Prompts & Unit Details 18.gif
+> Prompts to try: 
+    'Ticket Creation and Fetch the details of the ticket logged': can you help me with creation of ticket by name Ticket 1 with Peter as owner. Make it a high priority ticket and tag it to Asset 3. Log ticket description as "chemical gas leak from asset 3"
+
+![Create Ticket and Fetch the details of the tickets](https://github.com/swatiarora11/CopilotX/blob/main/gif's/Ticket%20Creation%20%26%20Can%20you%20get%20me%20the%20details%20of%20the%20ticket.gif)
+
+
+> Prompts to try: 
+     1.Conversation Starters
+     2.Can you retrieve the details of Unit 18
+
+![Starter Prompts & Unit Details 18](https://github.com/swatiarora11/CopilotX/blob/main/gif's/Starter%20Prompts%20%26%20Unit%20Details%2018.gif)
+
+
+> Prompts to try:What tickets are assigned to User
+
+![What users are assigned to ticket](https://github.com/swatiarora11/CopilotX/blob/main/gif's/What%20are%20the%20tickets%20assigned%20to%20user%20N.gif)
+
+
+
 
 ## Version History
 
