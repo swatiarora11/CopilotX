@@ -119,6 +119,46 @@
             "acquisitionDate": "2022-11-03T14:30:00.000Z",
             "status": "Active",
             "photoUrl": "/images/seagateHDD.jpg"
+        },
+        {
+            "id": "16",
+            "name": "Seagate External HDDXR",
+            "description": "Portable storage for backup",
+            "acquisitionDate": "2022-11-03T14:30:00.000Z",
+            "status": "Active",
+            "photoUrl": "/images/seagateHDD.jpg"
+        },
+        {
+            "id": "17",
+            "name": "LG Monitor UltraWide DL",
+            "description": "Wide monitor for development team",
+            "acquisitionDate": "2023-09-14T13:20:00.000Z",
+            "status": "Active",
+            "photoUrl": "/images/lgUltraWide.jpg"
+        },
+        {
+            "id": "18",
+            "name": "Microsoft Laptop Pro",
+            "description": "Tablet for design team",
+            "acquisitionDate": "2023-07-25T11:35:00.000Z",
+            "status": "Active",
+            "photoUrl": "/images/surfacePro.jpg"
+        },
+        {
+            "id": "19",
+            "name": "Microsoft Laptop Pro 2",
+            "description": "Tablet for design team",
+            "acquisitionDate": "2023-07-25T11:35:00.000Z",
+            "status": "Active",
+            "photoUrl": "/images/surfacePro.jpg"
+        },
+        {
+            "id": "20",
+            "name": "Microsoft Surface Pro 3",
+            "description": "Tablet for design team",
+            "acquisitionDate": "2023-07-25T11:35:00.000Z",
+            "status": "Active",
+            "photoUrl": "/images/surfacePro.jpg"
         }
     ]
 }
