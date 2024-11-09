@@ -6,7 +6,7 @@
             "description": "Automated Sorting Machine",
             "acquisitionDate": "2024-10-20T13:48:51Z",
             "status": "under maintenance",
-            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/assets/AutmaticSortingMachine.png"
+            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/manu/assets/AutmaticSortingMachine.png"
         },
         {
             "id": "2",
@@ -14,7 +14,7 @@
             "description": "Lathe Machine",
             "acquisitionDate": "2024-10-25T13:48:51Z",
             "status": "active",
-            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/assets/LatheMachine.png"
+            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/manu/assets/LatheMachine.png"
         },
         {
             "id": "3",
@@ -22,7 +22,7 @@
             "description": "High-speed Conveyor",
             "acquisitionDate": "2024-10-20T13:48:51Z",
             "status": "under maintenance",
-            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/assets/ConveyorBelt.png"
+            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/manu/assets/ConveyorBelt.png"
         },
         {
             "id": "4",
@@ -30,7 +30,7 @@
             "description": "Automated Assembly Line",
             "acquisitionDate": "2024-10-25T13:48:51Z",
             "status": "active",
-            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/assets/AssemblyLine.png"
+            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/manu/assets/AssemblyLine.png"
         },
         {
             "id": "5",
@@ -38,7 +38,7 @@
             "description": "Industrial Robot Arm",
             "acquisitionDate": "2023-05-18T09:15:23Z",
             "status": "inactive",
-            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/assets/ConveyorBelt.png"
+            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/manu/assets/ConveyorBelt.png"
         },
         {
             "id": "6",
@@ -46,7 +46,7 @@
             "description": "Welding Machine",
             "acquisitionDate": "2024-03-10T07:22:12Z",
             "status": "under maintenance",
-            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/assets/WeldingMachine.png"
+            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/manu/assets/WeldingMachine.png"
         },
         {
             "id": "7",
@@ -54,7 +54,7 @@
             "description": "Packing Line Equipment",
             "acquisitionDate": "2022-12-29T16:45:18Z",
             "status": "active",
-            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/assets/PackagingMachine.png"
+            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/manu/assets/PackagingMachine.png"
         },
         {
             "id": "8",
@@ -62,7 +62,7 @@
             "description": "Hydraulic Press",
             "acquisitionDate": "2023-02-12T11:30:55Z",
             "status": "active",
-            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/assets/HydraluicMachine.png"
+            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/manu/assets/HydraluicMachine.png"
         },
         {
             "id": "9",
@@ -70,7 +70,7 @@
             "description": "Heat Exchanger",
             "acquisitionDate": "2022-07-05T14:14:23Z",
             "status": "inactive",
-            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/assets/HeatExchange.png"
+            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/manu/assets/HeatExchange.png"
         },
         {
             "id": "10",
@@ -78,7 +78,7 @@
             "description": "Air Compressor",
             "acquisitionDate": "2024-01-25T10:22:45Z",
             "status": "active",
-            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/assets/AirCompressor.png"
+            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/manu/assets/AirCompressor.png"
         },
         {
             "id": "11",
@@ -142,7 +142,7 @@
             "description": "Packing Robot",
             "acquisitionDate": "2024-05-01T15:13:19Z",
             "status": "inactive",
-            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/assets/PackagingMachine.png"
+            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/manu/assets/PackagingMachine.png"
         },
         {
             "id": "19",

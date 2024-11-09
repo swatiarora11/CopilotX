@@ -5,7 +5,7 @@
             "name": "Avery Howard",
             "email": "avery@sbu3.com",
             "phone": "1-555-456-7890",
-            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/users/Client.png",
+            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/manu/users/Client.png",
             "location": {
                 "street": "5 Wayside Rd.",
                 "city": "Burlington",
@@ -41,7 +41,7 @@
             "name": "Peter Jones",
             "email": "peterjones@sbuindia.com",
             "phone": "1-555-456-7892",
-            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/users/Client.png",
+            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/manu/users/Client.png",
             "location": {
                 "street": "2 Wayside Rd.",
                 "city": "Burlington",
@@ -72,7 +72,7 @@
             "name": "John Doe",
             "email": "johndoe@example.com",
             "phone": "+1-555-1234",
-            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/users/Contract.png",
+            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/manu/users/Contract.png",
             "location": {
                 "street": "123 Main St",
                 "city": "Boston",
@@ -100,7 +100,7 @@
             "name": "Jane Smith",
             "email": "janesmith@example.com",
             "phone": "+1-555-2345",
-            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/users/Manager.png",
+            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/manu/users/Manager.png",
             "location": {
                 "street": "456 Elm St",
                 "city": "Cambridge",
@@ -127,7 +127,7 @@
             "name": "Alex Johnson",
             "email": "alexjohnson@example.com",
             "phone": "+1-555-3456",
-            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/users/Plumber.png",
+            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/manu/users/Plumber.png",
             "location": {
                 "street": "789 Maple Ave",
                 "city": "Boston",
