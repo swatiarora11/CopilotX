@@ -1,0 +1,180 @@
+{
+    "rows": [
+        {
+            "id": "1",
+            "name": "Asset 1",
+            "description": "Automated Sorting Machine",
+            "acquisitionDate": "2024-10-20T13:48:51Z",
+            "status": "under maintenance",
+            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/manu/assets/AutmaticSortingMachine.png"
+        },
+        {
+            "id": "2",
+            "name": "Asset 2",
+            "description": "Lathe Machine",
+            "acquisitionDate": "2024-10-25T13:48:51Z",
+            "status": "active",
+            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/manu/assets/LatheMachine.png"
+        },
+        {
+            "id": "3",
+            "name": "Asset 3",
+            "description": "High-speed Conveyor",
+            "acquisitionDate": "2024-10-20T13:48:51Z",
+            "status": "under maintenance",
+            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/manu/assets/ConveyorBelt.png"
+        },
+        {
+            "id": "4",
+            "name": "Asset 4",
+            "description": "Automated Assembly Line",
+            "acquisitionDate": "2024-10-25T13:48:51Z",
+            "status": "active",
+            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/manu/assets/AssemblyLine.png"
+        },
+        {
+            "id": "5",
+            "name": "Asset 5",
+            "description": "Industrial Robot Arm",
+            "acquisitionDate": "2023-05-18T09:15:23Z",
+            "status": "inactive",
+            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/manu/assets/ConveyorBelt.png"
+        },
+        {
+            "id": "6",
+            "name": "Asset 6",
+            "description": "Welding Machine",
+            "acquisitionDate": "2024-03-10T07:22:12Z",
+            "status": "under maintenance",
+            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/manu/assets/WeldingMachine.png"
+        },
+        {
+            "id": "7",
+            "name": "Asset 7",
+            "description": "Packing Line Equipment",
+            "acquisitionDate": "2022-12-29T16:45:18Z",
+            "status": "active",
+            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/manu/assets/PackagingMachine.png"
+        },
+        {
+            "id": "8",
+            "name": "Asset 8",
+            "description": "Hydraulic Press",
+            "acquisitionDate": "2023-02-12T11:30:55Z",
+            "status": "active",
+            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/manu/assets/HydraluicMachine.png"
+        },
+        {
+            "id": "9",
+            "name": "Asset 9",
+            "description": "Heat Exchanger",
+            "acquisitionDate": "2022-07-05T14:14:23Z",
+            "status": "inactive",
+            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/manu/assets/HeatExchange.png"
+        },
+        {
+            "id": "10",
+            "name": "Asset 10",
+            "description": "Air Compressor",
+            "acquisitionDate": "2024-01-25T10:22:45Z",
+            "status": "active",
+            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/manu/assets/AirCompressor.png"
+        },
+        {
+            "id": "11",
+            "name": "Asset 11",
+            "description": "Cooling Tower",
+            "acquisitionDate": "2023-11-03T05:33:19Z",
+            "status": "under maintenance",
+            "photoUrl": ""
+        },
+        {
+            "id": "12",
+            "name": "Asset 12",
+            "description": "Material Storage Tank",
+            "acquisitionDate": "2021-06-15T08:47:30Z",
+            "status": "inactive",
+            "photoUrl": ""
+        },
+        {
+            "id": "13",
+            "name": "Asset 13",
+            "description": "Mixing Machine",
+            "acquisitionDate": "2023-08-29T14:51:12Z",
+            "status": "active",
+            "photoUrl": ""
+        },
+        {
+            "id": "14",
+            "name": "Asset 14",
+            "description": "Chemical Processor",
+            "acquisitionDate": "2023-04-17T12:29:34Z",
+            "status": "inactive",
+            "photoUrl": ""
+        },
+        {
+            "id": "15",
+            "name": "Asset 15",
+            "description": "Storage Conveyor",
+            "acquisitionDate": "2024-07-21T13:44:23Z",
+            "status": "active",
+            "photoUrl": ""
+        },
+        {
+            "id": "16",
+            "name": "Asset 16",
+            "description": "Automated Labeling Machine",
+            "acquisitionDate": "2022-03-09T09:12:11Z",
+            "status": "under maintenance",
+            "photoUrl": ""
+        },
+        {
+            "id": "17",
+            "name": "Asset 17",
+            "description": "Filling Machine",
+            "acquisitionDate": "2023-10-19T06:22:48Z",
+            "status": "active",
+            "photoUrl": ""
+        },
+        {
+            "id": "18",
+            "name": "Asset 18",
+            "description": "Packing Robot",
+            "acquisitionDate": "2024-05-01T15:13:19Z",
+            "status": "inactive",
+            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/manu/assets/PackagingMachine.png"
+        },
+        {
+            "id": "19",
+            "name": "Asset 19",
+            "description": "Product Inspector",
+            "acquisitionDate": "2022-11-07T04:28:31Z",
+            "status": "active",
+            "photoUrl": ""
+        },
+        {
+            "id": "20",
+            "name": "Asset 20",
+            "description": "Electric Motor",
+            "acquisitionDate": "2023-01-12T03:20:17Z",
+            "status": "under maintenance",
+            "photoUrl": ""
+        },
+        {
+            "id": "21",
+            "name": "Asset 21",
+            "description": "Boiler",
+            "acquisitionDate": "2024-09-29T13:10:55Z",
+            "status": "active",
+            "photoUrl": ""
+        },
+        {
+            "id": "22",
+            "name": "Asset 22",
+            "description": "Water Treatment System",
+            "acquisitionDate": "2022-08-19T02:45:22Z",
+            "status": "inactive",
+            "photoUrl": ""
+        }
+    ]
+}

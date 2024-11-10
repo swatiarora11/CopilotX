@@ -154,7 +154,7 @@
             "name": "Emily Davis",
             "email": "emilydavis@example.com",
             "phone": "+1-555-4567",
-            "photoUrl": "https://example.com/photos/emilydavis.jpg",
+            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/manu/users/Plumber.png",
             "location": {
                 "street": "321 Oak St",
                 "city": "Somerville",
@@ -181,7 +181,7 @@
             "name": "Michael Brown",
             "email": "michaelbrown@example.com",
             "phone": "+1-555-5678",
-            "photoUrl": "https://example.com/photos/michaelbrown.jpg",
+            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/manu/users/Manager.png",
             "location": {
                 "street": "654 Pine St",
                 "city": "Medford",
@@ -208,7 +208,7 @@
             "name": "Sarah Wilson",
             "email": "sarahwilson@example.com",
             "phone": "+1-555-6789",
-            "photoUrl": "https://example.com/photos/sarahwilson.jpg",
+            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/manu/users/Manager.png",
             "location": {
                 "street": "987 Cedar Ave",
                 "city": "Boston",

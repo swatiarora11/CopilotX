@@ -6,7 +6,7 @@
             "description": "High-performance laptop for Dev team",
             "acquisitionDate": "2023-05-12T10:15:30.000Z",
             "status": "Active",
-            "photoUrl": "/images/thinkpad1.jpg"
+            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/2052a198c480f341c18e19ee5f8bd791e0f516cf/images/ites/assets/Acer%20Aspire%20Desktop.jpg"
         },
         {
             "id": "2",
@@ -14,7 +14,7 @@
             "description": "Laptop with 16GB RAM, i7 processor",
             "acquisitionDate": "2022-08-15T09:45:10.000Z",
             "status": "Active",
-            "photoUrl": "/images/elitebook2.jpg"
+            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/2052a198c480f341c18e19ee5f8bd791e0f516cf/images/ites/assets/HP%20Elite%20Book.png"
         },
         {
             "id": "3",
@@ -22,7 +22,7 @@
             "description": "Laptop for QA team, 512GB SSD",
             "acquisitionDate": "2021-11-05T08:30:20.000Z",
             "status": "In Repair",
-            "photoUrl": "/images/latitude3.jpg"
+            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/2052a198c480f341c18e19ee5f8bd791e0f516cf/images/ites/assets/Dell%20Latitude.jpg"
         },
         {
             "id": "4",
@@ -30,7 +30,7 @@
             "description": "Mobile device for customer support",
             "acquisitionDate": "2023-01-20T14:20:00.000Z",
             "status": "Active",
-            "photoUrl": "/images/galaxyS21.jpg"
+            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/2052a198c480f341c18e19ee5f8bd791e0f516cf/images/ites/assets/Samsung%20Galaxy%20S21.png"
         },
         {
             "id": "5",
@@ -38,7 +38,7 @@
             "description": "Tablet for senior management",
             "acquisitionDate": "2022-03-17T11:10:15.000Z",
             "status": "Active",
-            "photoUrl": "/images/ipadAir.jpg"
+            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/2052a198c480f341c18e19ee5f8bd791e0f516cf/images/ites/assets/Apple%20Ipad%20Air.png"
         },
         {
             "id": "6",
@@ -46,7 +46,7 @@
             "description": "Camera for media and PR team",
             "acquisitionDate": "2021-06-30T09:25:00.000Z",
             "status": "Inactive",
-            "photoUrl": "/images/canonEOS.jpg"
+            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/2052a198c480f341c18e19ee5f8bd791e0f516cf/images/ites/assets/Camera%20Canon.jpg"
         },
         {
             "id": "7",
@@ -54,7 +54,7 @@
             "description": "Office printer with wireless capability",
             "acquisitionDate": "2023-04-10T16:00:00.000Z",
             "status": "Active",
-            "photoUrl": "/images/epsonPrinter.jpg"
+            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/2052a198c480f341c18e19ee5f8bd791e0f516cf/images/ites/assets/Epson%20EcoTank.png"
         },
         {
             "id": "8",
@@ -62,7 +62,7 @@
             "description": "Network router for high-speed access",
             "acquisitionDate": "2020-09-01T13:00:00.000Z",
             "status": "Active",
-            "photoUrl": "/images/ciscoRouter.jpg"
+            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/2052a198c480f341c18e19ee5f8bd791e0f516cf/images/ites/assets/Cisco%20Router.png"
         },
         {
             "id": "9",
@@ -70,7 +70,7 @@
             "description": "Noise-canceling headphones for managers",
             "acquisitionDate": "2021-12-22T10:50:00.000Z",
             "status": "Active",
-            "photoUrl": "/images/sonyHeadphones.jpg"
+            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/2052a198c480f341c18e19ee5f8bd791e0f516cf/images/ites/assets/Sony%20WH-1000XM4.jpg"
         },
         {
             "id": "10",
@@ -78,7 +78,7 @@
             "description": "Tablet for design team",
             "acquisitionDate": "2023-07-25T11:35:00.000Z",
             "status": "Active",
-            "photoUrl": "/images/surfacePro.jpg"
+            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/2052a198c480f341c18e19ee5f8bd791e0f516cf/images/ites/assets/Microsoft%20Surface%20Pro.png"
         },
         {
             "id": "11",
@@ -86,7 +86,7 @@
             "description": "Desktop for call center operations",
             "acquisitionDate": "2021-04-15T12:00:00.000Z",
             "status": "Inactive",
-            "photoUrl": "/images/acerAspire.jpg"
+            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/2052a198c480f341c18e19ee5f8bd791e0f516cf/images/ites/assets/Acer%20Aspire%20Desktop.jpg"
         },
         {
             "id": "12",
@@ -94,7 +94,7 @@
             "description": "High-speed printer for HR",
             "acquisitionDate": "2022-10-10T15:30:00.000Z",
             "status": "Active",
-            "photoUrl": "/images/brotherPrinter.jpg"
+            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/2052a198c480f341c18e19ee5f8bd791e0f516cf/images/ites/assets/Brother%20HL%20Printer.jpg"
         },
         {
             "id": "13",
@@ -102,7 +102,7 @@
             "description": "Laptop for management",
             "acquisitionDate": "2022-05-18T09:45:00.000Z",
             "status": "Active",
-            "photoUrl": "/images/macbookPro.jpg"
+            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/2052a198c480f341c18e19ee5f8bd791e0f516cf/images/ites/assets/Apple%20MacBook%20Pro.png"
         },
         {
             "id": "14",
@@ -110,7 +110,7 @@
             "description": "Wide monitor for development team",
             "acquisitionDate": "2023-09-14T13:20:00.000Z",
             "status": "Active",
-            "photoUrl": "/images/lgUltraWide.jpg"
+            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/2052a198c480f341c18e19ee5f8bd791e0f516cf/images/ites/assets/LG%20Monitor%20UltraWide.png"
         },
         {
             "id": "15",
@@ -118,7 +118,7 @@
             "description": "Portable storage for backup",
             "acquisitionDate": "2022-11-03T14:30:00.000Z",
             "status": "Active",
-            "photoUrl": "/images/seagateHDD.jpg"
+            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/2052a198c480f341c18e19ee5f8bd791e0f516cf/images/ites/assets/Seagate%20External%20HDD.jpg"
         },
         {
             "id": "16",
@@ -126,7 +126,7 @@
             "description": "Portable storage for backup",
             "acquisitionDate": "2022-11-03T14:30:00.000Z",
             "status": "Active",
-            "photoUrl": "/images/seagateHDD.jpg"
+            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/2052a198c480f341c18e19ee5f8bd791e0f516cf/images/ites/assets/Seagate%20External%20HDD.jpg"
         },
         {
             "id": "17",
@@ -134,7 +134,7 @@
             "description": "Wide monitor for development team",
             "acquisitionDate": "2023-09-14T13:20:00.000Z",
             "status": "Active",
-            "photoUrl": "/images/lgUltraWide.jpg"
+            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/2052a198c480f341c18e19ee5f8bd791e0f516cf/images/ites/assets/LG%20Monitor%20UltraWide.png"
         },
         {
             "id": "18",
@@ -142,7 +142,7 @@
             "description": "Tablet for design team",
             "acquisitionDate": "2023-07-25T11:35:00.000Z",
             "status": "Active",
-            "photoUrl": "/images/surfacePro.jpg"
+            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/2052a198c480f341c18e19ee5f8bd791e0f516cf/images/ites/assets/Microsoft%20Surface%20Pro.png"
         },
         {
             "id": "19",
@@ -150,7 +150,7 @@
             "description": "Tablet for design team",
             "acquisitionDate": "2023-07-25T11:35:00.000Z",
             "status": "Active",
-            "photoUrl": "/images/surfacePro.jpg"
+            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/2052a198c480f341c18e19ee5f8bd791e0f516cf/images/ites/assets/Microsoft%20Surface%20Pro.png"
         },
         {
             "id": "20",
@@ -158,7 +158,7 @@
             "description": "Tablet for design team",
             "acquisitionDate": "2023-07-25T11:35:00.000Z",
             "status": "Active",
-            "photoUrl": "/images/surfacePro.jpg"
+            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/2052a198c480f341c18e19ee5f8bd791e0f516cf/images/ites/assets/Microsoft%20Surface%20Pro.png"
         }
     ]
 }

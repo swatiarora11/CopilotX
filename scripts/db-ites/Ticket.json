@@ -6,7 +6,7 @@
             "description": "Frequent network drops in the office area.",
             "status": "open",
             "priority": "high",
-            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/tickets/OverheatingRegulators.png",
+            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/ites/tickets/Acer%20Aspire%20Desktop.jpg",
             "ownerId": "7",
             "assetId": "8"
         },
@@ -16,7 +16,7 @@
             "description": "Screen flickering observed on Lenovo ThinkPad.",
             "status": "open",
             "priority": "medium",
-             "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/tickets/OverheatingRegulators.png",
+             "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/ites/tickets/Acer%20Aspire%20Desktop.jpg",
             "ownerId": "1",
             "assetId": "1"
         },
@@ -26,7 +26,7 @@
             "description": "Epson printer frequently jams during printing.",
             "status": "closed",
             "priority": "low",
-             "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/tickets/OverheatingRegulators.png",
+             "photoUrl": "https://github.com/swatiarora11/CopilotX/blob/main/images/ites/assets/Brother%20HL%20Printer.jpg",
             "ownerId": "5",
             "assetId": "7"
         },
@@ -36,7 +36,7 @@
             "description": "Dell Latitude overheating during heavy usage.",
             "status": "in progress",
             "priority": "high",
-            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/tickets/OverheatingRegulators.png",
+            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/ites/tickets/Dell%20Latitude.jpg",
             "ownerId": "3",
             "assetId": "3"
         },
@@ -46,7 +46,7 @@
             "description": "Samsung Galaxy S21 battery drains quickly.",
             "status": "open",
             "priority": "medium",
-            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/tickets/OverheatingRegulators.png",
+            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/ites/tickets/Samsung%20Galaxy%20S21.png",
             "ownerId": "4",
             "assetId": "4"
         },
@@ -56,7 +56,7 @@
             "description": "New software installation requested on HP EliteBook.",
             "status": "open",
             "priority": "medium",
-             "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/tickets/OverheatingRegulators.png",
+             "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/ites/tickets/HP%20Elite%20Book.png",
             "ownerId": "2",
             "assetId": "2"
         },
@@ -66,7 +66,7 @@
             "description": "Apple iPad Air screen has dead pixels.",
             "status": "in progress",
             "priority": "high",
-             "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/tickets/OverheatingRegulators.png",
+             "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/ites/tickets/Apple%20Ipad%20Air.png",
             "ownerId": "5",
             "assetId": "5"
         },
@@ -76,7 +76,7 @@
             "description": "Canon EOS 1500D not capturing images.",
             "status": "closed",
             "priority": "low",
-             "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/tickets/OverheatingRegulators.png",
+             "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/ites/tickets/Camera%20Canon.jpg",
             "ownerId": "6",
             "assetId": "6"
         },
@@ -96,7 +96,7 @@
             "description": "Microsoft Surface Pro not charging properly.",
             "status": "open",
             "priority": "high",
-             "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/tickets/OverheatingRegulators.png",
+             "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/ites/tickets/Sony%20WH-1000XM4.jpg",
             "ownerId": "5",
             "assetId": "10"
         },
@@ -106,7 +106,7 @@
             "description": "Acer Aspire Desktop running slow.",
             "status": "open",
             "priority": "medium",
-             "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/tickets/OverheatingRegulators.png",
+             "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/ites/tickets/Acer%20Aspire%20Desktop.jpg",
             "ownerId": "3",
             "assetId": "11"
         },
@@ -116,7 +116,7 @@
             "description": "Upgrade requested for Brother HL Printer.",
             "status": "in progress",
             "priority": "medium",
-             "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/tickets/OverheatingRegulators.png",
+             "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/ites/tickets/Brother%20HL%20Printer.jpg",
             "ownerId": "2",
             "assetId": "12"
         },
@@ -126,7 +126,7 @@
             "description": "Apple MacBook Pro heating up during tasks.",
             "status": "open",
             "priority": "high",
-            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/tickets/OverheatingRegulators.png",
+            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/ites/tickets/Apple%20MacBook%20Pro.png",
             "ownerId": "5",
             "assetId": "13"
         },
@@ -136,7 +136,7 @@
             "description": "LG UltraWide monitor showing color distortion.",
             "status": "open",
             "priority": "medium",
-             "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/tickets/OverheatingRegulators.png",
+             "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/ites/tickets/LG%20Monitor%20UltraWide.png",
             "ownerId": "4",
             "assetId": "14"
         },
@@ -146,7 +146,7 @@
             "description": "Seagate External HDD failing during backup.",
             "status": "in progress",
             "priority": "high",
-             "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/tickets/OverheatingRegulators.png",
+             "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/ites/tickets/Seagate%20External%20HDD.jpg",
             "ownerId": "8",
             "assetId": "15"
         }
