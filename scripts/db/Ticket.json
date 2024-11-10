@@ -199,6 +199,46 @@
             "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/manu/tickets/Maintenenace.png",
             "ownerId": "8",
             "assetId": "2"
-        }
+        },
+        {
+            "id": "21",
+            "name": "Structural Defect - Broken Pipeline",
+            "description": "Structural Defect was observed as the pipeline was broken",
+            "status": "open",
+            "priority": "high",
+            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/manu/tickets/000019_1.jpg",
+            "ownerId": "8",
+            "assetId": "4"
+        },
+        {
+            "id": "22",
+            "name": "Structural Defect - Deformation of Pipeline",
+            "description": "Structural Defect was observed as the pipeline was deformed",
+            "status": "open",
+            "priority": "high",
+            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/manu/tickets/000023.jpg",
+            "ownerId": "8",
+            "assetId": "4"
+        },
+        {
+            "id": "23",
+            "name": "Corrosion Detected Outer Surface",
+            "description": "Corrosion was detected on the outer surface of machinery",
+            "status": "open",
+            "priority": "high",
+            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/manu/tickets/image125_1.jpeg",
+            "ownerId": "9",
+            "assetId": "6"
+        },
+        {
+            "id": "24",
+            "name": "Corrosion Obeserved Inner Surfaces",
+            "description": "Corrosion was observed on the inner surfaces of machine",
+            "status": "open",
+            "priority": "high",
+            "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/manu/tickets/image36.jpeg",
+            "ownerId": "9",
+            "assetId": "6"
+        },
     ]
 }
