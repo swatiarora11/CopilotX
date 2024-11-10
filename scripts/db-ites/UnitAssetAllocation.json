@@ -56,6 +56,21 @@
             "assetId": "11"
         },
         {
+            "id": "11,12",
+            "unitId": "11",
+            "assetId": "12"
+        },
+        {
+            "id": "11,13",
+            "unitId": "11",
+            "assetId": "13"
+        },
+        {
+            "id": "11,5",
+            "unitId": "11",
+            "assetId": "5"
+        },
+        {
             "id": "12,12",
             "unitId": "12",
             "assetId": "12"

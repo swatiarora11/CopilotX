@@ -34,7 +34,7 @@
             "id": "4",
             "name": "System Overheating",
             "description": "Dell Latitude overheating during heavy usage.",
-            "status": "in progress",
+            "status": "open",
             "priority": "high",
             "photoUrl": "https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/images/ites/tickets/Dell%20Latitude.jpg",
             "ownerId": "3",
