@@ -19,10 +19,11 @@ Bot is tailored for incident and ticket management within the ITES vertical, lev
 **Asset Detail**
 ![Asset Detail of Apple Ipad](https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/gif's/Asset%20Details.jpeg)
 
-**List of IT Assets under**
+**List of IT Assets under IT Asset Management Unit**
 ![List of Assets under IT Asset Management](https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/gif's/Asset%20Management.jpeg)
 
-**
+> Prompts to try: Can you retrieve the details of Unit 11- IT Asset Management
+![IT Asset Management](https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/gif's/User%20profile%20information.jpeg)
 
 
 
