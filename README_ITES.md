@@ -16,4 +16,14 @@ Bot is tailored for incident and ticket management within the ITES vertical, lev
 
 ## Adaptive Cards
 
-                                  <<Attach adaptive card snapshots>>
+**Asset Detail**
+![Asset Detail of Apple Ipad](https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/gif's/Asset%20Details.jpeg)
+
+**List of IT Assets under**
+![List of Assets under IT Asset Management](https://raw.githubusercontent.com/swatiarora11/CopilotX/refs/heads/main/gif's/Asset%20Management.jpeg)
+
+**
+
+
+
+                                  
