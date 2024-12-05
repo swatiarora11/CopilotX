@@ -8,6 +8,7 @@ products:
 - Sharepoint 
 languages:
   - typescript
+  - python
 ---
 
 # CopilotX Agent (ITES | Manufacturing | Retail | Healthcare)
