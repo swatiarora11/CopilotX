@@ -226,6 +226,7 @@ SECRET_STORAGE_ACCOUNT_CONNECTION_STRING=UseDevelopmentStorage=true
 ![What all users are assigned to the ticket](https://github.com/swatiarora11/CopilotX/blob/main/gif's/Ticket%20Management-%20Who%20all%20users%20are%20assigned%20to%20ticket.gif)
 
 > Prompts to try: Can you translate this into Hindi
+> Can you translate this into Bengali
 > 
 ![Hindi Translation](https://github.com/swatiarora11/CopilotX/blob/main/gif's/Multilingual%20Translation%20in%20copilot.gif)
 
